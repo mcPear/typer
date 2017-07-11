@@ -10,14 +10,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class TyperMain implements CommandLineRunner{
 
-    @Autowired
-    URLDownloader urlDownloader;
-
     @Override
     public void run(String... args) throws Exception {
-        urlDownloader.dowload();
-        urlDownloader.downloadSource();
-        urlDownloader.dowloadHtml();
         main(args);
     }
 
