@@ -1,9 +1,12 @@
-create table match(
+create table footballMatch(
 id int not null auto_increment primary key,
-city varchar(100),
-temp float,
-pressure float,
-time timestamp
+teams varchar(100),
+decimal rate1,
+decimal rate0,
+decimal rate2,
+decimal rate10,
+decimal rate02,
+decimal rate12
 )
 
 select * from weather;
