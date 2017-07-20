@@ -24,7 +24,7 @@ import static javafx.beans.binding.Bindings.select;
  * Created by maciej on 15.07.17.
  */
 @Component
-public class JsoupParser implements CommandLineRunner{
+public class MatchParser implements CommandLineRunner{
 
     @Autowired
     FootballMatchRepository repo;
@@ -34,9 +34,9 @@ public class JsoupParser implements CommandLineRunner{
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-07-19";
+        String dateStr = "2017-07-15";
 
-        Document doc = Jsoup.parse(new File("pagesource"+dateStr+".txt"), "UTF-8");
+        Document doc = Jsoup.parse(new File("pagesources/pagesource"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");
 
         matches = matches.stream().filter(m -> m.hasAttr("id")

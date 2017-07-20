@@ -1,0 +1,3191 @@
+<html lang="pl" content="IE=edge" class="CHROME LINUX"><!--<![endif]--><!--
+DEBUG INFO:
+	ID_sport: 3
+	
+--><head>
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script src="https://script.crazyegg.com/pages/scripts/0053/2765.js?416829" async="" type="text/javascript"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://static.dynamicyield.com/scripts/12260/dy-coll-min.js" type="text/javascript" async="true"></script><script src="https://dnn506yrbagrg.cloudfront.net/pages/scripts/0020/9365.js?416829" async="" type="text/javascript"></script><script async="" src="//connect.facebook.net/en_US/fbds.js"></script><script async="" src="https://stats.g.doubleclick.net/dc.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-T9G6GW6"></script><script type="text/javascript">window.__clientRenderStart=new Date();</script>
+
+	<title>
+
+Piłka nożna - zakłady online | 
+Fortuna Online</title>
+
+	
+
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="google-site-verification" content="oPYhFxW0d5U7SDdF_dLiFDNbJuxAX5FcC752MW2Xb3M">
+<meta name="google-site-verification" content="EhFsM8p2EFFaYHu6rSVc7ej2U0B3BNMh6076aFX77zI">
+
+<meta property="fb:page_id" content="312165795527702"> 
+
+<link rel="canonical" href="https://www.efortuna.pl/pl/strona_glowna/pilka-nozna/2017-07-26">
+	
+<script>
+  dataLayer = [{
+    'country': 'PL'
+  }];
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9G6GW6');</script>
+<!-- End Google Tag Manager -->
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/static/3600-1-PUB/pl/resources/css-fonts_css.css?_linkv=1500579698111">
+<link rel="stylesheet" type="text/css" href="/static/3600-1-PUB/pl/resources/css_bundle.css?_linkv=1500579698111" media="screen">
+	<link rel="stylesheet" type="text/css" href="/static/3600-1-PUB/pl/resources/css_bundle_print.css?_linkv=1500579698111" media="print">
+<link rel="stylesheet" href="/static/3600-1-PUB/pl/resources/css-by_section-yui_carousel_css.css?_linkv=1500579698111" media="screen"><link rel="stylesheet" href="/js/libs/shadowbox/build/css/shadowbox.css" type="text/css" media="screen">
+
+<!--[if lt IE 8]><link media="screen" href="/static/3600-1-PUB/pl/resources/css-fortuna_iefix_css.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 6]><link media="screen" href="/static/3600-1-PUB/pl/resources/css-fortuna_ie6fix_css.css" rel="stylesheet" /><![endif]-->
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/public/b5/60/37/5784_722163_favicon_new.ico">
+
+<script type="text/javascript">
+	var _gaCVars = [];
+	_gaCVars.push([2, "ticket", "js", 3]);
+	_gaCVars.push([5, "logged", "0", 2]);
+	
+</script>
+<script type="text/javascript" src="/public/6f/c2/2/24876_1234108_ga_set_packed.js"></script>
+
+<!--[if lte IE 8]>
+<script src="/public/21/b5/b9/637268_726840_respond.ie.js"></script>
+<![endif]-->
+
+
+
+<script src="/static/3600-1-PUB/pl/resources/js-fortuna_conf.js?_linkv=1500579698111"></script>
+<script src="/static/3600-1-PUB/pl/resources/js_bundle.js?_linkv=1500579698111"></script>
+
+<script type="text/javascript">
+    YAHOO.util.Event.onDOMReady(function() {
+        var commands = {
+            reload: _reloadPage
+        }
+    
+        Shadowbox.init({
+            loadingImage    : '/public/d9/16/78/636236_722037_shadowbox_circle.gif',
+            flvPlayer   		: '/js/libs/shadowbox/flvplayer.swf',
+            overlayBgImage  : '/js/libs/shadowbox/images/overlay-85.png',
+            animate     		: true,
+            initialWidth		: 450,
+            initialHeight		: 450,
+            keysClose   		: [27],
+            text        		: {
+                cancel:     'Anuluj',
+                loading:    'Wczytywanie',
+                close:      'Zamknij',
+                next:       'Następny',
+                prev:       'Poprzedni'
+            },
+            onFinish    		: onShadowboxFinish,
+            onClose   			: onShadowboxClose
+        });
+        
+
+function onShadowboxFinish (e) {
+    $(document.body).trigger('shadowbox:finish', e)
+    FORTUNA.UI.shadowboxOnFinish()
+}
+
+function onShadowboxClose (e) {
+	Shadowbox.fortunaOnClose();
+    $(document.body).trigger('shadowbox:close', e)
+    var _onCloseCallback = $('#page-variables').attr('data-shadowboxonclose')
+    // zavolani callback metody, je-li nastavena v page-variables
+     _onCloseCallback &&  
+        _evaluateCommand( _onCloseCallback, e )
+        
+    // Reaload stranky, ovladany parametrem 'reaload=true' v 'rel'
+    if (e.reload && _onCloseCallback !== 'reload') {
+        _reloadPage()
+    }
+}
+
+function _evaluateCommand ( command, e ) {
+    commands[command] 
+        ? commands[command](e) 
+        : _runCallbackFromString( command, e)
+}
+
+function _runCallbackFromString( methodName, e ) {
+    var _fn = FORTUNA.UTILS.getFnFromString(methodName, FORTUNA.UI)
+    
+    _fn && _fn(e)
+}
+
+function _reloadPage () {
+    window.location.reload();
+}
+    });
+</script><script type="text/javascript" src="/public/35/c7/a8/468740_352915_yui_carousel.js"></script>
+<script type="text/javascript">
+( function() {
+	var Carousel = YAHOO.widget.Carousel;
+	var Dom = YAHOO.util.Dom;
+	var Easing = YAHOO.util.Easing;
+	var Event = YAHOO.util.Event;
+
+if (Dom.get('carousel-wrapper')) {
+
+	function fnAutoPlaySwitch(evt)
+	{
+		Event.stopEvent(evt);
+		var vCarousel = Carousel.getById('carousel-inner');
+		(vCarousel.isAutoPlayOn()) ? vCarousel.stopAutoPlay() : vCarousel.startAutoPlay();
+	}
+
+	function fnResizeCarousel()
+	{
+		var vWidth = document.getElementById('main_content').offsetWidth-10;
+		var vCarousel = document.getElementById('carousel-inner');
+		var vCarouselContent = Dom.getElementsByClassName('yui-carousel-content', 'div', vCarousel)[0];
+
+			vCarousel.style.width = "100%" /*vWidth + 'px'*/;
+			vCarouselContent.style.width = "100%" /*vWidth + 'px'*/;
+	}
+
+	Event.on( window, 'load', function(evt)
+	{
+		var vCarousel = new Carousel('carousel-inner', {
+			animation: { speed: 1, effect: Easing.easeOutStrong },
+			autoPlayInterval: 4000,
+			isCircular: true,
+			numVisible: 1
+		});
+
+		vCarousel.CONFIG.MAX_PAGER_BUTTONS = 10;
+
+		var eStartStop = document.createElement('a');
+		var eStartStopEm = document.createElement('em');
+		var eNavigation = Dom.getElementsByClassName('yui-carousel-nav', 'div', vCarousel)[0];
+		/****
+		 * PHs
+		 * workaround, switching next items not working properly, so have to find next item to switch, 
+		 * and maualy show it (remove hidden class), and then hide it again using native methods beforeScroll and afterScroll
+		 ****/
+		var items = vCarousel.getItems(); 
+		var firstItemIndex = vCarousel.getItemPositionById(vCarousel.getVisibleItems()[0].id);
+		var actualVisibleIndex = firstItemIndex;
+		var nextItem;
+		var list_elm = document.getElementById('carousel-list');
+		var list_height = ( list_elm ) ? list_elm.offsetHeight : 222;
+
+		eStartStop.setAttribute('href', '#');
+		eStartStopEm.innerHTML = 'Autoplay';
+		eStartStop.appendChild(eStartStopEm);
+
+		Dom.addClass(eStartStop, 'yui-carousel-nav-start-stop');
+		Event.on(eStartStop, 'click', fnAutoPlaySwitch);
+
+		vCarousel.on('startAutoPlay', function() { Dom.addClass(vCarousel, 'autoplay'); });
+		vCarousel.on('stopAutoPlay', function() { Dom.removeClass(vCarousel, 'autoplay'); });
+		vCarousel.on('beforeScroll', function() {
+			// set previous active index
+			previousItemIndex = actualVisibleIndex;
+			// set next item from current visible items possition in array
+			var nextItemObject = ( (actualVisibleIndex + 1) < items.length ) ? vCarousel.getItem(actualVisibleIndex + 1) : vCarousel.getItem(0);
+			nextItem = Dom.get(nextItemObject.id);
+			// show next in list
+			Dom.removeClass(nextItem, 'hidden');
+			// hide navigation
+			Dom.addClass(eNavigation, 'hidden');
+		});
+		vCarousel.on('afterScroll', function() {
+			// set new actual visible index
+			actualVisibleIndex = vCarousel.getItemPositionById(nextItem.id);
+
+			// show navigation
+			Dom.removeClass(eNavigation, 'hidden');
+		});
+
+		vCarousel.render();
+
+		eNavigation.appendChild(eStartStop);
+
+		vCarousel.show();
+		vCarousel.startAutoPlay();
+
+		fnResizeCarousel();
+
+		var vMainContent = document.getElementById('main_content');
+		Dom.addClass(vMainContent, 'with-carousel');
+
+		/* Init width of LIs to fit whole width of carousel */
+		var carouselWrapper = Dom.get('carousel-wrapper');
+		var carouselItemList = Dom.get('carousel-list');
+		var carouselItems = carouselItemList.getElementsByTagName('li');
+		Dom.setStyle(carouselItems, 'width', carouselWrapper.offsetWidth + 'px');
+
+		
+	});
+}
+})();
+</script>
+<script src="https://zz.connextra.com/dcs/tagController/tag/ee6b121d4748/misc_pl" async="" defer=""></script>
+<script type="text/javascript" src="//cdn.dynamicyield.com/api/8767478/api_dynamic.js"></script>
+<script type="text/javascript" src="//cdn.dynamicyield.com/api/8767478/api_static.js"></script><style id="dy-common-style" class="dy-common-style" type="text/css">.dy-wysiwyg{line-height:normal;direction:ltr;align-text:left;margin:0;padding:0;background-color:transparent}.dy-wysiwyg a{text-decoration:none;color:#00E}.dy-full-width-notifications-close,.dy-lb-close{color:#fff;display:inline-block;position:absolute}.dynotifyjs-wrapper .dy-lb-close{z-index:1;top:-8px;right:-9px;border:none;transition:opacity .15s;opacity:.7;background-size:14px;background-repeat:no-repeat;background-position:2px;width:18px;height:18px}.dynotifyjs-wrapper .dy-lb-close:hover{opacity:1}.dynotifyjs-corner{position:fixed;margin:0;z-index:1050}.dynotifyjs-corner .dynotifyjs-container,.dynotifyjs-corner .dynotifyjs-wrapper{position:relative;display:block;height:inherit;width:inherit;margin:11px 8px}.dynotifyjs-wrapper{z-index:1;position:absolute;display:inline-block;height:0;width:0}.dynotifyjs-container{display:none;z-index:1;position:absolute}[data-dynotify-html],[data-dynotify-text]{position:relative}.dynotifyjs-arrow{position:absolute;z-index:2;width:0;height:0}.dy-lb-close{top:-12px;right:-11px;cursor:pointer;border:1px solid #918686;border-radius:30px;height:22px;width:22px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) #575757;background-size:22px}.dy-full-width-notifications-close{top:5px;right:5px;z-index:1;border:none;transition:opacity .15s;-webkit-transition:opacity .15s;opacity:.7;width:18px;height:18px;cursor:pointer;border-radius:30px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) 2px no-repeat #575757;background-size:14px}.dy-full-width-notifications-close:hover{opacity:1}.dy_full_width_notifications_container{position:fixed;left:0;right:0;z-index:1040}.dy_full_width_notifications_container.dy_bottom_notification{bottom:0}.dy_full_width_notifications_container.dy_top_notification{top:0}.dy_full_width_notifications_container .dy_full_width_notification_instance{opacity:0;-webkit-transition:opacity .15s;transition:opacity .15s;position:relative}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_active{opacity:1}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_bottom{-webkit-animation:dy_appear_from_bottom .25s;animation:dy_appear_from_bottom .25s}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_top{-webkit-animation:dy_appear_from_top .25s;animation:dy_appear_from_top .25s}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_top{-webkit-animation:dy_exit_top .25s;animation:dy_exit_top .25s;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_bottom{-webkit-animation:dy_exit_bottom .25s;animation:dy_exit_bottom .25s;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}@-webkit-keyframes dy_appear_from_bottom{0%{-webkit-transform:translateY(100%);transform:translateY(100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes dy_appear_from_bottom{0%{-webkit-transform:translateY(100%);transform:translateY(100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes dy_appear_from_top{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes dy_appear_from_top{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes dy_exit_top{100%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@keyframes dy_exit_top{100%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@-webkit-keyframes dy_exit_bottom{100%{-webkit-transform:translateY(100%);transform:translateY(100%)}}@keyframes dy_exit_bottom{100%{-webkit-transform:translateY(100%);transform:translateY(100%)}}.dy-modal-container{position:fixed;z-index:99999;top:0;left:0;bottom:0;right:0;width:100%;height:100%;display:table;-webkit-transition:opacity .2s ease;transition:opacity .2s ease}.dy-modal-container .dy-modal-backdrop{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;opacity:0;-webkit-transition:opacity .2s;transition:opacity .2s;background-color:#000}.dy-modal-container .dy-modal-wrapper{position:relative;z-index:1;display:table-cell;vertical-align:middle;text-align:center;width:100%}.dy-modal-container .dy-modal-wrapper.dy-modal-bottom{padding-bottom:20px;vertical-align:bottom}.dy-modal-container .dy-modal-wrapper.dy-modal-top{padding-top:20px;vertical-align:top}.dy-modal-container .dy-modal-wrapper .dy-modal-contents{position:relative;display:inline-block;-webkit-animation:dy-modal-enter .25s;animation:dy-modal-enter .25s;visibility:hidden}.dy-modal-container .dy-modal-wrapper .dy-modal-contents .dy-lb-close{z-index:1;top:-9px;right:-9px;border:none;opacity:.7;transition:opacity .15s;width:18px;height:18px;cursor:pointer;position:absolute;border-radius:30px;color:#fff;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) 2px no-repeat #575757;background-size:14px}.dy-modal-container .dy-modal-wrapper .dy-modal-contents .dy-lb-close:hover{opacity:1}@-webkit-keyframes dy-modal-enter{0%{opacity:0;-webkit-transform:scale(.5);transform:scale(.5)}50%{-webkit-transform:scale(1.05);transform:scale(1.05)}85%{-webkit-transform:scale(1.1);transform:scale(1.1)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}</style><script type="text/javascript" async="true" src="//st.dynamicyield.com/st?sec=8767478&amp;inHead=true&amp;id=-6399614871429147984&amp;ref=https%3A%2F%2Fwww.efortuna.pl%2Fpl%2Fstrona_glowna%2Fpilka-nozna%2F2017-07-25%3Flimit%3D100%26tickLeft%3D0%26selectDates%3D1%26tickRight%3D0&amp;sr=1920x1080&amp;altip="></script>
+</head><body id="fortuna_pl" class="yui-skin-sam pl not-logged strona_glowna segment-4 js ticket-1">
+	<script type="text/javascript">
+		document.body.className = document.body.className.replace("no-js", "js");
+	</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9G6GW6"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<div id="page-variables" class="hidden" data-segment="4" data-invalidate-user="https://www.efortuna.pl/pl/strona_glowna/index$511867.html?tpl=portal_user" data-server-time="1500587177022"></div><div id="main_wrapper">
+
+
+<div id="right-sidebar" class="layout" data-layout-align-to="#main_wrapper" style="height: 966px; left: 814px;">
+	<div class="layout-item">
+
+<div id="user-holder" class="">
+<div class="top-panel not-logged" id="top-panel">
+
+<div id="user-profile" data-invalidation-url="/pl/strona_glowna/index$511867.html" data-update-profile-url="/pl/strona_glowna/">
+</div></div>
+<div class="user-panel not-logged">
+<form id="login-form" action="/pl/strona_glowna/index$541644-login.html" method="post">
+	<table>
+		<tbody><tr>
+			<td><input type="text" id="login" class="valueToggle required text" name="login" placeholder="Pseudonim" tabindex="1"></td>
+			<td class="acenter"><input type="password" id="password" class="valueToggle required text" name="password" placeholder="Hasło" tabindex="2"></td>
+			<td class="aright">
+				<input type="hidden" name="cid" value="">
+				<input type="hidden" name="redirectTo" value="https://www.efortuna.pl/pl/strona_glowna/pilka-nozna/2017-07-26?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0">
+<button type="submit" class="yellow">
+Zaloguj</button></td>
+		</tr>
+</tbody></table>
+</form>
+<div class="bookmarks">
+<a href="/pl/rejestracja/index.html" class="registration-link user-profile-field">Rejestracja</a>
+<a href="/pl/zapomniales_hasla/index.html" class="forgotten-password-link">Zapomniałeś hasło?</a>
+</div></div>
+<a href="/pl/profil_uzytkownika/sazeni/przeglad_zakladow_live/index.html" id="ticket-list-live" class="hidden">&nbsp;</a></div></div>
+<div class="layout-item">
+
+<ul id="right_content_tabs" class="tuck-ins" data-hide-class="invisible" data-cookie-expiration="120">
+	<li class="tab" id="sidebar_ticket_wrap">
+		<a href="/pl/strona_glowna/?rc=0" id="sidebar_ticket" data-ord="0">Kupon</a>
+	</li>
+<li class="tab tab_active" id="sidebar_agregator_wrap">
+		<a href="/pl/strona_glowna/?rc=2" id="sidebar_agregator" data-ord="2">Info</a>
+	</li>
+</ul></div>
+
+	<div id="right-content" class="layout-item layout-flex" style="height: 836px;">
+
+<div id="sidebar_ticket_content" class="invisible">
+
+
+	<div id="scrollable-ticket-holder" class="scrollable" style="top: 0px;">
+<div id="ticket_rc_up" class="ticket_rc">Przesuń kupon</div>
+			<div id="ticket" class="box-sg" style="height: 836px;">
+			<script type="text/javascript">
+				$('#ticket').addClass('initializing');
+				FORTUNA.run ( function () {
+					FORTUNA.UI.prepareTicketManager();
+				}, true);
+			</script>
+
+
+<div id="ticket-controls" data-update-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-xUpdate.html" data-set-individualprice-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setBetValue.html" data-set-totalprice-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setStake.html" data-recount-ticket="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setStake.html" data-set-evk-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setTotalPrize.html" data-remove-bet-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-removeBet.html?disableSeoPrimary=1" data-change-bet-group-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeBetGroup.html" data-change-ticket-type-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeMode.html?seed=7" data-change-bet-rate-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeBet.html" data-resolve-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-resolveTicket.html?transaction_id=4394515206900448066" data-confirm-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-confirmTicket.html?transaction_id=4394515206900448066" data-cancel-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-cancelTicket.html?transaction_id=4394515206900448066" data-switch-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index.html?save_id=1" data-preview-ticket-url="https://www.efortuna.pl/pl/strona_glowna/nahled_tiketu/index.html" data-resend-url="https://www.efortuna.pl/pl/strona_glowna/index$53426-aggregatedBet.html?stake=0.0&amp;bet_ids=&amp;bet_infos=&amp;bet_rates=" data-dynamic-bet-value-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setDynamicBetValue.html?transaction_id=4394515206900448066" data-ticket-method="NONE" data-empty-ticket="true" data-bet-values="[0, 3, 5, 10, 20, 30, 50, 100, 200, 300, 500]" data-tickets-usage="true;true;true;true" data-stake-value="" data-pay-value="" data-min-stake="0.00" data-max-stake="500.00">
+
+<div id="ticket-messages" class="hidden">
+	<message class="mustBeLogged"><p>Aby zawrzeć zakład należy się  <a href="/pl/login_uzytkownika/index.html">zalogować</a>, jeżeli nie posiadasz konta musisz się <a href="/pl/rejestracja/index.html">zarejestrować</a>.</p></message>
+</div>
+
+<div id="ticket-result" data-result="NO_RESULT">
+
+</div>
+<ul class="ticket-tabs">
+<li class="right ticket-status-controls">
+<span class="ico pin-ticket tooltip layout-toggle-pinned" title="Przypnij/odepnij kupon"></span>
+			
+		</li>
+<li>
+			<a href="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index.html?ticket_id=1&amp;save_id=1" class="js-control ticket-tab active-tab" data-tiket-id="1" data-action="switch-ticket">1</a>
+</li>
+<li>
+			<a href="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index.html?ticket_id=2&amp;save_id=1" class="js-control ticket-tab" data-tiket-id="2" data-action="switch-ticket">2</a>
+</li>
+<li>
+			<a href="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index.html?ticket_id=3&amp;save_id=1" class="js-control ticket-tab" data-tiket-id="3" data-action="switch-ticket">3</a>
+</li>
+<li>
+			<a href="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index.html?ticket_id=4&amp;save_id=1" class="js-control ticket-tab last_tab" data-tiket-id="4" data-action="switch-ticket">4</a>
+</li>
+</ul>
+<div class="ticket-additional-controls">
+<label class="tooltip maximize-ticket-field" title="Włącz/wyłącz SuperKupon">
+			<span class="icon">&nbsp;</span>
+			<input type="checkbox" class="maximize-ticket" data-action="maximize-ticket">&nbsp;SuperKupon
+		</label>
+
+</div>
+
+</div>
+
+
+<span class="ticket-maxi-close js-control tooltip" data-action="close-superticket" title="Zamknij">&nbsp;</span>
+<div id="ticket-holder" class="NONE empty-ticket" style="height: 752px;">
+	<div id="ticket-bets" class="">
+	<div class="bet-wrap">
+<div class="ticket-notice EMPTY">Kupon jest pusty. Dodaj zdarzenie klikając w kurs</div>
+<div class="tutorial">
+	<h1>Prezentujemy SuperKupon</h1>
+<style>
+.floating{
+	margin-right: 6px;
+	margin-left: 257px;
+}
+</style>
+
+<div class="h-20"></div>
+<img src="/public/15/d9/a1/635946_722037_dad_pl.png" alt="Drag&amp;Drop" class="left">
+<div class="floating">
+	<h2 class="darkText">Drag&amp;Drop</h2>
+	<p class="darkText size12">Za pomocą opcji Drag&amp;Drop; możesz w łatwy sposób przygotować swój kupon. Za pomocą myszki możesz utworzyć nową grupę, przenieść zakład z grupy do grupy lub całkowicie usunąć zakład z kuponu. Wszelkie dane dotyczące kuponu przepiszą się automatycznie.</p>
+ </div>
+<div class="cleaner h-10"></div>
+
+<img src="/public/99/70/4/635944_722037_overview_pl.png" alt="Przegląd wszystkich grup" class="left">
+<div class="floating">
+	<h2 class="darkText">Przegląd wszystkich grup</h2>
+	<p class="darkText size12">SuperKupon daje możliwość podglądu wszystkich grup na jednym ekranie. Po zakończeniu konfiguracji danej grupy możesz ją ukryć i przejść do konfigurowania kolejnej grupy.</p>
+ </div>
+<div class="cleaner h-10"></div>
+
+<img src="/public/a2/d/d4/635948_722037_all_info_pl.png" alt="Wszystkie informacja pod ręką" class="left">
+<div class="floating">
+	<h2 class="darkText">Wszystkie informacja pod ręką</h2>
+	<p class="darkText size12">Najedź myszką na zakład aby wyświetlić szczegółowe informacje dotyczące spotkania, tj. data i czas rozpoczęcia spotkania, dyscyplina sportowa. Dokładny rozpis kombinacji możesz wyświetlić w osobnym oknie, tak aby wszystkie informacje o kuponie widoczne były na jednym ekranie.</p>
+ </div>
+<div class="cleaner h-10"></div></div>
+</div>
+</div>	
+
+
+
+
+
+
+
+
+<div class="drop-zone js-static-zone" id="drop-zone-remove" data-drop-url="/pl/strona_glowna/tiket_prematch/index$5335-removeBet.html">
+	<span>Usuń spotkanie</span>
+</div>
+
+</div><div id="ticket-bottom-holder"></div>
+<script src="https://zz.connextra.com/dcs/tagController/tag/ee6b121d4748/betslip_pl" async="" defer=""></script>
+
+<script>
+	FORTUNA.run ( function () {
+		var tm = FORTUNA.UI.ticketManager;
+		if ( tm ){ tm.releaseAllBetItems(); }
+	}, true );
+</script><script type="text/javascript">
+				FORTUNA.run ( function () {
+					var tm = FORTUNA.UI.ticketManager;
+					if ( tm ) { tm.initTicket(); }
+				}, true);
+			</script>
+			</div><div id="ticket-ajax-indicator"></div><div id="drop-zones-holder"></div>
+
+<div id="ticket_rc_down" class="ticket_rc">Przesuń kupon</div>
+	</div>
+</div>
+
+<div id="sidebar_agregator_content">
+
+<div id="chanels-agregator-ticket">
+<div class="agregator-article">
+
+
+<a href="/pl/wirtualne_sporty/index.html">
+<h3>Wirtualne Sporty – graj na efortuna.pl</h3>
+<img src="/public/bc/3c/c3/759693_1311609_ivg_carousel80.jpg" alt="Wirtualne Sporty – graj na efortuna.pl" class="left margin-right">
+<p>Od teraz nowy rodzaj zakładów dostępny jest już na naszej stronie internetowej.</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/rejestracja/bonus/index.html">
+<h3>Bonus dla nowych graczy</h3>
+<img src="/public/60/45/49/752686_1269914_bez_ryzyka_80.jpg" alt="Bonus dla nowych graczy" class="left margin-right">
+<p>Zakład bez ryzyka 100zł i do 400zł od pierwszego wkładu!!!</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/fortuna_klub/klub_plus/index.html">
+<h3>Fortuna Klub Plus 2017</h3>
+<img src="/public/9/37/3/752684_1269912_fkp_80.jpg" alt="Fortuna Klub Plus 2017" class="left margin-right">
+<p>Zbieraj punkty za każdy postawiony kupon, a następnie wymień...</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/fortuna_klub/mistrzostwa/etapy_2017/mt_2017_etap_07.html">
+<h3>Mistrzostwa Typerów 2017 - 7 etap</h3>
+<img src="/public/99/7d/d4/752682_1269907_mt2017_80.jpg" alt="Mistrzostwa Typerów 2017 - 7 etap" class="left margin-right">
+<p>Sprawdź nagrody w 7. etapie MT 2017</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/strona_glowna/wiadomosci/legalny_bukmacher.html">
+<h3>Legalny Bukmacher | Fortuna Online </h3>
+<img src="/public/1a/52/44/762071_1325913__756949_1295708_fortuna_320.jpg" alt="Legalny Bukmacher | Fortuna Online " class="left margin-right">
+<p>Graj legalnie na efortuna.pl</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/serwis_punktow/nowe_i_zmiany_adresow/index.html">
+<h3>Nowe punkty sprzedaży</h3>
+<img src="/public/9b/74/dd/750249_1256355_nowyppz_carousel80.jpg" alt="Nowe punkty sprzedaży" class="left margin-right">
+<p>Sprawdź gdzie możesz znaleźć nasze nowe punkty przyjmowania zakładów.</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/strona_glowna/mobile/index.html">
+<h3>Tablet i smartphone</h3>
+<img src="/public/1a/3e/76/690320_964659_tablet.jpg" alt="Tablet i smartphone" class="left margin-right">
+<p>Zupełnie nowa aplikacja mobilna Fortuny!!</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/strona_glowna/wiadomosci/pozostale/statytyki_w_aplikacji_mobilnej.html">
+<h3>Statystyki w aplikacji mobilnej!</h3>
+<img src="/public/d4/d3/f3/759045_1307704__carousel80.jpg" alt="Statystyki w aplikacji mobilnej!" class="left margin-right">
+<p>Unikalne statystyki pre-match są już dostępne w naszej mobilnej aplikacji.</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/strona_glowna/produkty/index.html">
+<h3>Nasze produkty</h3>
+<img src="/public/82/24/c2/692219_977974_np_ogolny.jpg" alt="Nasze produkty" class="left margin-right">
+<p>Sprawdź nasze produkty</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/serwis_punktow/index.html">
+<h3>Punkty sprzedaży</h3>
+<img src="/public/53/96/62/714484_1093570_ppz_zamkniecia_320.jpg" alt="Punkty sprzedaży" class="left margin-right">
+<p>Sprawdź gdzie możesz zagrać!</p>
+</a></div>
+<div class="agregator-article">
+
+
+<a href="/pl/fortuna_klub/eshop/index.html">
+<h3>Zapraszamy do e-Shopu</h3>
+<img src="/public/18/78/1f/636880_724912_eshop.jpg" alt="Zapraszamy do e-Shopu" class="left margin-right">
+<p>Wymień punkty FKP na Darmowe zakłady lub bonusy do wkładu.</p>
+</a></div>
+<div class="agregator-article last">
+
+
+<a href="/pl/strefa_typera/najlepsze_kupony/index.html">
+<img src="/public/9b/2e/9b/526688_942908_najlepsze_kupony.jpg" alt="kupon_tygodnia" class="margin-right">
+</a></div>
+</div></div></div>
+	</div>
+<div id="main_container">
+
+
+<div id="header">
+	<a href="/pl/strona_glowna/" class="homepage-link" title="Zakłady bukmacherskie">
+		<img src="/public/8a/e1/5f/645754_1098262_logo_148x18.png" alt="Fortuna Online" width="148" height="18" data-svg-image="/public/7c/96/12/686400_940826_fortuna_logo.svg">
+	</a>
+
+
+<div id="main-nav-holder">
+
+
+<ul class="main-nav rs-ready" id="main-nav" style="right: 0px;">
+		
+
+
+
+<li class="">
+				
+				<a href="/pl/strona_glowna/" class="active">
+Zakłady bukmacherskie</a>
+			</li><li class="">
+				
+				<a href="/pl/zaklady_live/index.html" class="">
+Zakłady LIVE</a>
+			</li><li class="">
+				<span class="new_flag_flag">&nbsp;</span>
+				<a href="/pl/wirtualne_sporty/oferta/index.html" class="">
+Wirtualne Sporty</a>
+			</li><li class="showMenuBtn"><a href="#"><div class="first"></div><div></div><div></div></a><ul class="overflowBox"><li class="">
+				
+				<a href="/pl/fortuna_klub/index.html" class="">
+KLUB PLUS i Bonusy</a>
+			</li><li class="last ">
+				
+				<a href="/pl/strefa_typera/forum/index.html?displayMode=forum&amp;cID=0" class="">
+Strefa Typera</a>
+			</li></ul></li>
+</ul>
+
+
+</div></div>
+
+<div id="subnav_container"><span>
+<span id="time" class="right"><strong>20.7.2017</strong> 23:46:26</span>
+
+
+
+
+<ul id="main_sub_nav" style="right: 105px;" class="rs-ready">
+
+
+
+
+
+
+
+
+
+<li class="home-link">
+					<a href="/pl/home/index.html">
+						<img src="/public/73/bc/1e/636373_722037_home.png" alt="Strona główna" title="Strona główna">
+					</a>
+				</li><li class=" first">
+
+	<a href="/pl/strona_glowna/zaklady_internetowe/index.html" class="
+			
+			
+			 first
+		">
+Zakłady internetowe</a>
+
+
+<ul class="right-shadow" style="margin-left: -2px;">
+
+<li class=" first">
+
+	<a href="/pl/strona_glowna/zaklady_internetowe/krok_1_rejestracja/index.html" class="
+			
+			
+			 first
+		">
+Rejestracja</a>
+
+
+</li>
+<li class="">
+
+	<a href="/pl/strona_glowna/zaklady_internetowe/krok_2_doladowanie_konta/index.html" class="
+			
+			
+			
+		">
+Doładowanie konta</a>
+
+
+</li>
+<li class="">
+
+	<a href="/pl/strona_glowna/zaklady_internetowe/krok_3_gra/index.html" class="
+			
+			
+			
+		">
+Zawieranie zakładów</a>
+
+
+</li>
+<li class=" last">
+
+	<a href="/pl/strona_glowna/zaklady_internetowe/krok_4_wyplata_wygranej/index.html" class="
+			
+			 last
+			
+		">
+Wypłata wygranej</a>
+
+
+</li></ul>
+</li><li class="">
+
+	<a href="/pl/strona_glowna/statistiky/index.html" class="
+			
+			
+			
+		" target="_blank">
+Statystyki</a>
+
+
+</li><li class="">
+
+	<a href="/pl/strona_glowna/live_score/index.html" class="
+			
+			
+			
+		" target="_blank">
+Livescore</a>
+
+
+</li><li class="">
+
+	<a href="/pl/strona_glowna/wyniki/" class="
+			
+			
+			
+		">
+Wyniki</a>
+
+
+</li><li class="">
+
+	<a href="/pl/strona_glowna/legia/index.html" class="
+			
+			
+			
+false		">
+Legia</a>
+
+
+</li><li class="">
+
+	<a href="/pl/strona_glowna/mobile/index.html" class="
+			
+			
+			
+		">
+Mobile</a>
+
+
+</li><li class="">
+
+	<a href="/pl/strona_glowna/abc_gracza/index.html" class="
+			
+			
+			
+false		">
+ABC Gracza</a>
+
+
+</li><li class="showMenuBtn"><a href="#"><div class="first"></div><div></div><div></div></a><ul class="overflowBox" style="margin-left: -47.5px;"><li class=" last">
+
+	<a href="/pl/strona_glowna/serwis_sportowy/index.html" class="
+			
+			 last
+			
+		">
+Serwis sportowy</a>
+
+
+<ul class="right-shadow" style="margin-left: -14px;">
+
+<li class=" first">
+
+	<a href="/pl/strona_glowna/serwis_sportowy/strefa_eksperta/index.html" class="
+			
+			
+			 first
+new_flag		">
+Strefa Eksperta</a>
+
+
+</li>
+<li class="">
+
+	<a href="/pl/strona_glowna/serwis_sportowy/liga_mistrzow/index.html" class="
+			
+			
+			
+		">
+Liga Mistrzów</a>
+
+
+</li>
+<li class="">
+
+	<a href="/pl/strona_glowna/serwis_sportowy/liga_europy/index.html" class="
+			
+			
+			
+		">
+Liga Europy</a>
+
+
+</li>
+<li class="">
+
+	<a href="/pl/strona_glowna/serwis_sportowy/ekstraklasa/index.html" class="
+			
+			
+			
+		">
+Ekstraklasa</a>
+
+
+</li>
+<li class=" last">
+
+	<a href="/pl/strona_glowna/serwis_sportowy/tenis_atp_wta/index.html" class="
+			
+			 last
+			
+		">
+Tenis: ATP &amp; WTA</a>
+
+
+</li></ul>
+</li></ul></li></ul>
+</span></div>
+<div id="js-warning" class="hidden">
+		<p>
+			Aby wykorzystać wszystkie możliwości oraz funkcje, należy włączyć <strong>Javascript</strong>.
+
+<a href="/pl/popup/jak_wlaczyc_obsluge_javascript.html" class="button yellow_w">
+Instrukcje</a></p>
+</div>
+<script type="text/javascript">
+	document.getElementById('js-warning').className += 'hidden';
+</script>
+
+<script type="text/javascript">
+	FORTUNA.run(function () {
+		if (!FORTUNA.UI.webMessages) return;
+		FORTUNA.UI.webMessages.initCloseButtons();
+		FORTUNA.UI.webMessages.hideHiddenMessages();
+	});
+</script>
+<div class="site-message-container empty">
+
+
+</div><div id="left_content">
+
+
+<div class="box def glued" id="whisper-box">
+	<div class="body">
+<!-- whisper form -->
+<form action="/pl/wyszukiwanie/index$4763.html" class="whisper" id="id-whisper-form" data-whisper-url="/pl/wyszukiwanie/index$606056-whisper.xml">
+	<table>
+		<tbody><tr>
+			<td>
+				<div class="search-container">
+					<input type="text" name="searchValue" value="" class="valueToggle search-input" placeholder="Szukaj" id="id-whisper-input" autocomplete="off">
+					<input class="search-button-icon" type="image" src="/public/e6/ea/63/636405_722037_search.png">
+				</div>
+				<div id="id-whisper-container">
+					<div id="id-whisper-container-inner">
+						<div class="close" title="Zamknij"></div>
+						<div id="id-whisper-bet-items-container" class="items-container">
+							<div class="items-container-label">
+								<div class="label">Zakłady</div>
+							</div>
+							<div id="id-whisper-bet-items-list" class="items-list"></div>
+						</div>
+						<div id="id-whisper-actions-container" class="items-container">
+							<div class="items-container-label">
+								<div class="label">Ligi</div>
+							</div>
+							<div id="id-whisper-actions-list" class="items-list"></div>
+						</div>
+						<div id="id-whisper-footer">
+							<div class="label show-all">Pełna lista</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+</td>
+		</tr>
+	</tbody></table>
+</form>
+<script type="text/javascript">
+	FORTUNA.run(function () {
+		FORTUNA.UI.Whisper.init();
+	});
+</script>
+<!-- /whisper form -->
+	</div>
+	<div class="clear"></div>
+</div>
+
+<div class="box def user_menu" id="bet_banner_holder">
+	<div class="body"><a href="/pl/strona_glowna/2017-07-20?limit=100&amp;selectDates=1" class="offer_by_date">Oferta - data</a><div class="user_menu_hover right-shadow">
+	<a href="/pl/strona_glowna/?selectSports=1" class="offer_by_sport">Oferta - dyscyplinami</a>
+<div class="bets_by_time">
+	<h3>Oferta wg czasu</h3>
+	<div>
+
+<a href="/pl/strona_glowna/?time=30&amp;limit=100" class="button yellow_b">
+30 min</a>
+<a href="/pl/strona_glowna/?time=60&amp;limit=100" class="button yellow_b">
+1 h</a>
+<a href="/pl/strona_glowna/?time=180&amp;limit=100" class="button yellow_b">
+3 h</a></div>
+	<div>
+
+<a href="/pl/strona_glowna/?time=360&amp;limit=100" class="button yellow_b">
+6 h</a>
+<a href="/pl/strona_glowna/?selectDates=1&amp;date=0&amp;limit=100" class="button yellow_b">
+dzisiaj</a>
+<a href="/pl/strona_glowna/?selectDates=1&amp;date=1&amp;limit=100" class="button yellow_b">
+jutro</a></div>	
+</div>
+<form id="betSliderForm" method="get" action="/pl/strona_glowna/">
+	<h3>Oferta wg kursu</h3>
+	<div>
+		<input type="hidden" class="range" value="1.01;1.02;1.04;1.06;1.08;1.1;1.2;1.3;1.4;1.5;1.6;1.7;1.8;1.9;2;2.1;2.2;2.3;2.4;2.5;2.6;2.7;2.8;2.9;3;3.2;3.4;3.6;3.8;4;5;6;7;8;9;10;30;50;70;100;400">
+		<input type="hidden" name="selectDates" value="1">
+		<input type="hidden" class="tickLeft" name="tickLeft" value="0">
+		<input type="hidden" class="tickRight" name="tickRight" value="0">
+	</div>
+	<div id="betRangeSlider" class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+		<div class="left-end"></div>
+		<div class="right-end"></div>
+		<div id="slider_min_thumb" class="ui-slider-handle sliderMin ui-state-default ui-corner-all" data-ticker="tickLeft" data-input="betRateFrom" style="left: 0%;"><span class="actValue">1.01.</span><img src="/public/c7/b9/c9/477557_1098262_slider.png" width="18" height="25"></div> 
+		<div id="slider_max_thumb" class="ui-slider-handle sliderMax ui-state-default ui-corner-all" data-ticker="tickRight" data-input="betRateTo" style="left: 100%;"><span class="actValue">1.01</span><img src="/public/c7/b9/c9/477557_1098262_slider.png" width="18" height="25"></div>
+	<div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 100%;"></div></div>
+	<div>
+		<label for="betRateFrom">
+Od<input type="text" class="betRateFrom" name="betRateFrom" value="1.01" data-slider="sliderMin">
+		</label>
+		<label for="betRateTo">
+Do<input type="text" class="betRateTo" name="betRateTo" value="1.01" data-slider="sliderMax">
+		</label>
+	</div>
+	<div>
+<button type="submit" class="yellow_b w100">
+Oferta wg kursu</button></div>
+	
+</form>
+
+<script type="text/javascript">
+	FORTUNA.run(function() {
+		new FORTUNA.UI.BetRangeSlider('betSliderForm', 0, 0, function() {
+			var form = document.getElementById('betSliderForm');
+			YAHOO.util.Dom.addClass(form.parentNode.parentNode, 'hover');
+		}, function() {
+			var form = document.getElementById('betSliderForm');
+			YAHOO.util.Dom.removeClass(form.parentNode.parentNode, 'hover');
+		});
+	});
+</script></div>	</div>
+	<div class="clear"></div>
+</div>
+
+
+<div class="box collapsable def" id="recommended_links_661031">
+	<div class="body">
+<h3 class="toggler">POLECAMY</h3>
+<div class="hideable"><ul>
+
+<li>
+	<a href="/pl/strona_glowna/serwis_sportowy/polskie_ligi/index.html" title="Polskie ligi">
+<span class="icon sport polish_leagues"></span>Polskie ligi
+</a>
+</li>
+<li>
+	<a href="/pl/strona_glowna/?sportId=130&amp;actionId=5701" title="ATP: Bastad">
+<span class="icon sport tennis"></span>ATP: Bastad
+</a>
+</li>
+<li>
+	<a href="/pl/strona_glowna/?sportId=130&amp;actionId=5659" title="ATP: Newport">
+<span class="icon sport tennis"></span>ATP: Newport
+</a>
+</li>
+<li>
+	<a href="/pl/strona_glowna/?sportId=130&amp;actionId=5807" title="ATP: Umag">
+<span class="icon sport tennis"></span>ATP: Umag
+</a>
+</li>
+<li>
+	<a href="/pl/strona_glowna/?sportId=131&amp;actionId=13911" title="WTA: Bukareszt">
+<span class="icon sport tennis"></span>WTA: Bukareszt
+</a>
+</li>
+<li>
+	<a href="/pl/strona_glowna/?sportId=131&amp;actionId=16576" title="WTA: Gstaad">
+<span class="icon sport tennis"></span>WTA: Gstaad
+</a>
+</li></ul>
+		</div>
+	</div>
+</div><div class="box def nopadding">
+	<div class="body"><a href="/pl/wirtualne_sporty/index.html">
+<img src="/public/f6/c4/bc/761590_1322076_ivg_200x56.jpg" alt="Wirtualne Sporty">
+</a>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="sport_menu">
+<ul class="main toggle_menu" id="sports_menu">
+<li class="js-sport-menu-item closed" data-sport-title="HIT DNIA" id="sport-179">
+				<a href="/pl/strona_glowna/hit-dnia?limit=100" class="js-sport-parent sport_title" rel="179">
+					<span class="icon sport terno_dne">&nbsp;</span>
+HIT DNIA</a>
+				<a href="/pl/strona_glowna/hit-dnia?limit=100" class="js-sport-toggler sports_menu_group" rel="179">&nbsp;</a>
+<ul>
+<li id="action-9707">
+						<a href="/pl/strona_glowna/hit-dnia/pilka-nozna">pilka nozna </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item opened" data-sport-title="SUPEROFERTA" id="sport-211">
+				<a href="/pl/strona_glowna/superoferta?limit=100" class="js-sport-parent sport_title" rel="211">
+					<span class="icon sport favorit_dne">&nbsp;</span>
+SUPEROFERTA</a>
+				<a href="/pl/strona_glowna/superoferta?limit=100" class="js-sport-toggler sports_menu_group" rel="211">&nbsp;</a>
+<ul>
+<li id="action-11556">
+						<a href="/pl/strona_glowna/superoferta/czwartek">Czwartek </a>
+					</li>
+<li id="action-11558">
+						<a href="/pl/strona_glowna/superoferta/piatek">Piatek </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="EKSPERT" id="sport-236">
+				<a href="/pl/strona_glowna/ekspert?limit=100" class="js-sport-parent sport_title" rel="236">
+					<span class="icon sport expert">&nbsp;</span>
+EKSPERT</a>
+				<a href="/pl/strona_glowna/ekspert?limit=100" class="js-sport-toggler sports_menu_group" rel="236">&nbsp;</a>
+<ul>
+<li id="action-12559">
+						<a href="/pl/strona_glowna/ekspert/pilka-nozna-polska">Polska </a>
+					</li>
+<li id="action-12558">
+						<a href="/pl/strona_glowna/ekspert/pilka-nozna-anglia">Anglia </a>
+					</li>
+<li id="action-12561">
+						<a href="/pl/strona_glowna/ekspert/pilka-nozna-niemcy">Niemcy </a>
+					</li>
+<li id="action-14935">
+						<a href="/pl/strona_glowna/ekspert/pilka-nozna-i">Pilka nozna </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="SPECJALNE" id="sport-391">
+				<a href="/pl/strona_glowna/specjalne?limit=100" class="js-sport-parent sport_title" rel="391">
+					<span class="icon sport football">&nbsp;</span>
+SPECJALNE</a>
+				<a href="/pl/strona_glowna/specjalne?limit=100" class="js-sport-toggler sports_menu_group" rel="391">&nbsp;</a>
+<ul>
+<li id="action-33673">
+						<a href="/pl/strona_glowna/specjalne/sandecja-n-s-arka-g-">Sandecja N.S.-Arka G. </a>
+					</li>
+<li id="action-29477">
+						<a href="/pl/strona_glowna/specjalne/wisla-k-nieciecza">Wisla K.-Nieciecza </a>
+					</li>
+<li id="action-30466">
+						<a href="/pl/strona_glowna/specjalne/ekstraklasa-polska">Ekstraklasa Polska </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item opened" data-sport-title="Pilka nozna" id="sport-3">
+				<a href="/pl/strona_glowna/pilka-nozna?limit=100" class="js-sport-parent sport_title" rel="3">
+					<span class="icon sport football">&nbsp;</span>
+Pilka nozna</a>
+				<a href="/pl/strona_glowna/pilka-nozna?limit=100" class="js-sport-toggler sports_menu_group" rel="3">&nbsp;</a>
+<ul>
+<li id="action-33669">
+						<a href="/pl/strona_glowna/pilka-nozna/3-anglia-kl-konc-">3.Anglia-kl.konc. </a>
+					</li>
+<li id="action-1144">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-europy">Superpuchar Europy </a>
+					</li>
+<li id="action-172">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow">Liga Mistrzow </a>
+					</li>
+<li id="action-173">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-europy">Liga Europy </a>
+					</li>
+<li id="action-4327">
+						<a href="/pl/strona_glowna/pilka-nozna/kwalifikacje-mistrzostw-swiata-europa">Kwalifikacje MS-Europa </a>
+					</li>
+<li id="action-378">
+						<a href="/pl/strona_glowna/pilka-nozna/puchar-polski">Polska - puchar </a>
+					</li>
+<li id="action-25">
+						<a href="/pl/strona_glowna/pilka-nozna/ekstraklasa">Ekstraklasa Polska </a>
+					</li>
+<li id="action-2682">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-polska">1.Polska </a>
+					</li>
+<li id="action-17">
+						<a href="/pl/strona_glowna/pilka-nozna/premier-league-premiership">1.Anglia </a>
+					</li>
+<li id="action-23">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-austriacka">1.Austria </a>
+					</li>
+<li id="action-34">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-belgijska">1.Belgia </a>
+					</li>
+<li id="action-28">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-brazylijska">1.Brazylia </a>
+					</li>
+<li id="action-2908">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-bulgarska">1.Bulgaria </a>
+					</li>
+<li id="action-7800">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-chinska">1.Chiny </a>
+					</li>
+<li id="action-44">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-chorwacka">1.Chorwacja </a>
+					</li>
+<li id="action-16">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-czeska">1.Czechy </a>
+					</li>
+<li id="action-38">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-dunska">1.Dania </a>
+					</li>
+<li id="action-3825">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-estonska">1.Estonia </a>
+					</li>
+<li id="action-40">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-finska">1.Finlandia </a>
+					</li>
+<li id="action-19">
+						<a href="/pl/strona_glowna/pilka-nozna/ligue-1">1.Francja </a>
+					</li>
+<li id="action-53">
+						<a href="/pl/strona_glowna/pilka-nozna/eredivisie">1.Holandia </a>
+					</li>
+<li id="action-33338">
+						<a href="/pl/strona_glowna/pilka-nozna/1-indonezja">1.Indonezja </a>
+					</li>
+<li id="action-45">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-irlandzka">1.Irlandia </a>
+					</li>
+<li id="action-612">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-islandzka">1.Islandia </a>
+					</li>
+<li id="action-48">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-japonska">1.Japonia </a>
+					</li>
+<li id="action-28638">
+						<a href="/pl/strona_glowna/pilka-nozna/1-kazachstan">1.Kazachstan </a>
+					</li>
+<li id="action-3605">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-kolumbijska">1.Kolumbia </a>
+					</li>
+<li id="action-8052">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-koreanska">1.Korea Pld. </a>
+					</li>
+<li id="action-22">
+						<a href="/pl/strona_glowna/pilka-nozna/bundesliga">1.Niemcy </a>
+					</li>
+<li id="action-2746">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-rumunska">1.Rumunia </a>
+					</li>
+<li id="action-62">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-rosyjska">1.Rosja </a>
+					</li>
+<li id="action-24">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-slowacka">1.Slowacja </a>
+					</li>
+<li id="action-69">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-slowenska">1.Slowenia </a>
+					</li>
+<li id="action-3631">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-serbska">1.Serbia </a>
+					</li>
+<li id="action-72">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-szwedzka">1.Szwecja </a>
+					</li>
+<li id="action-74">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-szwajcarska">1.Szwajcaria </a>
+					</li>
+<li id="action-49">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-wegierska">1.Wegry </a>
+					</li>
+<li id="action-29">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-angielska">2.Anglia </a>
+					</li>
+<li id="action-28645">
+						<a href="/pl/strona_glowna/pilka-nozna/2-australia">2.Australia </a>
+					</li>
+<li id="action-61">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-austriacka">2.Austria </a>
+					</li>
+<li id="action-36">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-czeska">2.Czechy </a>
+					</li>
+<li id="action-39">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-dunska">2.Dania </a>
+					</li>
+<li id="action-175">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-finska">2.Finlandia </a>
+					</li>
+<li id="action-3725">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-irlandzka">2.Irlandia </a>
+					</li>
+<li id="action-7913">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-islandzka">2.Islandia </a>
+					</li>
+<li id="action-3948">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-japonska">2.Japonia </a>
+					</li>
+<li id="action-56">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-norweska">2.Norwegia </a>
+					</li>
+<li id="action-2548">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-rosyjska">2.Rosja </a>
+					</li>
+<li id="action-73">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-szwedzka">2.Szwecja </a>
+					</li>
+<li id="action-30">
+						<a href="/pl/strona_glowna/pilka-nozna/3-liga-angielska">3.Anglia </a>
+					</li>
+<li id="action-31349">
+						<a href="/pl/strona_glowna/pilka-nozna/3-finlandia">3.Finlandia </a>
+					</li>
+<li id="action-3612">
+						<a href="/pl/strona_glowna/pilka-nozna/3-bundesliga">3.Niemcy </a>
+					</li>
+<li id="action-31348">
+						<a href="/pl/strona_glowna/pilka-nozna/3-norwegia">3.Norwegia </a>
+					</li>
+<li id="action-31">
+						<a href="/pl/strona_glowna/pilka-nozna/4-liga-angielska">4.Anglia </a>
+					</li>
+<li id="action-7242">
+						<a href="/pl/strona_glowna/pilka-nozna/afc-challenge-cup">Generali CEE Cup </a>
+					</li>
+<li id="action-33641">
+						<a href="/pl/strona_glowna/pilka-nozna/me-k-grupa-b">ME - K.-grupa B </a>
+					</li>
+<li id="action-33643">
+						<a href="/pl/strona_glowna/pilka-nozna/me-k-grupa-d">ME - K.-grupa D </a>
+					</li>
+<li id="action-33642">
+						<a href="/pl/strona_glowna/pilka-nozna/me-k-grupa-c">ME - K.-grupa C </a>
+					</li>
+<li id="action-835">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-belgii">Belgia - Superpuchar </a>
+					</li>
+<li id="action-975">
+						<a href="/pl/strona_glowna/pilka-nozna/community-shield-wembley">Community Shield </a>
+					</li>
+<li id="action-928">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-francji">Francja - superpuchar </a>
+					</li>
+<li id="action-2401">
+						<a href="/pl/strona_glowna/pilka-nozna/gold-cup">Gold Cup </a>
+					</li>
+<li id="action-1074">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-hiszpanii">Hiszpania - superpuchar </a>
+					</li>
+<li id="action-1046">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-holandii">Holandia - Superpuchar </a>
+					</li>
+<li id="action-28263">
+						<a href="/pl/strona_glowna/pilka-nozna/international-champions-cup">International Champions Cup </a>
+					</li>
+<li id="action-4084">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-niemiec">Niemcy - Superpuchar </a>
+					</li>
+<li id="action-5628">
+						<a href="/pl/strona_glowna/pilka-nozna/mistrzostwa-europy-kobiety">ME - K. </a>
+					</li>
+<li id="action-5527">
+						<a href="/pl/strona_glowna/pilka-nozna/puchar-ligi-singapurskiej">Singapur - puchar ligi </a>
+					</li>
+<li id="action-148">
+						<a href="/pl/strona_glowna/pilka-nozna/spotkania-towarzyskie-klubow">Spot. towarz. klubow </a>
+					</li>
+<li id="action-908">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-turcji">Turcja - superpuchar </a>
+					</li>
+<li id="action-1166">
+						<a href="/pl/strona_glowna/pilka-nozna/superpuchar-wloch">Wlochy - superpuchar </a>
+					</li>
+<li id="action-11458">
+						<a href="/pl/strona_glowna/pilka-nozna/ekstraklasa-klasyfikacja-koncowa">Ekstraklasa-kl.konc. </a>
+					</li>
+<li id="action-11459">
+						<a href="/pl/strona_glowna/pilka-nozna/ekstraklasa-klasyfikacja-koncowa-kto-lepszy">Ekstraklasa-kl.konc.-kto l. </a>
+					</li>
+<li id="action-26664">
+						<a href="/pl/strona_glowna/pilka-nozna/ekstraklasa-spadek">Ekstraklasa-spadek </a>
+					</li>
+<li id="action-26665">
+						<a href="/pl/strona_glowna/pilka-nozna/ekstraklasa-najlep-strzelec">Ekstraklasa-najlep.strzelec </a>
+					</li>
+<li id="action-28741">
+						<a href="/pl/strona_glowna/pilka-nozna/polska-puchar-kl-konc-">Polska - puchar kl.konc. </a>
+					</li>
+<li id="action-10236">
+						<a href="/pl/strona_glowna/pilka-nozna/premier-league-klasyfikacja-koncowa">1.Anglia-kl.konc. </a>
+					</li>
+<li id="action-10208">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-austriacka-klasyfikacja-koncowa">1.Austria-kl.konc. </a>
+					</li>
+<li id="action-10209">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-austriacka-klasyfikacja-koncowa-kto-lepszy">1.Austria-kl.konc.-kto l. </a>
+					</li>
+<li id="action-10238">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-belgijska-klasyfikacja-koncowa">1.Belgia-kl.konc. </a>
+					</li>
+<li id="action-10239">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-belgijska-klasyfikacja-koncowa-kto-lepszy">1.Belgia-kl.konc.-kto l. </a>
+					</li>
+<li id="action-10101">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-czeska-najwiecej-zoltych-kartek-w-lidze">1.Czechy-najwiecej zoltycch kartek w lidze </a>
+					</li>
+<li id="action-10221">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-czeska-klasyfikacja-koncowa-kto-lepszy">1.Czechy-kl.konc.-kto l. </a>
+					</li>
+<li id="action-14160">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-czeska-klasyfikacja-koncowa">1.Czechy-kl.konc. </a>
+					</li>
+<li id="action-9693">
+						<a href="/pl/strona_glowna/pilka-nozna/1-czechy-najlepszy-strzelec">1.Czechy-najlep.strzelec </a>
+					</li>
+<li id="action-10206">
+						<a href="/pl/strona_glowna/pilka-nozna/ligue1-klasyfikacja-koncowa">1.Francja-kl.konc. </a>
+					</li>
+<li id="action-10207">
+						<a href="/pl/strona_glowna/pilka-nozna/ligue1-francuska-klasyfikacja-koncowa-kto-lepszy">1.Francja-kl.konc.-kto l. </a>
+					</li>
+<li id="action-10244">
+						<a href="/pl/strona_glowna/pilka-nozna/primera-division-klasyfikacja-koncowa">1.Hiszpania-kl.konc. </a>
+					</li>
+<li id="action-10240">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-holanderska-klasyfikacja-koncowa">1.Holandia-kl.konc. </a>
+					</li>
+<li id="action-10204">
+						<a href="/pl/strona_glowna/pilka-nozna/bundesliga-klasyfikacja-koncowa">1.Niemcy-kl.konc. </a>
+					</li>
+<li id="action-10242">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-portugalska-klasyfikacja-koncowa">1.Portugalia-kl.konc. </a>
+					</li>
+<li id="action-17207">
+						<a href="/pl/strona_glowna/pilka-nozna/1-rosja-klasyfikacja-koncowa">1.Rosja-klas.konc </a>
+					</li>
+<li id="action-17208">
+						<a href="/pl/strona_glowna/pilka-nozna/1-rosja-klasyfikacja-koncowa-kto-lepszy">1.Rosja-klas.konc.-kto l. </a>
+					</li>
+<li id="action-11200">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-slowacka-klasyfikacja-koncowa">1.Slowacja-kl.konc. </a>
+					</li>
+<li id="action-11201">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-slowacka-klasyfikacja-koncowa-kto-lepszy">1.Slowacja-kl.konc.-kto l. </a>
+					</li>
+<li id="action-10212">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-szkocka-klasyfikacja-koncowa">1.Szkocja-kl.konc. </a>
+					</li>
+<li id="action-10213">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-szkocka-klasyfikacja-koncowa-kto-lepszy">1.Szkocja-kl.konc.-kto l. </a>
+					</li>
+<li id="action-10214">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-szwajcarska-klasyfikacja-koncowa">1.Szwajcaria-kl.konc. </a>
+					</li>
+<li id="action-10215">
+						<a href="/pl/strona_glowna/pilka-nozna/1-liga-szwajcarska-klasyfikacja-koncowa-kto-lepszy">1.Szwajcaria-kl.konc.-kto l. </a>
+					</li>
+<li id="action-11253">
+						<a href="/pl/strona_glowna/pilka-nozna/serie-a-wloska-klasyfikacja-koncowa">1.Wlochy-kl.konc. </a>
+					</li>
+<li id="action-10188">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-anglielska-klasyfikacja-koncowa">2.Anglia-kl.konc. </a>
+					</li>
+<li id="action-10191">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-anglielska-klasyfikacja-koncowa-kto-lepszy">2.Anglia-kl.konc.-kto l. </a>
+					</li>
+<li id="action-10219">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-niemiecka-klasyfikacja-koncowa">2.Niemcy-kl.konc. </a>
+					</li>
+<li id="action-10220">
+						<a href="/pl/strona_glowna/pilka-nozna/2-liga-niemiecka-klasyfikacja-koncowa-kto-lepszy">2.Niemcy-kl.konc.-kto l. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Tenis M." id="sport-130">
+				<a href="/pl/strona_glowna/tenis-mezczyzn?limit=100" class="js-sport-parent sport_title" rel="130">
+					<span class="icon sport tennis">&nbsp;</span>
+Tenis M.</a>
+				<a href="/pl/strona_glowna/tenis-mezczyzn?limit=100" class="js-sport-toggler sports_menu_group" rel="130">&nbsp;</a>
+<ul>
+<li id="action-5701">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/bastad-antuka">Bastad-singiel </a>
+					</li>
+<li id="action-5702">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/bastad-debel">Bastad-debel </a>
+					</li>
+<li id="action-5659">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/newport-trawa">Newport-singiel </a>
+					</li>
+<li id="action-5666">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/newport-debel">Newport-debel </a>
+					</li>
+<li id="action-5807">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/umag-antuka">Umag-singiel </a>
+					</li>
+<li id="action-5808">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/umag-debel">Umag-debel </a>
+					</li>
+<li id="action-15488">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/davis-cup-klasyfikacja-koncowa">Davis Cup-kl.konc. </a>
+					</li>
+<li id="action-5965">
+						<a href="/pl/strona_glowna/tenis-mezczyzn/us-open-klasyfikacja-koncowa">US Open-klas.konc. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Tenis K." id="sport-131">
+				<a href="/pl/strona_glowna/tenis-kobiet?limit=100" class="js-sport-parent sport_title" rel="131">
+					<span class="icon sport tennis">&nbsp;</span>
+Tenis K.</a>
+				<a href="/pl/strona_glowna/tenis-kobiet?limit=100" class="js-sport-toggler sports_menu_group" rel="131">&nbsp;</a>
+<ul>
+<li id="action-29949">
+						<a href="/pl/strona_glowna/tenis-kobiet/gstaad-debel">Gstaad-debel </a>
+					</li>
+<li id="action-29948">
+						<a href="/pl/strona_glowna/tenis-kobiet/gstaad-singiel">Gstaad-singiel </a>
+					</li>
+<li id="action-26129">
+						<a href="/pl/strona_glowna/tenis-kobiet/bukareszt-singiel">Bukareszt-singiel </a>
+					</li>
+<li id="action-26130">
+						<a href="/pl/strona_glowna/tenis-kobiet/bukareszt-debel">Bukareszt-debel </a>
+					</li>
+<li id="action-5975">
+						<a href="/pl/strona_glowna/tenis-kobiet/us-open-klasyfikacja-koncowa">US Open-klas.konc. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Tenis challenger M." id="sport-132">
+				<a href="/pl/strona_glowna/tenis-challenger-mezczyzn?limit=100" class="js-sport-parent sport_title" rel="132">
+					<span class="icon sport tennis">&nbsp;</span>
+Tenis challenger M.</a>
+				<a href="/pl/strona_glowna/tenis-challenger-mezczyzn?limit=100" class="js-sport-toggler sports_menu_group" rel="132">&nbsp;</a>
+<ul>
+<li id="action-6407">
+						<a href="/pl/strona_glowna/tenis-challenger-mezczyzn/astana-twarda-nawierzchnia">Astana-singiel </a>
+					</li>
+<li id="action-15848">
+						<a href="/pl/strona_glowna/tenis-challenger-mezczyzn/gatineau-singiel">Gatineau-singiel </a>
+					</li>
+<li id="action-5783">
+						<a href="/pl/strona_glowna/tenis-challenger-mezczyzn/poznan-antuka">Poznan-singiel </a>
+					</li>
+<li id="action-5662">
+						<a href="/pl/strona_glowna/tenis-challenger-mezczyzn/san-benedetto-antuka">San Benedetto-singiel </a>
+					</li>
+<li id="action-5660">
+						<a href="/pl/strona_glowna/tenis-challenger-mezczyzn/scheveningen-antuka">Scheveningen-singiel </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Tenis ITF K." id="sport-133">
+				<a href="/pl/strona_glowna/tenis-challenger-kobiet?limit=100" class="js-sport-parent sport_title" rel="133">
+					<span class="icon sport tennis">&nbsp;</span>
+Tenis ITF K.</a>
+				<a href="/pl/strona_glowna/tenis-challenger-kobiet?limit=100" class="js-sport-toggler sports_menu_group" rel="133">&nbsp;</a>
+<ul>
+<li id="action-29669">
+						<a href="/pl/strona_glowna/tenis-challenger-kobiet/tianjin-singiel">Tianjin-singiel </a>
+					</li>
+<li id="action-17449">
+						<a href="/pl/strona_glowna/tenis-challenger-kobiet/aschaffenburg-singiel">Aschaffenburg-singiel </a>
+					</li>
+<li id="action-9401">
+						<a href="/pl/strona_glowna/tenis-challenger-kobiet/astana-twarda-nawierzchnia">Astana-singiel </a>
+					</li>
+<li id="action-28264">
+						<a href="/pl/strona_glowna/tenis-challenger-kobiet/bursa-singiel">Bursa-singiel </a>
+					</li>
+<li id="action-26206">
+						<a href="/pl/strona_glowna/tenis-challenger-kobiet/gatineau-singiel">Gatineau-singiel </a>
+					</li>
+<li id="action-24109">
+						<a href="/pl/strona_glowna/tenis-challenger-kobiet/imola-singiel">Imola-singiel </a>
+					</li>
+<li id="action-8127">
+						<a href="/pl/strona_glowna/tenis-challenger-kobiet/olomouc-antuka">Olomouc-singiel </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Tenis ITF M." id="sport-414">
+				<a href="/pl/strona_glowna/tenis-itf-m-?limit=100" class="js-sport-parent sport_title" rel="414">
+					<span class="icon sport ">&nbsp;</span>
+Tenis ITF M.</a>
+				<a href="/pl/strona_glowna/tenis-itf-m-?limit=100" class="js-sport-toggler sports_menu_group" rel="414">&nbsp;</a>
+<ul>
+<li id="action-32919">
+						<a href="/pl/strona_glowna/tenis-itf-m-/dublin-singiel">Dublin-singiel </a>
+					</li>
+<li id="action-32868">
+						<a href="/pl/strona_glowna/tenis-itf-m-/champaign-singiel">Champaign-singiel </a>
+					</li>
+<li id="action-32609">
+						<a href="/pl/strona_glowna/tenis-itf-m-/brno-singiel">Brno-singiel </a>
+					</li>
+<li id="action-33608">
+						<a href="/pl/strona_glowna/tenis-itf-m-/yinchaun-singiel">Yinchaun-singiel </a>
+					</li>
+<li id="action-32899">
+						<a href="/pl/strona_glowna/tenis-itf-m-/stambul-singiel">Stambul-singiel </a>
+					</li>
+<li id="action-32333">
+						<a href="/pl/strona_glowna/tenis-itf-m-/denia-singiel">Denia-singiel </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Hokej" id="sport-22">
+				<a href="/pl/strona_glowna/hokej?limit=100" class="js-sport-parent sport_title" rel="22">
+					<span class="icon sport ice_hockey">&nbsp;</span>
+Hokej</a>
+				<a href="/pl/strona_glowna/hokej?limit=100" class="js-sport-toggler sports_menu_group" rel="22">&nbsp;</a>
+<ul>
+<li id="action-33555">
+						<a href="/pl/strona_glowna/hokej/1-nowa-zelandia">1.Nowa Zelandia </a>
+					</li>
+<li id="action-29518">
+						<a href="/pl/strona_glowna/hokej/1-australia">1.Australia </a>
+					</li>
+<li id="action-20">
+						<a href="/pl/strona_glowna/hokej/1-liga-czeska">1.Czechy </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Koszykowka" id="sport-4">
+				<a href="/pl/strona_glowna/koszykowka?limit=100" class="js-sport-parent sport_title" rel="4">
+					<span class="icon sport basketball">&nbsp;</span>
+Koszykowka</a>
+				<a href="/pl/strona_glowna/koszykowka?limit=100" class="js-sport-toggler sports_menu_group" rel="4">&nbsp;</a>
+<ul>
+<li id="action-33387">
+						<a href="/pl/strona_glowna/koszykowka/2-australia-m-">2.Australia - M. </a>
+					</li>
+<li id="action-644">
+						<a href="/pl/strona_glowna/koszykowka/wnba">WNBA </a>
+					</li>
+<li id="action-14146">
+						<a href="/pl/strona_glowna/koszykowka/1-liga-filipinska">Filipiny - M. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Siatkowka" id="sport-27">
+				<a href="/pl/strona_glowna/siatkowka?limit=100" class="js-sport-parent sport_title" rel="27">
+					<span class="icon sport volleyball">&nbsp;</span>
+Siatkowka</a>
+				<a href="/pl/strona_glowna/siatkowka?limit=100" class="js-sport-toggler sports_menu_group" rel="27">&nbsp;</a>
+<ul>
+<li id="action-905">
+						<a href="/pl/strona_glowna/siatkowka/world-grand-prix-kobiet">World Grand Prix - K. </a>
+					</li>
+<li id="action-2508">
+						<a href="/pl/strona_glowna/siatkowka/mistrzostwa-swiata-juniorek">MS U-20 K. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Pilka reczna" id="sport-26">
+				<a href="/pl/strona_glowna/pilka-reczna?limit=100" class="js-sport-parent sport_title" rel="26">
+					<span class="icon sport handball">&nbsp;</span>
+Pilka reczna</a>
+				<a href="/pl/strona_glowna/pilka-reczna?limit=100" class="js-sport-toggler sports_menu_group" rel="26">&nbsp;</a>
+<ul>
+<li id="action-28287">
+						<a href="/pl/strona_glowna/pilka-reczna/ms-u-21-m-">MS U-21 - M. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Badminton" id="sport-229">
+				<a href="/pl/strona_glowna/badminton?limit=100" class="js-sport-parent sport_title" rel="229">
+					<span class="icon sport badminton">&nbsp;</span>
+Badminton</a>
+				<a href="/pl/strona_glowna/badminton?limit=100" class="js-sport-toggler sports_menu_group" rel="229">&nbsp;</a>
+<ul>
+<li id="action-29955">
+						<a href="/pl/strona_glowna/badminton/us-open-k-">US Open - K. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Baseball" id="sport-30">
+				<a href="/pl/strona_glowna/baseball?limit=100" class="js-sport-parent sport_title" rel="30">
+					<span class="icon sport baseball">&nbsp;</span>
+Baseball</a>
+				<a href="/pl/strona_glowna/baseball?limit=100" class="js-sport-toggler sports_menu_group" rel="30">&nbsp;</a>
+<ul>
+<li id="action-29495">
+						<a href="/pl/strona_glowna/baseball/korea-pld-">Korea Pld. </a>
+					</li>
+<li id="action-5150">
+						<a href="/pl/strona_glowna/baseball/mlb">MLB </a>
+					</li>
+<li id="action-12862">
+						<a href="/pl/strona_glowna/baseball/mlb-klasyfikacja-koncowa">MLB - kl.konc. </a>
+					</li>
+<li id="action-5673">
+						<a href="/pl/strona_glowna/baseball/japonia">Japonia </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Boks" id="sport-182">
+				<a href="/pl/strona_glowna/boks?limit=100" class="js-sport-parent sport_title" rel="182">
+					<span class="icon sport box">&nbsp;</span>
+Boks</a>
+				<a href="/pl/strona_glowna/boks?limit=100" class="js-sport-toggler sports_menu_group" rel="182">&nbsp;</a>
+<ul>
+<li id="action-14500">
+						<a href="/pl/strona_glowna/boks/las-vegas">Las Vegas </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="E-Sport" id="sport-193">
+				<a href="/pl/strona_glowna/gry-komputerowe?limit=100" class="js-sport-parent sport_title" rel="193">
+					<span class="icon sport pro_gaming">&nbsp;</span>
+E-Sport</a>
+				<a href="/pl/strona_glowna/gry-komputerowe?limit=100" class="js-sport-toggler sports_menu_group" rel="193">&nbsp;</a>
+<ul>
+<li id="action-33464">
+						<a href="/pl/strona_glowna/gry-komputerowe/cs-go-pgl-major-">CS:GO PGL Major  </a>
+					</li>
+<li id="action-31518">
+						<a href="/pl/strona_glowna/gry-komputerowe/lol-lms">LoL LMS </a>
+					</li>
+<li id="action-28792">
+						<a href="/pl/strona_glowna/gry-komputerowe/lol-eu-lcs">LoL EU LCS </a>
+					</li>
+<li id="action-28793">
+						<a href="/pl/strona_glowna/gry-komputerowe/lol-na-lcs">LoL NA LCS </a>
+					</li>
+<li id="action-29455">
+						<a href="/pl/strona_glowna/gry-komputerowe/lol-lck">LoL LCK </a>
+					</li>
+<li id="action-29456">
+						<a href="/pl/strona_glowna/gry-komputerowe/lol-lpl">LoL LPL </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="F1" id="sport-44">
+				<a href="/pl/strona_glowna/f1?limit=100" class="js-sport-parent sport_title" rel="44">
+					<span class="icon sport motorsport">&nbsp;</span>
+F1</a>
+				<a href="/pl/strona_glowna/f1?limit=100" class="js-sport-toggler sports_menu_group" rel="44">&nbsp;</a>
+<ul>
+<li id="action-25309">
+						<a href="/pl/strona_glowna/f1/ms-zawodnikow-klas-konc-">MS zawodnikow-klas. konc. </a>
+					</li>
+<li id="action-25311">
+						<a href="/pl/strona_glowna/f1/puchar-konstruktorow-klas-konc-">Puchar konstruktorow-klas.konc. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Futbol ameryk." id="sport-29">
+				<a href="/pl/strona_glowna/futbol-amerykanski?limit=100" class="js-sport-parent sport_title" rel="29">
+					<span class="icon sport american_football">&nbsp;</span>
+Futbol ameryk.</a>
+				<a href="/pl/strona_glowna/futbol-amerykanski?limit=100" class="js-sport-toggler sports_menu_group" rel="29">&nbsp;</a>
+<ul>
+<li id="action-26257">
+						<a href="/pl/strona_glowna/futbol-amerykanski/cfl">CFL </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Futbol australijski" id="sport-396">
+				<a href="/pl/strona_glowna/futbol-australijski?limit=100" class="js-sport-parent sport_title" rel="396">
+					<span class="icon sport american_football">&nbsp;</span>
+Futbol australijski</a>
+				<a href="/pl/strona_glowna/futbol-australijski?limit=100" class="js-sport-toggler sports_menu_group" rel="396">&nbsp;</a>
+<ul>
+<li id="action-29503">
+						<a href="/pl/strona_glowna/futbol-australijski/afl">AFL </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Hokej na trawie" id="sport-192">
+				<a href="/pl/strona_glowna/hokej-na-trawie?limit=100" class="js-sport-parent sport_title" rel="192">
+					<span class="icon sport bandy">&nbsp;</span>
+Hokej na trawie</a>
+				<a href="/pl/strona_glowna/hokej-na-trawie?limit=100" class="js-sport-toggler sports_menu_group" rel="192">&nbsp;</a>
+<ul>
+<li id="action-21384">
+						<a href="/pl/strona_glowna/hokej-na-trawie/liga-swiatowa-mezczyzn">Liga Swiatowa - M. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Lekkoatletyka" id="sport-129">
+				<a href="/pl/strona_glowna/lekkoatletyka?limit=100" class="js-sport-parent sport_title" rel="129">
+					<span class="icon sport ">&nbsp;</span>
+Lekkoatletyka</a>
+				<a href="/pl/strona_glowna/lekkoatletyka?limit=100" class="js-sport-toggler sports_menu_group" rel="129">&nbsp;</a>
+<ul>
+<li id="action-5265">
+						<a href="/pl/strona_glowna/lekkoatletyka/rzut-oszczepem-kobiet-klasyfikacja-koncowa">rzut oszczepem K. kl.koncowa </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Lotki" id="sport-198">
+				<a href="/pl/strona_glowna/lotki?limit=100" class="js-sport-parent sport_title" rel="198">
+					<span class="icon sport darts">&nbsp;</span>
+Lotki</a>
+				<a href="/pl/strona_glowna/lotki?limit=100" class="js-sport-toggler sports_menu_group" rel="198">&nbsp;</a>
+<ul>
+<li id="action-11220">
+						<a href="/pl/strona_glowna/lotki/world-match-play">World Matchplay </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="MMA" id="sport-260">
+				<a href="/pl/strona_glowna/mma?limit=100" class="js-sport-parent sport_title" rel="260">
+					<span class="icon sport box">&nbsp;</span>
+MMA</a>
+				<a href="/pl/strona_glowna/mma?limit=100" class="js-sport-toggler sports_menu_group" rel="260">&nbsp;</a>
+<ul>
+<li id="action-33671">
+						<a href="/pl/strona_glowna/mma/oktagon-3">Oktagon 3 </a>
+					</li>
+<li id="action-26678">
+						<a href="/pl/strona_glowna/mma/ufc-fight-night">UFC FIGHT NIGHT </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Motocykle" id="sport-45">
+				<a href="/pl/strona_glowna/motocykle?limit=100" class="js-sport-parent sport_title" rel="45">
+					<span class="icon sport motorsport">&nbsp;</span>
+Motocykle</a>
+				<a href="/pl/strona_glowna/motocykle?limit=100" class="js-sport-toggler sports_menu_group" rel="45">&nbsp;</a>
+<ul>
+<li id="action-25793">
+						<a href="/pl/strona_glowna/motocykle/moto-gp-klas-konc-kto-lepszy">Moto GP klas.konc.-kto lepszy </a>
+					</li>
+<li id="action-25753">
+						<a href="/pl/strona_glowna/motocykle/moto-gp-klas-konc-">Moto GP klas.konc. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Rajd" id="sport-245">
+				<a href="/pl/strona_glowna/rajdy?limit=100" class="js-sport-parent sport_title" rel="245">
+					<span class="icon sport motorsport">&nbsp;</span>
+Rajd</a>
+				<a href="/pl/strona_glowna/rajdy?limit=100" class="js-sport-toggler sports_menu_group" rel="245">&nbsp;</a>
+<ul>
+<li id="action-13763">
+						<a href="/pl/strona_glowna/rajdy/wrc-koncowa-klasyfikacja">WRC konc.klas. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Rugby" id="sport-47">
+				<a href="/pl/strona_glowna/rugby?limit=100" class="js-sport-parent sport_title" rel="47">
+					<span class="icon sport rugby">&nbsp;</span>
+Rugby</a>
+				<a href="/pl/strona_glowna/rugby?limit=100" class="js-sport-toggler sports_menu_group" rel="47">&nbsp;</a>
+<ul>
+<li id="action-28849">
+						<a href="/pl/strona_glowna/rugby/super-rugby">Super Rugby </a>
+					</li>
+<li id="action-3646">
+						<a href="/pl/strona_glowna/rugby/nrl">NRL </a>
+					</li>
+<li id="action-3647">
+						<a href="/pl/strona_glowna/rugby/super-league">Super League </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Snooker" id="sport-189">
+				<a href="/pl/strona_glowna/snooker?limit=100" class="js-sport-parent sport_title" rel="189">
+					<span class="icon sport snooker">&nbsp;</span>
+Snooker</a>
+				<a href="/pl/strona_glowna/snooker?limit=100" class="js-sport-toggler sports_menu_group" rel="189">&nbsp;</a>
+<ul>
+<li id="action-33592">
+						<a href="/pl/strona_glowna/snooker/hong-kong-masters">Hong Kong Masters </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Zuzel" id="sport-183">
+				<a href="/pl/strona_glowna/zuzel?limit=100" class="js-sport-parent sport_title" rel="183">
+					<span class="icon sport motorsport">&nbsp;</span>
+Zuzel</a>
+				<a href="/pl/strona_glowna/zuzel?limit=100" class="js-sport-toggler sports_menu_group" rel="183">&nbsp;</a>
+<ul>
+<li id="action-18628">
+						<a href="/pl/strona_glowna/zuzel/ekstraliga-polska-koncowy-zwyciezca">Ekstraliga-zwycięzca </a>
+					</li>
+<li id="action-31962">
+						<a href="/pl/strona_glowna/zuzel/ekstraliga-polska-klas-koncowa-kto-lepszy">Ekstraliga Polska - klas.końcowa-kto lepszy </a>
+					</li>
+<li id="action-11905">
+						<a href="/pl/strona_glowna/zuzel/gp-koncowa-klasyfikacja">GP-konc.klasyfikacja  </a>
+					</li>
+<li id="action-14112">
+						<a href="/pl/strona_glowna/zuzel/gp-koncowa-klasyfikacja-kto-lepszy">GP-konc.klasyfikacja-kto lepszy </a>
+					</li>
+<li id="action-12100">
+						<a href="/pl/strona_glowna/zuzel/gp-wielkiej-brytanii-koncowa-klasyfikacja">GP W.Brytanii - konc.klas. </a>
+					</li>
+<li id="action-12105">
+						<a href="/pl/strona_glowna/zuzel/gp-wielkiej-brytanii-kto-lepszy">GP W.Brytanii - kto lepszy </a>
+					</li>
+<li id="action-26261">
+						<a href="/pl/strona_glowna/zuzel/imsj-zwyciezca">IMSJ zwyciezca </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="LEGIA WARSZAWA" id="sport-372">
+				<a href="/pl/strona_glowna/legia-warszawa?limit=100" class="js-sport-parent sport_title" rel="372">
+					<span class="icon sport legia_warszawa">&nbsp;</span>
+LEGIA WARSZAWA</a>
+				<a href="/pl/strona_glowna/legia-warszawa?limit=100" class="js-sport-toggler sports_menu_group" rel="372">&nbsp;</a>
+<ul>
+<li id="action-33583">
+						<a href="/pl/strona_glowna/legia-warszawa/ekstraklasa-sezon-2017-2018-klas-konc-">Ekstraklasa sezon 2017/2018 klas.konc. </a>
+					</li>
+<li id="action-33593">
+						<a href="/pl/strona_glowna/legia-warszawa/zaklady-specjalne-jakub-rzezniczak">Zakłady specjalne - Jakub Rzeźniczak </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="POLITYKA" id="sport-178">
+				<a href="/pl/strona_glowna/polityka?limit=100" class="js-sport-parent sport_title" rel="178">
+					<span class="icon sport politics">&nbsp;</span>
+POLITYKA</a>
+				<a href="/pl/strona_glowna/polityka?limit=100" class="js-sport-toggler sports_menu_group" rel="178">&nbsp;</a>
+<ul>
+<li id="action-31963">
+						<a href="/pl/strona_glowna/polityka/niemieckie-wybory-federalne-2017-zwycieska-partia">Niemieckie wybory federalne 2017-zwycieska partia </a>
+					</li>
+<li id="action-31664">
+						<a href="/pl/strona_glowna/polityka/usa-prezydent-donald-trump">USA-prezydent Donald Trump </a>
+					</li>
+<li id="action-32126">
+						<a href="/pl/strona_glowna/polityka/wybory-prezydenckie-w-usa-2020">Wybory prezydenckie w USA 2020 </a>
+					</li>
+<li id="action-31663">
+						<a href="/pl/strona_glowna/polityka/wybory-prezydenckie-w-rosji-2018">Wybory prezydenckie w Rosji 2018 </a>
+					</li>
+<li id="action-31035">
+						<a href="/pl/strona_glowna/polityka/wybory-prezydenckie-w-czechach-2018">Wybory prezydenckie w Czechach 2018 </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="CIEKAWE" id="sport-373">
+				<a href="/pl/strona_glowna/ciekawe?limit=100" class="js-sport-parent sport_title" rel="373">
+					<span class="icon sport expert">&nbsp;</span>
+CIEKAWE</a>
+				<a href="/pl/strona_glowna/ciekawe?limit=100" class="js-sport-toggler sports_menu_group" rel="373">&nbsp;</a>
+<ul>
+<li id="action-33624">
+						<a href="/pl/strona_glowna/ciekawe/wygra-ekstraklase-i-puchar-polski">Wygra Ekstraklasę i Puchar Polski </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+<li class="js-sport-menu-item closed" data-sport-title="Wyscigi powietrzne" id="sport-412">
+				<a href="/pl/strona_glowna/wyscigi-powietrzne?limit=100" class="js-sport-parent sport_title" rel="412">
+					<span class="icon sport motorsport">&nbsp;</span>
+Wyscigi powietrzne</a>
+				<a href="/pl/strona_glowna/wyscigi-powietrzne?limit=100" class="js-sport-toggler sports_menu_group" rel="412">&nbsp;</a>
+<ul>
+<li id="action-31584">
+						<a href="/pl/strona_glowna/wyscigi-powietrzne/red-bull-air-race-kazan-klas-konc-">Red Bull Air Race - Kazaň-klas.konc. </a>
+					</li>
+</ul>
+<div class="cleaner"></div>
+			</li>
+</ul>
+</div>
+<div class="box def nopadding">
+	<div class="body"><a href="http://www.livehelpnow.net/lhn/lcv.aspx?d=8711&amp;ms=&amp;zzwindow=8553&amp;lhnid=7531&amp;custom1=Niezalogowany+u%C5%BCytkownik&amp;custom2=&amp;custom3=https%3a%2f%2fwww.efortuna.pl%2fpl%2fstrona_glowna%2f&amp;time=11/9/2013%208:11:59%20PM" target="_blank">
+<img src="/public/55/36/18/634737_722037_callcenter.png" alt="Callcenter">
+</a>
+	</div>
+	<div class="clear"></div>
+</div></div><div id="main_content">
+					<div class="left w100">
+
+
+
+<div id="gtm-enhanced-ecommerce-list" data-type="sport-list" class="hidden"></div>
+
+
+<h1 class="hidden">Piłka nożna</h1>
+
+
+<div class="box nograd" id="betTableDateFilter">
+	<div class="body"><a href="/pl/strona_glowna/pilka-nozna?limit=100&amp;selectDates=1" class="filterLink">
+Wszystko</a>
+<a href="/pl/strona_glowna/pilka-nozna/2017-07-20?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0" class="filterLink">
+				Dzisiaj (20.7.)
+			</a>
+<a href="/pl/strona_glowna/pilka-nozna/2017-07-21?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0" class="filterLink">
+				Jutro (21.7.)
+			</a>
+<a href="/pl/strona_glowna/pilka-nozna/2017-07-22?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0" class="filterLink">
+				Sobota (22.7.)
+			</a>
+<a href="/pl/strona_glowna/pilka-nozna/2017-07-23?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0" class="filterLink">
+				Niedziela (23.7.)
+			</a>
+<a href="/pl/strona_glowna/pilka-nozna/2017-07-24?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0" class="filterLink">
+				Poniedziałek (24.7.)
+			</a>
+<a href="/pl/strona_glowna/pilka-nozna/2017-07-25?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0" class="filterLink">
+				Wtorek (25.7.)
+			</a>
+<a href="/pl/strona_glowna/pilka-nozna/2017-07-26?limit=100&amp;tickLeft=0&amp;selectDates=1&amp;tickRight=0" class="filterLink activeFilterLink">
+				Środa (26.7.)
+			</a>
+<div class="info-ids-toggler-holder">
+			<label for="info-ids-toggler">
+				<input type="checkbox" name="info-ids-toggler" id="info-ids-toggler">
+Pokaż numery info</label>
+		</div>
+		
+	</div>
+	<div class="clear"></div>
+</div>
+
+<div class="box def nopadding">
+	<div class="body">
+<div id="bet-table-holder-172" class="gradient_table">
+<div class="bet_table_top_box">	
+
+
+<a href="#" class="hidden right" id="betTable-172-1-filterCancel">
+Usuń filtr</a>
+<h3 class="bet_table_title">
+					<span class="icon sport football"></span>
+Pilka nozna | Liga Mistrzow
+<div class="bet_item_content_icons">
+								<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;tournamentid=1462" target="_blank" class="bet_table_icon bet_table_icon_holder bti_stats_betradar_summary" title="Tabela"></a>
+							</div>
+</h3>
+<div class="betTableFilterHolder" id="betTable-172-1-filterHolder">
+					<span class="sectionLink" style="display: none;">/pl/strona_glowna/pilka-nozna/liga-mistrzow?action=filter_by_subgame&amp;itemTypeId=</span>
+					<div class="visible-filter-items">
+						<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=0" rel="bet_table_holder-172-0" class="filterLink " id="btFilterLink-172-0">
+							<strong>wszystko</strong>
+						</a>
+
+					<span>
+						<span class="checkbox"><input type="checkbox" name="172-1" value="1" title="mecz"><span></span></span>
+							<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1" rel="bet_table_holder-172-1" class="filterLink  defaultFilterLink " title="mecz" id="btFilterLink-172-1">mecz</a>
+					</span>
+
+					<span>
+						<span class="checkbox"><input type="checkbox" name="172-10" value="10" title="awans"><span></span></span>
+							<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=10" rel="bet_table_holder-172-10" class="filterLink  " title="awans" id="btFilterLink-172-10">awans</a>
+					</span>
+
+					<span>
+						<span class="checkbox"><input type="checkbox" name="172-1990,1406,1407,1408,1409" value="1990,1406,1407,1408,1409" title="ilosc bramek"><span></span></span>
+							<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1990%2C1406%2C1407%2C1408%2C1409" rel="bet_table_holder-172-1990,1406,1407,1408,1409" class="filterLink  " title="ilosc bramek" id="btFilterLink-172-1990,1406,1407,1408,1409">ilosc bramek</a>
+					</span>
+
+					<span>
+						<span class="checkbox"><input type="checkbox" name="172-1968,1627,1969" value="1968,1627,1969" title="spotkanie/ilosc bramek"><span></span></span>
+							<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1968%2C1627%2C1969" rel="bet_table_holder-172-1968,1627,1969" class="filterLink  " title="spotkanie/ilosc bramek" id="btFilterLink-172-1968,1627,1969">spotkanie/ilosc bramek</a>
+					</span>
+
+					<span>
+						<span class="checkbox"><input type="checkbox" name="172-247" value="247" title="podwojna szansa"><span></span></span>
+							<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=247" rel="bet_table_holder-172-247" class="filterLink  " title="podwojna szansa" id="btFilterLink-172-247">podwojna szansa</a>
+					</span>
+
+					<span>
+						<span class="checkbox"><input type="checkbox" name="172-71" value="71" title="1.polowa"><span></span></span>
+							<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=71" rel="bet_table_holder-172-71" class="filterLink  " title="1.polowa" id="btFilterLink-172-71">1.polowa</a>
+					</span>
+</div> 
+<a href="/pl/strona_glowna/" class="more-items-link">
+							<span class="more">Więcej</span>
+							<span class="less" style="display: none">Mniej</span>
+						</a>
+						<div class="surplus-filter-items">
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1" value="1" title="mecz"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1" rel="bet_table_holder-172-1" class="filterLink" title="mecz" id="btFilterLink-172-1">mecz</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-10" value="10" title="awans"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=10" rel="bet_table_holder-172-10" class="filterLink" title="awans" id="btFilterLink-172-10">awans</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1990,1406,1407,1408,1409" value="1990,1406,1407,1408,1409" title="ilosc bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1990%2C1406%2C1407%2C1408%2C1409" rel="bet_table_holder-172-1990,1406,1407,1408,1409" class="filterLink" title="ilosc bramek" id="btFilterLink-172-1990,1406,1407,1408,1409">ilosc bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1968,1627,1969" value="1968,1627,1969" title="spotkanie/ilosc bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1968%2C1627%2C1969" rel="bet_table_holder-172-1968,1627,1969" class="filterLink" title="spotkanie/ilosc bramek" id="btFilterLink-172-1968,1627,1969">spotkanie/ilosc bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-247" value="247" title="podwojna szansa"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=247" rel="bet_table_holder-172-247" class="filterLink" title="podwojna szansa" id="btFilterLink-172-247">podwojna szansa</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-71" value="71" title="1.polowa"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=71" rel="bet_table_holder-172-71" class="filterLink" title="1.polowa" id="btFilterLink-172-71">1.polowa</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1445,1399,1400" value="1445,1399,1400" title="1.polowa ilosc bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1445%2C1399%2C1400" rel="bet_table_holder-172-1445,1399,1400" class="filterLink" title="1.polowa ilosc bramek" id="btFilterLink-172-1445,1399,1400">1.polowa ilosc bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-335" value="335" title="1.druzyna strz.gola"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=335" rel="bet_table_holder-172-335" class="filterLink" title="1.druzyna strz.gola" id="btFilterLink-172-335">1.druzyna strz.gola</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-336" value="336" title="2.druzyna strz.gola"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=336" rel="bet_table_holder-172-336" class="filterLink" title="2.druzyna strz.gola" id="btFilterLink-172-336">2.druzyna strz.gola</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-337" value="337" title="obie druzyny strz.gola"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=337" rel="bet_table_holder-172-337" class="filterLink" title="obie druzyny strz.gola" id="btFilterLink-172-337">obie druzyny strz.gola</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1637" value="1637" title="spotkanie/obie druzyny strz.gola"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1637" rel="bet_table_holder-172-1637" class="filterLink" title="spotkanie/obie druzyny strz.gola" id="btFilterLink-172-1637">spotkanie/obie druzyny strz...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-38" value="38" title="handicap 0:1"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=38" rel="bet_table_holder-172-38" class="filterLink" title="handicap 0:1" id="btFilterLink-172-38">handicap 0:1</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-37" value="37" title="handicap 1:0"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=37" rel="bet_table_holder-172-37" class="filterLink" title="handicap 1:0" id="btFilterLink-172-37">handicap 1:0</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-693" value="693" title="handicap 0:2"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=693" rel="bet_table_holder-172-693" class="filterLink" title="handicap 0:2" id="btFilterLink-172-693">handicap 0:2</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-694" value="694" title="handicap 2:0"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=694" rel="bet_table_holder-172-694" class="filterLink" title="handicap 2:0" id="btFilterLink-172-694">handicap 2:0</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1645" value="1645" title="handicap 0:3"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1645" rel="bet_table_holder-172-1645" class="filterLink" title="handicap 0:3" id="btFilterLink-172-1645">handicap 0:3</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1325" value="1325" title="spotkanie bez remisu"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1325" rel="bet_table_holder-172-1325" class="filterLink" title="spotkanie bez remisu" id="btFilterLink-172-1325">spotkanie bez remisu</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-8" value="8" title="1.polowa/koniec"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=8" rel="bet_table_holder-172-8" class="filterLink" title="1.polowa/koniec" id="btFilterLink-172-8">1.polowa/koniec</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1395,1397" value="1395,1397" title="1.druzyna zdobedzie bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1395%2C1397" rel="bet_table_holder-172-1395,1397" class="filterLink" title="1.druzyna zdobedzie bramek" id="btFilterLink-172-1395,1397">1.druzyna zdobedzie bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1396,1398" value="1396,1398" title="2.druzyna zdobedzie bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1396%2C1398" rel="bet_table_holder-172-1396,1398" class="filterLink" title="2.druzyna zdobedzie bramek" id="btFilterLink-172-1396,1398">2.druzyna zdobedzie bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-43" value="43" title="przedzial bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=43" rel="bet_table_holder-172-43" class="filterLink" title="przedzial bramek" id="btFilterLink-172-43">przedzial bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1321" value="1321" title="1.druzyna il.bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1321" rel="bet_table_holder-172-1321" class="filterLink" title="1.druzyna il.bramek" id="btFilterLink-172-1321">1.druzyna il.bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1322" value="1322" title="2.druzyna il.bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1322" rel="bet_table_holder-172-1322" class="filterLink" title="2.druzyna il.bramek" id="btFilterLink-172-1322">2.druzyna il.bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-24" value="24" title="1.bramka"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=24" rel="bet_table_holder-172-24" class="filterLink" title="1.bramka" id="btFilterLink-172-24">1.bramka</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1456" value="1456" title="1. bramka-minuta"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1456" rel="bet_table_holder-172-1456" class="filterLink" title="1. bramka-minuta" id="btFilterLink-172-1456">1. bramka-minuta</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-7" value="7" title="1.bramka-minuta"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=7" rel="bet_table_holder-172-7" class="filterLink" title="1.bramka-minuta" id="btFilterLink-172-7">1.bramka-minuta</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1638" value="1638" title="1.druzyna 1.bramka-minuta"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1638" rel="bet_table_holder-172-1638" class="filterLink" title="1.druzyna 1.bramka-minuta" id="btFilterLink-172-1638">1.druzyna 1.bramka-minuta</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1639" value="1639" title="2.druzyna 1.bramka-minuta"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1639" rel="bet_table_holder-172-1639" class="filterLink" title="2.druzyna 1.bramka-minuta" id="btFilterLink-172-1639">2.druzyna 1.bramka-minuta</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1417" value="1417" title="1.bramka/koniec"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1417" rel="bet_table_holder-172-1417" class="filterLink" title="1.bramka/koniec" id="btFilterLink-172-1417">1.bramka/koniec</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-17" value="17" title="2.polowa"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=17" rel="bet_table_holder-172-17" class="filterLink" title="2.polowa" id="btFilterLink-172-17">2.polowa</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1454,1402,1403" value="1454,1402,1403" title="2.polowa ilosc bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1454%2C1402%2C1403" rel="bet_table_holder-172-1454,1402,1403" class="filterLink" title="2.polowa ilosc bramek" id="btFilterLink-172-1454,1402,1403">2.polowa ilosc bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1636" value="1636" title="1.polowa/2.polowa"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1636" rel="bet_table_holder-172-1636" class="filterLink" title="1.polowa/2.polowa" id="btFilterLink-172-1636">1.polowa/2.polowa</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1312" value="1312" title="polowa z wieksza il.bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1312" rel="bet_table_holder-172-1312" class="filterLink" title="polowa z wieksza il.bramek" id="btFilterLink-172-1312">polowa z wieksza il.bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1642" value="1642" title="dokladna ilość bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1642" rel="bet_table_holder-172-1642" class="filterLink" title="dokladna ilość bramek" id="btFilterLink-172-1642">dokladna ilość bramek</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1640" value="1640" title="1.druzyna dokladna ilość bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1640" rel="bet_table_holder-172-1640" class="filterLink" title="1.druzyna dokladna ilość bramek" id="btFilterLink-172-1640">1.druzyna dokladna ilość br...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1641" value="1641" title="2.druzyna dokladna ilość bramek"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1641" rel="bet_table_holder-172-1641" class="filterLink" title="2.druzyna dokladna ilość bramek" id="btFilterLink-172-1641">2.druzyna dokladna ilość br...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-11,12,13" value="11,12,13" title="dokladny wynik"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=11%2C12%2C13" rel="bet_table_holder-172-11,12,13" class="filterLink" title="dokladny wynik" id="btFilterLink-172-11,12,13">dokladny wynik</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1324" value="1324" title="1.pol. dokladny wynik"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1324" rel="bet_table_holder-172-1324" class="filterLink" title="1.pol. dokladny wynik" id="btFilterLink-172-1324">1.pol. dokladny wynik</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1326" value="1326" title="2.pol. dokladny wynik"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1326" rel="bet_table_holder-172-1326" class="filterLink" title="2.pol. dokladny wynik" id="btFilterLink-172-1326">2.pol. dokladny wynik</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1451" value="1451" title="padnie bramka - minuta"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1451" rel="bet_table_holder-172-1451" class="filterLink" title="padnie bramka - minuta" id="btFilterLink-172-1451">padnie bramka - minuta</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1452" value="1452" title="nie padnie bramka - minuta"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1452" rel="bet_table_holder-172-1452" class="filterLink" title="nie padnie bramka - minuta" id="btFilterLink-172-1452">nie padnie bramka - minuta</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1466" value="1466" title="0-15 minuta spotkania"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1466" rel="bet_table_holder-172-1466" class="filterLink" title="0-15 minuta spotkania" id="btFilterLink-172-1466">0-15 minuta spotkania</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1467" value="1467" title="0-30 minuta spotkania"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1467" rel="bet_table_holder-172-1467" class="filterLink" title="0-30 minuta spotkania" id="btFilterLink-172-1467">0-30 minuta spotkania</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1468" value="1468" title="0-60 minuta spotkania"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1468" rel="bet_table_holder-172-1468" class="filterLink" title="0-60 minuta spotkania" id="btFilterLink-172-1468">0-60 minuta spotkania</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1470" value="1470" title="0-75 minuta spotkania"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1470" rel="bet_table_holder-172-1470" class="filterLink" title="0-75 minuta spotkania" id="btFilterLink-172-1470">0-75 minuta spotkania</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-702" value="702" title="1.druzyna strz.gola w obu pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=702" rel="bet_table_holder-172-702" class="filterLink" title="1.druzyna strz.gola w obu pol." id="btFilterLink-172-702">1.druzyna strz.gola w obu p...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-703" value="703" title="2.druzyna strz.gola w obu pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=703" rel="bet_table_holder-172-703" class="filterLink" title="2.druzyna strz.gola w obu pol." id="btFilterLink-172-703">2.druzyna strz.gola w obu p...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-338" value="338" title="1i2 druz.strz.gola w obu pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=338" rel="bet_table_holder-172-338" class="filterLink" title="1i2 druz.strz.gola w obu pol." id="btFilterLink-172-338">1i2 druz.strz.gola w obu po...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1544" value="1544" title="1. i 2. druzyna strzela gola w 1.pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1544" rel="bet_table_holder-172-1544" class="filterLink" title="1. i 2. druzyna strzela gola w 1.pol." id="btFilterLink-172-1544">1. i 2. druzyna strzela gol...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1545" value="1545" title="1. i 2. druzyna strzela gola w 2.pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1545" rel="bet_table_holder-172-1545" class="filterLink" title="1. i 2. druzyna strzela gola w 2.pol." id="btFilterLink-172-1545">1. i 2. druzyna strzela gol...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-339" value="339" title="1.druzyna strz.gola w 1.pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=339" rel="bet_table_holder-172-339" class="filterLink" title="1.druzyna strz.gola w 1.pol." id="btFilterLink-172-339">1.druzyna strz.gola w 1.pol...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-340" value="340" title="2.druzyna strz.gola w 1.pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=340" rel="bet_table_holder-172-340" class="filterLink" title="2.druzyna strz.gola w 1.pol." id="btFilterLink-172-340">2.druzyna strz.gola w 1.pol...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-576" value="576" title="1.druzyna strz.gola w 2.pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=576" rel="bet_table_holder-172-576" class="filterLink" title="1.druzyna strz.gola w 2.pol." id="btFilterLink-172-576">1.druzyna strz.gola w 2.pol...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-577" value="577" title="2.druzyna strz.gola w 2.pol."><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=577" rel="bet_table_holder-172-577" class="filterLink" title="2.druzyna strz.gola w 2.pol." id="btFilterLink-172-577">2.druzyna strz.gola w 2.pol...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1628" value="1628" title="1.druzyna wygra do zera"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1628" rel="bet_table_holder-172-1628" class="filterLink" title="1.druzyna wygra do zera" id="btFilterLink-172-1628">1.druzyna wygra do zera</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1629" value="1629" title="2.druzyna wygra do zera"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1629" rel="bet_table_holder-172-1629" class="filterLink" title="2.druzyna wygra do zera" id="btFilterLink-172-1629">2.druzyna wygra do zera</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1631" value="1631" title="1.druzyna wygra obie polowy"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1631" rel="bet_table_holder-172-1631" class="filterLink" title="1.druzyna wygra obie polowy" id="btFilterLink-172-1631">1.druzyna wygra obie polowy</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1634" value="1634" title="2.druzyna wygra obie polowy"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1634" rel="bet_table_holder-172-1634" class="filterLink" title="2.druzyna wygra obie polowy" id="btFilterLink-172-1634">2.druzyna wygra obie polowy</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1630" value="1630" title="1.druzyna wygra przynajmniej jedna polowe"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1630" rel="bet_table_holder-172-1630" class="filterLink" title="1.druzyna wygra przynajmniej jedna polowe" id="btFilterLink-172-1630">1.druzyna wygra przynajmnie...</a>
+							</span>
+
+<span>
+								<span class="checkbox"><input type="checkbox" name="172-1633" value="1633" title="2.druzyna wygra przynajmniej jedna polowe"><span></span></span>
+								<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1633" rel="bet_table_holder-172-1633" class="filterLink" title="2.druzyna wygra przynajmniej jedna polowe" id="btFilterLink-172-1633">2.druzyna wygra przynajmnie...</a>
+							</span>
+
+</div>
+					</div> 
+</div>
+<div class="bet_tables_holder" id="bth-172">
+<div class="bet_table_holder" id="bet_table_holder-172-1">
+
+
+<table class="bet_table last_table" id="betTable-172-1" cellspacing="0">
+<thead>
+<tr class="header-row">
+<th class="col_title_info" title="zakład na wynik spotkania">
+
+<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1&amp;order=name" class="bt_order_link" id="bth-172-order-name" rel="name">
+mecz</a>
+</th>
+	
+<th class="col_bet">
+<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1&amp;order=type1" class="bt_order_link" id="bth-172-order-1" rel="1" title="wygrana gospodarzy">
+1</a>
+</th>
+<th class="col_bet">
+<span title="remis">0</span>
+</th>
+<th class="col_bet">
+<a href="/pl/strona_glowna/pilka-nozna/liga-mistrzow/2017-07-26?action=filter_by_subgame&amp;itemTypeId=1&amp;order=type2" class="bt_order_link" id="bth-172-order-2" rel="2" title="wygrana gości">
+2</a>
+</th>
+<th class="col_bet">
+<span title="wygrana gospodarzy lub remis">10</span>
+</th>
+<th class="col_bet">
+<span title="wygrana gości lub remis">02</span>
+</th>
+<th class="col_bet">
+<span title="wygrana gospodarzy lub gości">12</span>
+</th>
+<th class="col_toggle">Więcej</th>
+<th class="col_date sorted_column">
+<span>data</span>
+</th>
+</tr></thead>
+<tbody>
+
+
+<tr id="bet-1392" data-id="14204696" class="toggable_row" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="FK Astana - Legia W." data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14204696">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1392" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-fk-astana---legia-w--14204696">FK Astana - Legia W. </a>
+<span id="id-1392" class="bet_item_info_id">1392</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14204696&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931324" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1392&amp;odds_id=44931324&amp;value=2.45" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1392&amp;odds_id=44931324&amp;value=2.45&amp;actionId=172" data-odd="44931324" data-info="1392" data-rate="2.45" data-main="true">
+							<div class="border_like"></div>
+2.45</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931325" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1392&amp;odds_id=44931325&amp;value=3.2" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1392&amp;odds_id=44931325&amp;value=3.2&amp;actionId=172" data-odd="44931325" data-info="1392" data-rate="3.2" data-main="true">
+							<div class="border_like"></div>
+3.2</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931326" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1392&amp;odds_id=44931326&amp;value=2.82" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1392&amp;odds_id=44931326&amp;value=2.82&amp;actionId=172" data-odd="44931326" data-info="1392" data-rate="2.82" data-main="true">
+							<div class="border_like"></div>
+2.82</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931327" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1392&amp;odds_id=44931327&amp;value=1.39" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1392&amp;odds_id=44931327&amp;value=1.39&amp;actionId=172" data-odd="44931327" data-info="1392" data-rate="1.39" data-main="true">
+							<div class="border_like"></div>
+1.39</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931328" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1392&amp;odds_id=44931328&amp;value=1.5" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1392&amp;odds_id=44931328&amp;value=1.5&amp;actionId=172" data-odd="44931328" data-info="1392" data-rate="1.5" data-main="true">
+							<div class="border_like"></div>
+1.5</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931329" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1392&amp;odds_id=44931329&amp;value=1.31" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1392&amp;odds_id=44931329&amp;value=1.31&amp;actionId=172" data-odd="44931329" data-info="1392" data-rate="1.31" data-main="true">
+							<div class="border_like"></div>
+1.31</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14204696" class="row_toggle toggle_bet_id-14204696" href="/pl/strona_glowna/pilka-nozna/2017-07-26-fk-astana---legia-w--14204696?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1392">
+					26.7.<br class="newline"><span class="inline"> </span>16:00
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1309" data-id="14181765" class="toggable_row odd" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="D.Kijow - YB Bern" data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14181765">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1309" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-d-kijow---yb-bern-14181765">D.Kijow - YB Bern </a>
+<span id="id-1309" class="bet_item_info_id">1309</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14181765&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857359" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1309&amp;odds_id=44857359&amp;value=1.52" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1309&amp;odds_id=44857359&amp;value=1.52&amp;actionId=172" data-odd="44857359" data-info="1309" data-rate="1.52" data-main="true">
+							<div class="border_like"></div>
+1.52</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857360" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1309&amp;odds_id=44857360&amp;value=3.8" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1309&amp;odds_id=44857360&amp;value=3.8&amp;actionId=172" data-odd="44857360" data-info="1309" data-rate="3.8" data-main="true">
+							<div class="border_like"></div>
+3.8</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857361" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1309&amp;odds_id=44857361&amp;value=6.2" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1309&amp;odds_id=44857361&amp;value=6.2&amp;actionId=172" data-odd="44857361" data-info="1309" data-rate="6.2" data-main="true">
+							<div class="border_like"></div>
+6.2</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857362" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1309&amp;odds_id=44857362&amp;value=1.09" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1309&amp;odds_id=44857362&amp;value=1.09&amp;actionId=172" data-odd="44857362" data-info="1309" data-rate="1.09" data-main="true">
+							<div class="border_like"></div>
+1.09</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857363" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1309&amp;odds_id=44857363&amp;value=2.36" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1309&amp;odds_id=44857363&amp;value=2.36&amp;actionId=172" data-odd="44857363" data-info="1309" data-rate="2.36" data-main="true">
+							<div class="border_like"></div>
+2.36</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857364" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1309&amp;odds_id=44857364&amp;value=1.22" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1309&amp;odds_id=44857364&amp;value=1.22&amp;actionId=172" data-odd="44857364" data-info="1309" data-rate="1.22" data-main="true">
+							<div class="border_like"></div>
+1.22</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14181765" class="row_toggle toggle_bet_id-14181765" href="/pl/strona_glowna/pilka-nozna/2017-07-26-d-kijow---yb-bern-14181765?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1309">
+					26.7.<br class="newline"><span class="inline"> </span>18:30
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1410" data-id="14204743" class="toggable_row" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="Salzburg - Rijeka" data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14204743">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1410" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-salzburg---rijeka-14204743">Salzburg - Rijeka </a>
+<span id="id-1410" class="bet_item_info_id">1410</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14204743&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931434" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1410&amp;odds_id=44931434&amp;value=1.5" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1410&amp;odds_id=44931434&amp;value=1.5&amp;actionId=172" data-odd="44931434" data-info="1410" data-rate="1.5" data-main="true">
+							<div class="border_like"></div>
+1.5</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931435" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1410&amp;odds_id=44931435&amp;value=4.2" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1410&amp;odds_id=44931435&amp;value=4.2&amp;actionId=172" data-odd="44931435" data-info="1410" data-rate="4.2" data-main="true">
+							<div class="border_like"></div>
+4.2</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931436" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1410&amp;odds_id=44931436&amp;value=5.9" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1410&amp;odds_id=44931436&amp;value=5.9&amp;actionId=172" data-odd="44931436" data-info="1410" data-rate="5.9" data-main="true">
+							<div class="border_like"></div>
+5.9</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931437" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1410&amp;odds_id=44931437&amp;value=1.11" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1410&amp;odds_id=44931437&amp;value=1.11&amp;actionId=172" data-odd="44931437" data-info="1410" data-rate="1.11" data-main="true">
+							<div class="border_like"></div>
+1.11</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931438" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1410&amp;odds_id=44931438&amp;value=2.45" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1410&amp;odds_id=44931438&amp;value=2.45&amp;actionId=172" data-odd="44931438" data-info="1410" data-rate="2.45" data-main="true">
+							<div class="border_like"></div>
+2.45</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931439" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1410&amp;odds_id=44931439&amp;value=1.2" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1410&amp;odds_id=44931439&amp;value=1.2&amp;actionId=172" data-odd="44931439" data-info="1410" data-rate="1.2" data-main="true">
+							<div class="border_like"></div>
+1.2</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14204743" class="row_toggle toggle_bet_id-14204743" href="/pl/strona_glowna/pilka-nozna/2017-07-26-salzburg---rijeka-14204743?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1410">
+					26.7.<br class="newline"><span class="inline"> </span>18:45
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1415" data-id="14204757" class="toggable_row odd" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="H.Beer Sheva - L.Razgrad" data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14204757">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1415" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-h-beer-sheva---l-razgrad-14204757">H.Beer Sheva - L.Razgrad </a>
+<span id="id-1415" class="bet_item_info_id">1415</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14204757&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931482" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1415&amp;odds_id=44931482&amp;value=2.1" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1415&amp;odds_id=44931482&amp;value=2.1&amp;actionId=172" data-odd="44931482" data-info="1415" data-rate="2.1" data-main="true">
+							<div class="border_like"></div>
+2.1</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931483" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1415&amp;odds_id=44931483&amp;value=3.2" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1415&amp;odds_id=44931483&amp;value=3.2&amp;actionId=172" data-odd="44931483" data-info="1415" data-rate="3.2" data-main="true">
+							<div class="border_like"></div>
+3.2</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931484" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1415&amp;odds_id=44931484&amp;value=3.5" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1415&amp;odds_id=44931484&amp;value=3.5&amp;actionId=172" data-odd="44931484" data-info="1415" data-rate="3.5" data-main="true">
+							<div class="border_like"></div>
+3.5</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931485" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1415&amp;odds_id=44931485&amp;value=1.27" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1415&amp;odds_id=44931485&amp;value=1.27&amp;actionId=172" data-odd="44931485" data-info="1415" data-rate="1.27" data-main="true">
+							<div class="border_like"></div>
+1.27</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931486" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1415&amp;odds_id=44931486&amp;value=1.67" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1415&amp;odds_id=44931486&amp;value=1.67&amp;actionId=172" data-odd="44931486" data-info="1415" data-rate="1.67" data-main="true">
+							<div class="border_like"></div>
+1.67</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931487" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1415&amp;odds_id=44931487&amp;value=1.31" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1415&amp;odds_id=44931487&amp;value=1.31&amp;actionId=172" data-odd="44931487" data-info="1415" data-rate="1.31" data-main="true">
+							<div class="border_like"></div>
+1.31</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14204757" class="row_toggle toggle_bet_id-14204757" href="/pl/strona_glowna/pilka-nozna/2017-07-26-h-beer-sheva---l-razgrad-14204757?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1415">
+					26.7.<br class="newline"><span class="inline"> </span>19:00
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1302" data-id="14204474" class="toggable_row" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="V.Constanta - Apoel Nik." data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14204474">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1302" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-v-constanta---apoel-nik--14204474">V.Constanta - Apoel Nik. </a>
+<span id="id-1302" class="bet_item_info_id">1302</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14204474&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44930832" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1302&amp;odds_id=44930832&amp;value=2.2" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1302&amp;odds_id=44930832&amp;value=2.2&amp;actionId=172" data-odd="44930832" data-info="1302" data-rate="2.2" data-main="true">
+							<div class="border_like"></div>
+2.2</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44930833" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1302&amp;odds_id=44930833&amp;value=3.2" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1302&amp;odds_id=44930833&amp;value=3.2&amp;actionId=172" data-odd="44930833" data-info="1302" data-rate="3.2" data-main="true">
+							<div class="border_like"></div>
+3.2</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44930834" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1302&amp;odds_id=44930834&amp;value=3.25" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1302&amp;odds_id=44930834&amp;value=3.25&amp;actionId=172" data-odd="44930834" data-info="1302" data-rate="3.25" data-main="true">
+							<div class="border_like"></div>
+3.25</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44930835" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1302&amp;odds_id=44930835&amp;value=1.3" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1302&amp;odds_id=44930835&amp;value=1.3&amp;actionId=172" data-odd="44930835" data-info="1302" data-rate="1.3" data-main="true">
+							<div class="border_like"></div>
+1.3</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44930836" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1302&amp;odds_id=44930836&amp;value=1.61" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1302&amp;odds_id=44930836&amp;value=1.61&amp;actionId=172" data-odd="44930836" data-info="1302" data-rate="1.61" data-main="true">
+							<div class="border_like"></div>
+1.61</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44930837" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1302&amp;odds_id=44930837&amp;value=1.31" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1302&amp;odds_id=44930837&amp;value=1.31&amp;actionId=172" data-odd="44930837" data-info="1302" data-rate="1.31" data-main="true">
+							<div class="border_like"></div>
+1.31</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14204474" class="row_toggle toggle_bet_id-14204474" href="/pl/strona_glowna/pilka-nozna/2017-07-26-v-constanta---apoel-nik--14204474?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1302">
+					26.7.<br class="newline"><span class="inline"> </span>20:00
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1419" data-id="14205129" class="toggable_row odd" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="Maribor - Hafnarfjordur" data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14205129">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1419" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-maribor---hafnarfjordur-14205129">Maribor - Hafnarfjordur </a>
+<span id="id-1419" class="bet_item_info_id">1419</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14205129&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44932368" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1419&amp;odds_id=44932368&amp;value=1.33" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1419&amp;odds_id=44932368&amp;value=1.33&amp;actionId=172" data-odd="44932368" data-info="1419" data-rate="1.33" data-main="true">
+							<div class="border_like"></div>
+1.33</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44932369" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1419&amp;odds_id=44932369&amp;value=4.8" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1419&amp;odds_id=44932369&amp;value=4.8&amp;actionId=172" data-odd="44932369" data-info="1419" data-rate="4.8" data-main="true">
+							<div class="border_like"></div>
+4.8</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44932370" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1419&amp;odds_id=44932370&amp;value=8.7" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1419&amp;odds_id=44932370&amp;value=8.7&amp;actionId=172" data-odd="44932370" data-info="1419" data-rate="8.7" data-main="true">
+							<div class="border_like"></div>
+8.7</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44932371" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1419&amp;odds_id=44932371&amp;value=1.04" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1419&amp;odds_id=44932371&amp;value=1.04&amp;actionId=172" data-odd="44932371" data-info="1419" data-rate="1.04" data-main="true">
+							<div class="border_like"></div>
+1.04</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44932372" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1419&amp;odds_id=44932372&amp;value=3.1" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1419&amp;odds_id=44932372&amp;value=3.1&amp;actionId=172" data-odd="44932372" data-info="1419" data-rate="3.1" data-main="true">
+							<div class="border_like"></div>
+3.1</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44932373" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1419&amp;odds_id=44932373&amp;value=1.15" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1419&amp;odds_id=44932373&amp;value=1.15&amp;actionId=172" data-odd="44932373" data-info="1419" data-rate="1.15" data-main="true">
+							<div class="border_like"></div>
+1.15</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14205129" class="row_toggle toggle_bet_id-14205129" href="/pl/strona_glowna/pilka-nozna/2017-07-26-maribor---hafnarfjordur-14205129?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>71</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1419">
+					26.7.<br class="newline"><span class="inline"> </span>20:20
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1316" data-id="14181766" class="toggable_row" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="Nice - Ajax" data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14181766">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1316" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-nice---ajax-14181766">Nice - Ajax </a>
+<span id="id-1316" class="bet_item_info_id">1316</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14181766&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857365" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1316&amp;odds_id=44857365&amp;value=2.25" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1316&amp;odds_id=44857365&amp;value=2.25&amp;actionId=172" data-odd="44857365" data-info="1316" data-rate="2.25" data-main="true">
+							<div class="border_like"></div>
+2.25</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857366" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1316&amp;odds_id=44857366&amp;value=3.25" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1316&amp;odds_id=44857366&amp;value=3.25&amp;actionId=172" data-odd="44857366" data-info="1316" data-rate="3.25" data-main="true">
+							<div class="border_like"></div>
+3.25</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857367" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1316&amp;odds_id=44857367&amp;value=3.1" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1316&amp;odds_id=44857367&amp;value=3.1&amp;actionId=172" data-odd="44857367" data-info="1316" data-rate="3.1" data-main="true">
+							<div class="border_like"></div>
+3.1</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857368" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1316&amp;odds_id=44857368&amp;value=1.33" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1316&amp;odds_id=44857368&amp;value=1.33&amp;actionId=172" data-odd="44857368" data-info="1316" data-rate="1.33" data-main="true">
+							<div class="border_like"></div>
+1.33</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857369" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1316&amp;odds_id=44857369&amp;value=1.59" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1316&amp;odds_id=44857369&amp;value=1.59&amp;actionId=172" data-odd="44857369" data-info="1316" data-rate="1.59" data-main="true">
+							<div class="border_like"></div>
+1.59</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857370" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1316&amp;odds_id=44857370&amp;value=1.3" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1316&amp;odds_id=44857370&amp;value=1.3&amp;actionId=172" data-odd="44857370" data-info="1316" data-rate="1.3" data-main="true">
+							<div class="border_like"></div>
+1.3</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14181766" class="row_toggle toggle_bet_id-14181766" href="/pl/strona_glowna/pilka-nozna/2017-07-26-nice---ajax-14181766?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1316">
+					26.7.<br class="newline"><span class="inline"> </span>20:45
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1416" data-id="14204897" class="toggable_row odd" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="Celtic - Ros.Trondheim" data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14204897">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1416" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-celtic---ros-trondheim-14204897">Celtic - Ros.Trondheim </a>
+<span id="id-1416" class="bet_item_info_id">1416</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14204897&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931843" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1416&amp;odds_id=44931843&amp;value=1.5" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1416&amp;odds_id=44931843&amp;value=1.5&amp;actionId=172" data-odd="44931843" data-info="1416" data-rate="1.5" data-main="true">
+							<div class="border_like"></div>
+1.5</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931844" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1416&amp;odds_id=44931844&amp;value=4.0" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1416&amp;odds_id=44931844&amp;value=4.0&amp;actionId=172" data-odd="44931844" data-info="1416" data-rate="4" data-main="true">
+							<div class="border_like"></div>
+4</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931845" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1416&amp;odds_id=44931845&amp;value=6.3" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1416&amp;odds_id=44931845&amp;value=6.3&amp;actionId=172" data-odd="44931845" data-info="1416" data-rate="6.3" data-main="true">
+							<div class="border_like"></div>
+6.3</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931846" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1416&amp;odds_id=44931846&amp;value=1.09" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1416&amp;odds_id=44931846&amp;value=1.09&amp;actionId=172" data-odd="44931846" data-info="1416" data-rate="1.09" data-main="true">
+							<div class="border_like"></div>
+1.09</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931847" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1416&amp;odds_id=44931847&amp;value=2.45" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1416&amp;odds_id=44931847&amp;value=2.45&amp;actionId=172" data-odd="44931847" data-info="1416" data-rate="2.45" data-main="true">
+							<div class="border_like"></div>
+2.45</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44931848" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1416&amp;odds_id=44931848&amp;value=1.21" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1416&amp;odds_id=44931848&amp;value=1.21&amp;actionId=172" data-odd="44931848" data-info="1416" data-rate="1.21" data-main="true">
+							<div class="border_like"></div>
+1.21</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14204897" class="row_toggle toggle_bet_id-14204897" href="/pl/strona_glowna/pilka-nozna/2017-07-26-celtic---ros-trondheim-14204897?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1416">
+					26.7.<br class="newline"><span class="inline"> </span>20:45
+				</span>
+			</td>
+</tr>
+
+
+<tr id="bet-1303" data-id="14181764" class="toggable_row" data-gtm-enhanced-ecommerce-sport="Pilka nozna" data-gtm-enhanced-ecommerce-league="Liga Mistrzow" data-gtm-enhanced-ecommerce-match="Club Brugge - Basaksehir" data-gtm-enhanced-ecommerce-variant="mecz" data-gtm-enhanced-ecommerce-id="14181764">
+<td class="col_title">
+				<div class="bet_item_content_text">
+					<span class="bet_item_main_text">
+						<a id="title-1303" class="bet_item_detail_href" href="/pl/strona_glowna/pilka-nozna/2017-07-26-club-brugge---basaksehir-14181764">Club Brugge - Basaksehir </a>
+<span id="id-1303" class="bet_item_info_id">1303</span>
+<span class="bet_item_subcontent">
+							<span class="matchComment">1. spotk.</span>
+<div class="bet_item_content_icons">
+<a href="http://stats.betradar.com/s4/?clientid=147&amp;language=pl&amp;clientmatchid=14181764&amp;treemenu=false" target="_blank" class="right betradar bet_table_icon bet_table_icon_holder bti_stats_betradar" title="Statystyki"></a>
+<div class="clear"></div>
+							</div>
+<span class="bet_item_content_icons_placer"><span style="width: 15px;">&nbsp;</span></span>
+</span>
+					</span>
+					<div class="clear"></div>
+				</div>
+			</td>
+	
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857353" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1303&amp;odds_id=44857353&amp;value=1.94" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1303&amp;odds_id=44857353&amp;value=1.94&amp;actionId=172" data-odd="44857353" data-info="1303" data-rate="1.94" data-main="true">
+							<div class="border_like"></div>
+1.94</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857354" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1303&amp;odds_id=44857354&amp;value=3.25" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1303&amp;odds_id=44857354&amp;value=3.25&amp;actionId=172" data-odd="44857354" data-info="1303" data-rate="3.25" data-main="true">
+							<div class="border_like"></div>
+3.25</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857355" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1303&amp;odds_id=44857355&amp;value=3.95" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1303&amp;odds_id=44857355&amp;value=3.95&amp;actionId=172" data-odd="44857355" data-info="1303" data-rate="3.95" data-main="true">
+							<div class="border_like"></div>
+3.95</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857356" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1303&amp;odds_id=44857356&amp;value=1.21" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1303&amp;odds_id=44857356&amp;value=1.21&amp;actionId=172" data-odd="44857356" data-info="1303" data-rate="1.21" data-main="true">
+							<div class="border_like"></div>
+1.21</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857357" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1303&amp;odds_id=44857357&amp;value=1.78" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1303&amp;odds_id=44857357&amp;value=1.78&amp;actionId=172" data-odd="44857357" data-info="1303" data-rate="1.78" data-main="true">
+							<div class="border_like"></div>
+1.78</a>
+</td>
+<td class="col_bet ">
+					<div class="left_border_fix"><div></div></div>
+<a class="add_bet_link betlink-44857358" href="/pl/strona_glowna/index$5335-addBet.html?info_id=1303&amp;odds_id=44857358&amp;value=1.3" data-ajax-url="/pl/strona_glowna/tiket_prematch/index$5335-addBet.xml?info_id=1303&amp;odds_id=44857358&amp;value=1.3&amp;actionId=172" data-odd="44857358" data-info="1303" data-rate="1.3" data-main="true">
+							<div class="border_like"></div>
+1.3</a>
+</td>
+<td class="col_toggle">
+					<div class="left_border_fix"><div></div></div>
+<a id="toggler-id-14181764" class="row_toggle toggle_bet_id-14181764" href="/pl/strona_glowna/pilka-nozna/2017-07-26-club-brugge---basaksehir-14181764?action=expand_bet_table"><div class="border_like"></div><span class="plus">+</span><span class="minus">-</span>70</a>
+</td>
+<td class="col_date sorted_column">
+				<div class="left_border_fix"><div></div></div>
+				<span id="datetime-1303">
+					26.7.<br class="newline"><span class="inline"> </span>21:00
+				</span>
+			</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+	</div>
+	<div class="clear"></div>
+</div><span id="load_tables_end" class="hidden">&nbsp;</span>
+<div id="nextBetTablesLoad-100"></div>
+
+<div class="box def print" id="print-load-not-complete">
+	<div class="body"><div class="acenter white">
+		<h3>BET_TABLES_NOT_FULLY_LOADED</h3>
+	</div>
+	</div>
+	<div class="clear"></div>
+</div><div id="bets_loader" class="hidden">
+<input type="hidden" id="bet_load_url" value="/pl/strona_glowna/pilka-nozna/2017-07-26?limit=100&amp;selectDates=1">
+<input type="hidden" id="load_start_value" rel="test" value="100">
+<script type="text/javascript">
+	document.getElementById( 'load_start_value' ).value = '100';
+</script>
+	
+<div class="box def">
+	<div class="body"><div class="acenter white">
+			<h3>Wczytywanie oferty kursowej</h3>
+			<img src="/public/c8/a/37/2782_5_loading.gif" alt="" width="220" height="19">
+		</div>
+	</div>
+	<div class="clear"></div>
+</div></div>
+
+<script type="text/javascript">
+	YAHOO.util.Event.on( window, 'scroll', function(){
+		var loadEnd = document.getElementById( 'load_tables_end' );
+		if( !loadEnd) {
+
+			FORTUNA.UI.enhanceLoader( 100, 'tables_by_sport' );
+		}
+		if (loadEnd) {
+			YAHOO.util.Dom.addClass('print-load-not-complete', 'hidden')
+		}
+	}, FORTUNA.UI, true )
+</script></div>
+				</div>
+
+
+
+
+<div id="footer">
+	<div class="footer-logos overflow">
+<div class="footer-support">
+	<h3></h3>
+<!--                                                                                         /
+690906	 cracovia cracovia	
+690904	 azs_czestochowa azs _ czestochowa	
+690908	 legia_warszawa legia _ warszawa
+/                                                                                         -->
+
+<div id="partnerzy">
+ <h3>Nasi partnerzy</h3>
+ <a href="http://www.1liga.org/" target="_blank"><img style="margin-right:50px;" src="/public/cf/23/2e/754675_1282077__1liga.png" alt="1 liga"></a>
+ <a href="http://legia.com/" target="_blank"><img style="margin-right:50px;" src="/public/4c/38/8e/690909_1069589_legia.png" alt="Legia Warszawa"></a>
+ <a href="http://www.gkskatowice.eu/" target="_blank"><img style="margin-right:50px;" src="/public/95/fb/d9/738493_1193050_GKS_KATOWICE_LOGO.png" alt="GKS Katowice"></a>
+ <a href="http://tspodbeskidzie.pl/" target="_blank"><img style="margin-right:50px;" src="/public/3a/7f/3e/738631_1194002_podbeskiedzie.png" alt="TS Podbeskidzie Bielsko-Biała"></a>
+ <a href="http://zaglebie.eu/" target="_blank"><img style="margin-right:50px;" src="/public/54/5d/e2/756194_1290941_zaglebie_partnerzy.png" alt="Zagłębie Sosnowiec"></a>
+ <a href="http://playarena.pl/" target="_blank"><img style="margin-right:50px;" src="/public/cf/e7/d5/732679_1166661_pa_www.png" alt="PlayArena"></a>
+</div>
+
+
+<div id="banki">
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_card"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_payu"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_bph"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_alior"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_bgz"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_bos"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_bps"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_deutsche"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_eurobank"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_fm"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_fortis"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_getin"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_ing"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_inteligo"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_lukas"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_mbank"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_meritum"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_millenium"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_multibank"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_pekao"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_pko"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_raiffeisen"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_sgb"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_sync"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_toyota"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_vw"></div></a>
+ <a href="/pl/profil_uzytkownika/sazeni/doladowanie_konta/index.html"><div id="logo_wbk"></div></a>
+</div>
+
+<div style="margin-bottom:200px;"></div></div><div class="footer-paymethods">
+</div>
+	</div>
+
+
+<div class="footer-links display-box">
+	<div class="links-block db-flex-1">
+		<div class="footer-contact">
+
+<h3 id="ct_heading">Kontrola kuponu</h3>
+<form action="/pl/strona_glowna/nahled_tiketu/index$5335-controlTicket.html" method="get" class="controlTicket skipCheck" onsubmit="return FORTUNA.UI.controlTicket(this);" id="footer-control-ticket">
+	<div class="control-ticket">
+		<div class="top">
+			<div class="control-ticket-input-holder">
+				<div class="info">&nbsp;
+</div>
+				<label for="ct_ticket_id" class="hidden">Numer kuponu</label>
+				<input type="text" name="control_ticket_id" id="ct_ticket_id" class="ticket_id valueToggle text required numbers" placeholder="Numer kuponu">
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="row">
+				<div class="cell">
+					<div class="control-ticket-input-holder">
+						<div class="info">&nbsp;
+</div>
+						<label for="ct_protection_code" class="hidden">Kod kontrolny kuponu</label>
+						<input type="text" name="protection_code" id="ct_protection_code" class="protection_code valueToggle text required numbers" placeholder="Kod kontrolny kuponu">
+					</div>
+				</div>
+				<div class="cell">
+<button type="submit" class="">
+Sprawdź</button></div>
+			</div>
+		</div>
+	</div>
+</form></div>
+	</div>
+
+<div class="links-block db-flex-1 first">
+			<div>
+<div style="width: 49%; float: left;">
+ <h3>Oferta</h3>
+ <ul style="padding: 0; margin: 0; font-size: 85%;">
+  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/">Zakłady bukmacherskie</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/zaklady_internetowe/index.html">Zakłady internetowe</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/zaklady_live/index.html">Zakłady LIVE</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/mobile/index.html">Zakłady Mobile</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/produkty/index.html">Nasze produkty</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/rejestracja/bonus/index.html">Bonus dla nowych graczy</a></li>
+ </ul>
+</div>
+
+<div style="width: 48%; float: right;">
+ <h3>Sport</h3>
+ <ul style="padding: 0; margin: 0; font-size: 85%;">
+  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/pilka-nozna?limit=100">Zakłady na piłkę nożną</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/serwis_sportowy/liga_mistrzow/index.html">Liga Mistrzów</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/serwis_sportowy/liga_europy/index.html">Liga Europy</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/tenis-mezczyzn?limit=100">ATP tenis</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/tenis-kobiet?limit=100">WTA tenis</a></li>
+  </ul>
+</div></div>
+		</div>
+<div class="links-block db-flex-1">
+			<div>
+<div style="width: 49%; float: left;">
+ <h3>O firmie</h3>
+ <ul style="padding: 0; margin: 0; font-size: 85%;">
+  <!--                         <li style="list-style: none; list-style-type: none;"><a target="_blank" href="jnpx:x-pl">Press</a></li>                         -->
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/o_firmie/index.html">O firmie</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/o_firmie/sponsoring.html">Sponsoring</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/serwis_punktow/punkty_sprzedazy_tygodnika/index.html">Punkty sprzedaży</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/serwis_punktow/aktualne_promocje/index.html">Promocje w punktach</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/praca_w_fortunie/index.html">Praca w Fortunie</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/produkty/dziennik.html">Dziennik Fortuna</a></li>
+  <li style="list-style: none; list-style-type: none;"><a style="color:white;" href="/pl/serwis_punktow/zostan_partnerem/index.html">ZOSTAŃ PARTNEREM</a></li>
+<li style="list-style: none; list-style-type: none;"><a style="color:white;" href="/pl/strona_glowna/wiadomosci/legalny_bukmacher.html">LEGALNY BUKMACHER</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/o_firmie/polityka_prywatnosci.html">Polityka cookies</a></li>
+  <!--                           <li style="list-style: none; list-style-type: none;"><a title="Legalny bukmacher" rel="shadowbox; width=700" target="_blank" href="/public/27/95/94/528846_458889_certyfikat_duzy.PNG">Legalny bukmacher</a></li>                  -->
+ </ul>
+</div>
+
+<div style="width: 48%; float: right;">
+ <h3>Pomoc</h3>
+ <ul style="padding: 0; margin: 0; font-size: 85%;">
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/pomoc/index.html" target="_blank">Pomoc i FAQ</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/pomoc/tutoriale/index.html" target="_blank">Tutoriale</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/regulamin/index.html">Regulamin</a></li>
+  <li style="list-style: none; list-style-type: none;"><a target="_blank" href="http://www.livehelpnow.net/lhn/lc.aspx?d=8711&amp;zzwindow=8553&amp;lhnid=7531&amp;custom1=Niezalogowany+u%C5%BCytkownik&amp;custom2=&amp;custom3=https%3a%2f%2fwww.efortuna.pl%2fpl%2fstrona_glowna%2f&amp;time=11/12/2013%204:43:39%20AM">Wsparcie online</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/download/download.html">Pliki do pobrania</a></li>
+  <li style="list-style: none; list-style-type: none;"><a href="/pl/zapomniales_hasla/index.html">Zapomniałem hasło</a></li>
+  <li style="list-style: none; list-style-type: none;">&nbsp;</li>
+ </ul>
+</div></div>
+		</div>
+<div class="links-block db-flex-1 last">
+			<div>
+
+	<h3>Graj przez</h3>
+<style>
+#pelnoletni2{width:30px;height:30px;background-image:url(https://www.efortuna.pl/public/95/2/a5/522583_726017__18_maly.png);background-position: center top;background-repeat:none; cursor:pointer;float:right;}
+#pelnoletni2:hover{background-position: 0px -29px;}
+</style>
+
+<p class="overflow footer_products">
+<a href="/pl/strona_glowna/" title="Online">&nbsp;</a>
+<a href="/pl/strona_glowna/mobile/index.html" title="Mobile" class="mobil">&nbsp;</a>
+<a href="/pl/serwis_punktow/punkty_sprzedazy_tygodnika/index.html" title="W punkcie" class="branch">&nbsp;</a>
+</p>
+
+<h3>Kontakt</h3>
+<p class="overflow footer_comunication">
+<a href="/pl/kontakt/form/index.html" title="Formularz kontaktowy"></a>
+<a href="http://www.facebook.com/eFortunaPL" title="facebook" class="facebook" target="_blank"></a>
+<a href="https://twitter.com/eFortunapl" title="twitter" class="twitter" target="_blank"></a>
+<a href="https://www.youtube.com/channel/UC26sPSWzqKbQX8x0tirGVOA" title="YouTube" class="youtube" target="_blank"></a>
+<a href="#" id="pelnoletni2" title="Zakaz wstępu na stronę internetową i uczestnictwa w grze hazardowej dla osób poniżej 18 roku życia."></a>
+</p></div>
+		</div>
+</div><div>
+<p class="copywright right">
+<a href="http://www.ifortuna.cz" title="Vaše internetová sázková kancelář | FORTUNA GAME a.s.">
+		ifortuna.cz
+		</a>
+		| 
+		<a href="http://www.ifortuna.sk" title="FORTUNA SK, a.s.">
+		ifortuna.sk
+		</a>
+		| 
+		
+Wersja mobilna:
+<a href="http://gm.efortuna.pl">
+gm.efortuna.pl</a>
+</p>
+<p class="copywright left">
+	© 2009 - 2017 Fortuna online zakłady bukmacherskie Sp. z o.o.
+</p>
+<p class="copywright middle">
+Zakaz uczestnictwa w grze hazardowej dla osób poniżej 18 roku życia. Hazard stwarza wysokie ryzyko straty finansowej. Nadmierna gra niesie ze sobą potencjalne zagrożenie dla zdrowia.</p>
+
+
+<div class="cleaner"></div>
+<p class="copywright etnetera right">
+	<a href="http://www.etnetera.cz" target="_blank">Etnetera</a> — <a href="http://www.etnetera.cz/co-delame/klientske-portaly" target="_blank">jNetPublish</a>
+</p>
+<div class="cleaner"></div>
+
+</div>
+</div>
+<code class="hidden" id="uniTime">1500587177022</code>
+</div>
+		<div class="clear"></div>
+	</div>
+
+<div id="loading_overlay" class="invisible"></div>
+<div id="dialog_overlay" class="invisible"></div>
+<div id="dialog_overlay_content" class="invisible dialog_overlay_content"></div>
+
+
+
+<script>(function() {
+	var _fbq = window._fbq || (window._fbq = []);
+	if (!_fbq.loaded) {
+		var fbds = document.createElement('script');
+		fbds.async = true;
+		fbds.src = '//connect.facebook.net/en_US/fbds.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(fbds, s); _fbq.loaded = true;
+	}
+		 	window._fbq.push(['addPixelId', '324488694380476']);
+	})();
+	window._fbq = window._fbq || [];
+			window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+	<noscript>
+&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=324488694380476&amp;amp;amp;ev=PixelInitialized" /&gt;
+</noscript>
+	
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0020/9365.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script><!-- monitoring
+		__ETN_.O.K.__
+	// monitoring -->
+
+
+<div id="shadowbox_overlay"></div><div id="shadowbox_container"><div id="shadowbox"><div id="shadowbox_title"><div id="shadowbox_title_inner"></div></div><div id="shadowbox_body"><div id="shadowbox_body_inner"></div><div id="shadowbox_loading"></div></div><div id="shadowbox_toolbar"><div id="shadowbox_toolbar_inner"></div></div></div></div><script type="text/javascript" id="">setTimeout(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0053/2765.js?"+Math.floor((new Date).getTime()/36E5);a.async=!0;a.type="text/javascript";b.parentNode.insertBefore(a,b)},1);</script><div class="betLink-tooltip hidden"><div class="betLink-tooltip-ticket">1</div><div class="betLink-tooltip-ticket">2</div><div class="betLink-tooltip-ticket">3</div><div class="betLink-tooltip-ticket">4</div></div><div id="surplus-items-dialog" class="invisible"></div><div id="dysegdiv" data-id="8767478:def:"></div></body></html>

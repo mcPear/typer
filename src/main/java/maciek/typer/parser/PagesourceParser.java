@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 /**
  * Created by maciej on 12.07.17.
  */
-@Component
+//@Component
 public class PagesourceParser implements CommandLineRunner{
 
     private String TR = "<tr";
