@@ -1,4 +1,4 @@
-package maciek.typer.statistics;
+package maciek.typer.statistics.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

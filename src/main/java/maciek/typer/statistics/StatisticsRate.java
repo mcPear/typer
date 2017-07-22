@@ -3,6 +3,9 @@ package maciek.typer.statistics;
 import maciek.typer.graph.BarChart;
 import maciek.typer.model.FootballMatch;
 import maciek.typer.repository.FootballMatchRepository;
+import maciek.typer.statistics.model.PosLOpponent;
+import maciek.typer.statistics.model.RateModel;
+import maciek.typer.statistics.model.RatePosition;
 import org.apache.log4j.Logger;
 import org.jfree.ui.RefineryUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,16 +20,16 @@ import java.util.List;
  * Created by maciej on 21.07.17.
  */
 @Component
-public class Statistics implements CommandLineRunner{
+public class StatisticsRate implements CommandLineRunner{
 
-    private Logger log = Logger.getLogger(Statistics.class.getName());
+    private Logger log = Logger.getLogger(StatisticsRate.class.getName());
 
     @Autowired
     private FootballMatchRepository repo;
 
     @Override
     public void run(String... strings) throws Exception {
-        //printRates();
+        printRates();
         printChart();
     }
 
@@ -37,7 +40,7 @@ public class Statistics implements CommandLineRunner{
     }
 
     private void printChart(){
-        BarChart chart = new BarChart("Typer", "Rates", loadRateStats());
+        BarChart chart = new BarChart("Typer", "Rates", loadRateStats(), 25);
         chart.pack( );
         RefineryUtilities.centerFrameOnScreen( chart );
         chart.setVisible( true );
@@ -77,16 +80,19 @@ public class Statistics implements CommandLineRunner{
                posL.incrementWins();
                pos0.incrementLosings();
                posG.incrementLosings();
+               posL.getPosLOpponents().add(new PosLOpponent(rateG, rate0, true));
             }
             else if(winnerRate.equals(rate0)){
                 posL.incrementLosings();
                 pos0.incrementWins();
                 posG.incrementLosings();
+                posL.getPosLOpponents().add(new PosLOpponent(rateG, rate0, false));
             }
             else if(winnerRate.equals(rateG)){
                 posL.incrementLosings();
                 pos0.incrementLosings();
                 posG.incrementWins();
+                posL.getPosLOpponents().add(new PosLOpponent(rateG, rate0, false));
             }
         }
         return rates;

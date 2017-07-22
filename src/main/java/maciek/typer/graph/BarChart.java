@@ -1,6 +1,6 @@
 package maciek.typer.graph;
 
-import maciek.typer.statistics.RateModel;
+import maciek.typer.statistics.model.RateModel;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -8,9 +8,6 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.ui.ApplicationFrame;
-import org.jfree.ui.RefineryUtilities;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -19,13 +16,13 @@ import java.util.List;
  */
 public class BarChart extends ApplicationFrame{
 
-    public BarChart(String applicationTitle, String chartTitle, List<RateModel> rateModels) {
+    public BarChart(String applicationTitle, String chartTitle, List<RateModel> rateModels, int rateCountLimit) {
         super(applicationTitle);
         JFreeChart barChart = ChartFactory.createBarChart(
                 chartTitle,
-                "Position <x>",
+                "PositionL",
                 "Percent of wins",
-                createDataset(rateModels, 'x'),
+                createDataset(rateModels, rateCountLimit),
                 PlotOrientation.VERTICAL,
                 true, true, false);
 
@@ -34,7 +31,7 @@ public class BarChart extends ApplicationFrame{
         setContentPane(chartPanel);
     }
 
-    private CategoryDataset createDataset(List<RateModel> rateModels, char position) {
+    private CategoryDataset createDataset(List<RateModel> rateModels, int rateCountLimit) {
         /*final String rateRow = "F";
         final String audi = "AUDI";
         final String ford = "FORD";
@@ -61,7 +58,7 @@ public class BarChart extends ApplicationFrame{
         final DefaultCategoryDataset dataset =
                 new DefaultCategoryDataset();
 
-        for(int i=0; i<25; i++){
+        for(int i=0; i<rateCountLimit; i++){
             double percentOfWins = rateModels.get(i).getPositionL().getWinsPercent();
             String rateVal = rateModels.get(i).getRateValue().toString();
             dataset.addValue(percentOfWins, rateVal, columnRatePercent);
