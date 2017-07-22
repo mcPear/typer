@@ -13,5 +13,7 @@ import java.util.List;
 @Repository
 public interface FootballMatchRepository extends JpaRepository<FootballMatch, Long> {
     List<FootballMatch> findByIdData(Long idData);
+    List<FootballMatch> findByResultIsNotNull();
+
 }
 

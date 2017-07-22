@@ -1,4 +1,4 @@
-package maciek.typer;
+package maciek.typer.unused;
 
 /**
  * Created by maciej on 11.07.17.

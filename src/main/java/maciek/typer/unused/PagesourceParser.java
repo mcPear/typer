@@ -1,4 +1,4 @@
-package maciek.typer.parser;
+package maciek.typer.unused;
 
 import maciek.typer.model.FootballMatch;
 import maciek.typer.repository.FootballMatchRepository;

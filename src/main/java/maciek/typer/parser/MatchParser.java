@@ -23,7 +23,7 @@ import static javafx.beans.binding.Bindings.select;
 /**
  * Created by maciej on 15.07.17.
  */
-@Component
+//@Component
 public class MatchParser implements CommandLineRunner{
 
     @Autowired
@@ -34,13 +34,13 @@ public class MatchParser implements CommandLineRunner{
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-07-15";
+        String dateStr = "2017-07-26";
 
         Document doc = Jsoup.parse(new File("pagesources/pagesource"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");
 
         matches = matches.stream().filter(m -> m.hasAttr("id")
-                && m.className().equals("toggable_row odd")
+                && (m.className().equals("toggable_row odd") || m.className().equals("toggable_row"))
                 && "mecz".equals(m.attr("data-gtm-enhanced-ecommerce-variant"))).
                 collect(Collectors.toCollection(Elements::new));
         for(Element match : matches){
