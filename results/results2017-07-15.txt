@@ -4,7 +4,7 @@ DEBUG INFO:
 
 --><head>
 
-<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script src="https://script.crazyegg.com/pages/scripts/0053/2765.js?416828" async="" type="text/javascript"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://dnn506yrbagrg.cloudfront.net/pages/scripts/0020/9365.js?416828" async="" type="text/javascript"></script><script async="" src="//connect.facebook.net/en_US/fbds.js"></script><script src="https://static.dynamicyield.com/scripts/12260/dy-coll-min.js" type="text/javascript" async="true"></script><script async="" src="https://stats.g.doubleclick.net/dc.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-T9G6GW6"></script><script type="text/javascript">window.__clientRenderStart=new Date();</script>
+<script position="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script src="https://script.crazyegg.com/pages/scripts/0053/2765.js?416828" async="" position="text/javascript"></script><script position="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://dnn506yrbagrg.cloudfront.net/pages/scripts/0020/9365.js?416828" async="" position="text/javascript"></script><script async="" src="//connect.facebook.net/en_US/fbds.js"></script><script src="https://static.dynamicyield.com/scripts/12260/dy-coll-min.js" position="text/javascript" async="true"></script><script async="" src="https://stats.g.doubleclick.net/dc.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-T9G6GW6"></script><script position="text/javascript">window.__clientRenderStart=new Date();</script>
 
 	<title>
 
@@ -14,7 +14,7 @@ Fortuna Online</title>
 
 
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-position" content="text/html; charset=utf-8">
 	<meta name="google-site-verification" content="oPYhFxW0d5U7SDdF_dLiFDNbJuxAX5FcC752MW2Xb3M">
 <meta name="google-site-verification" content="EhFsM8p2EFFaYHu6rSVc7ej2U0B3BNMh6076aFX77zI">
 
@@ -36,24 +36,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-<link rel="stylesheet" type="text/css" media="screen" href="/static/3600-1-PUB/pl/resources/css-fonts_css.css?_linkv=1500579686292">
-<link rel="stylesheet" type="text/css" href="/static/3600-1-PUB/pl/resources/css_bundle.css?_linkv=1500579686292" media="screen">
-	<link rel="stylesheet" type="text/css" href="/static/3600-1-PUB/pl/resources/css_bundle_print.css?_linkv=1500579686292" media="print">
-<link href="/static/3600-1-PUB/pl/resources/css-by_section-results_css.css?_linkv=1500579686292" rel="stylesheet" media="screen"><link rel="stylesheet" href="/js/libs/shadowbox/build/css/shadowbox.css" type="text/css" media="screen">
+<link rel="stylesheet" position="text/css" media="screen" href="/static/3600-1-PUB/pl/resources/css-fonts_css.css?_linkv=1500579686292">
+<link rel="stylesheet" position="text/css" href="/static/3600-1-PUB/pl/resources/css_bundle.css?_linkv=1500579686292" media="screen">
+	<link rel="stylesheet" position="text/css" href="/static/3600-1-PUB/pl/resources/css_bundle_print.css?_linkv=1500579686292" media="print">
+<link href="/static/3600-1-PUB/pl/resources/css-by_section-results_css.css?_linkv=1500579686292" rel="stylesheet" media="screen"><link rel="stylesheet" href="/js/libs/shadowbox/build/css/shadowbox.css" position="text/css" media="screen">
 
 <!--[if lt IE 8]><link media="screen" href="/static/3600-1-PUB/pl/resources/css-fortuna_iefix_css.css" rel="stylesheet" /><![endif]-->
 <!--[if IE 6]><link media="screen" href="/static/3600-1-PUB/pl/resources/css-fortuna_ie6fix_css.css" rel="stylesheet" /><![endif]-->
 
 
-<link rel="shortcut icon" type="image/x-icon" href="/public/b5/60/37/5784_722163_favicon_new.ico">
+<link rel="shortcut icon" position="image/x-icon" href="/public/b5/60/37/5784_722163_favicon_new.ico">
 
-<script type="text/javascript">
+<script position="text/javascript">
 	var _gaCVars = [];
 	_gaCVars.push([2, "ticket", "js", 3]);
 	_gaCVars.push([5, "logged", "0", 2]);
 
 </script>
-<script type="text/javascript" src="/public/6f/c2/2/24876_1234108_ga_set_packed.js"></script>
+<script position="text/javascript" src="/public/6f/c2/2/24876_1234108_ga_set_packed.js"></script>
 
 <!--[if lte IE 8]>
 <script src="/public/21/b5/b9/637268_726840_respond.ie.js"></script>
@@ -64,7 +64,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="/static/3600-1-PUB/pl/resources/js-fortuna_conf.js?_linkv=1500579686292"></script>
 <script src="/static/3600-1-PUB/pl/resources/js_bundle.js?_linkv=1500579686292"></script>
 
-<script type="text/javascript">
+<script position="text/javascript">
     YAHOO.util.Event.onDOMReady(function() {
         var commands = {
             reload: _reloadPage
@@ -125,12 +125,12 @@ function _reloadPage () {
     window.location.reload();
 }
     });
-</script><script src="/static/3600-1-PUB/pl/resources/js-by_section-results_js.js?_linkv=1500579686292" type="text/javascript"></script>
+</script><script src="/static/3600-1-PUB/pl/resources/js-by_section-results_js.js?_linkv=1500579686292" position="text/javascript"></script>
 <script src="https://zz.connextra.com/dcs/tagController/tag/ee6b121d4748/misc_pl" async="" defer=""></script>
-<script type="text/javascript" src="//cdn.dynamicyield.com/api/8767478/api_dynamic.js"></script>
-<script type="text/javascript" src="//cdn.dynamicyield.com/api/8767478/api_static.js"></script><style id="dy-common-style" class="dy-common-style" type="text/css">.dy-wysiwyg{line-height:normal;direction:ltr;align-text:left;margin:0;padding:0;background-color:transparent}.dy-wysiwyg a{text-decoration:none;color:#00E}.dy-full-width-notifications-close,.dy-lb-close{color:#fff;display:inline-block;position:absolute}.dynotifyjs-wrapper .dy-lb-close{z-index:1;top:-8px;right:-9px;border:none;transition:opacity .15s;opacity:.7;background-size:14px;background-repeat:no-repeat;background-position:2px;width:18px;height:18px}.dynotifyjs-wrapper .dy-lb-close:hover{opacity:1}.dynotifyjs-corner{position:fixed;margin:0;z-index:1050}.dynotifyjs-corner .dynotifyjs-container,.dynotifyjs-corner .dynotifyjs-wrapper{position:relative;display:block;height:inherit;width:inherit;margin:11px 8px}.dynotifyjs-wrapper{z-index:1;position:absolute;display:inline-block;height:0;width:0}.dynotifyjs-container{display:none;z-index:1;position:absolute}[data-dynotify-html],[data-dynotify-text]{position:relative}.dynotifyjs-arrow{position:absolute;z-index:2;width:0;height:0}.dy-lb-close{top:-12px;right:-11px;cursor:pointer;border:1px solid #918686;border-radius:30px;height:22px;width:22px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) #575757;background-size:22px}.dy-full-width-notifications-close{top:5px;right:5px;z-index:1;border:none;transition:opacity .15s;-webkit-transition:opacity .15s;opacity:.7;width:18px;height:18px;cursor:pointer;border-radius:30px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) 2px no-repeat #575757;background-size:14px}.dy-full-width-notifications-close:hover{opacity:1}.dy_full_width_notifications_container{position:fixed;left:0;right:0;z-index:1040}.dy_full_width_notifications_container.dy_bottom_notification{bottom:0}.dy_full_width_notifications_container.dy_top_notification{top:0}.dy_full_width_notifications_container .dy_full_width_notification_instance{opacity:0;-webkit-transition:opacity .15s;transition:opacity .15s;position:relative}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_active{opacity:1}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_bottom{-webkit-animation:dy_appear_from_bottom .25s;animation:dy_appear_from_bottom .25s}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_top{-webkit-animation:dy_appear_from_top .25s;animation:dy_appear_from_top .25s}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_top{-webkit-animation:dy_exit_top .25s;animation:dy_exit_top .25s;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_bottom{-webkit-animation:dy_exit_bottom .25s;animation:dy_exit_bottom .25s;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}@-webkit-keyframes dy_appear_from_bottom{0%{-webkit-transform:translateY(100%);transform:translateY(100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes dy_appear_from_bottom{0%{-webkit-transform:translateY(100%);transform:translateY(100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes dy_appear_from_top{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes dy_appear_from_top{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes dy_exit_top{100%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@keyframes dy_exit_top{100%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@-webkit-keyframes dy_exit_bottom{100%{-webkit-transform:translateY(100%);transform:translateY(100%)}}@keyframes dy_exit_bottom{100%{-webkit-transform:translateY(100%);transform:translateY(100%)}}.dy-modal-container{position:fixed;z-index:99999;top:0;left:0;bottom:0;right:0;width:100%;height:100%;display:table;-webkit-transition:opacity .2s ease;transition:opacity .2s ease}.dy-modal-container .dy-modal-backdrop{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;opacity:0;-webkit-transition:opacity .2s;transition:opacity .2s;background-color:#000}.dy-modal-container .dy-modal-wrapper{position:relative;z-index:1;display:table-cell;vertical-align:middle;text-align:center;width:100%}.dy-modal-container .dy-modal-wrapper.dy-modal-bottom{padding-bottom:20px;vertical-align:bottom}.dy-modal-container .dy-modal-wrapper.dy-modal-top{padding-top:20px;vertical-align:top}.dy-modal-container .dy-modal-wrapper .dy-modal-contents{position:relative;display:inline-block;-webkit-animation:dy-modal-enter .25s;animation:dy-modal-enter .25s;visibility:hidden}.dy-modal-container .dy-modal-wrapper .dy-modal-contents .dy-lb-close{z-index:1;top:-9px;right:-9px;border:none;opacity:.7;transition:opacity .15s;width:18px;height:18px;cursor:pointer;position:absolute;border-radius:30px;color:#fff;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) 2px no-repeat #575757;background-size:14px}.dy-modal-container .dy-modal-wrapper .dy-modal-contents .dy-lb-close:hover{opacity:1}@-webkit-keyframes dy-modal-enter{0%{opacity:0;-webkit-transform:scale(.5);transform:scale(.5)}50%{-webkit-transform:scale(1.05);transform:scale(1.05)}85%{-webkit-transform:scale(1.1);transform:scale(1.1)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}</style><script type="text/javascript" async="true" src="//st.dynamicyield.com/st?sec=8767478&amp;inHead=true&amp;id=-6399614871429147984&amp;ref=https%3A%2F%2Fwww.efortuna.pl%2Fpl%2Fstrona_glowna%2Fwyniki%2F2017-07-15&amp;sr=1920x1080&amp;altip="></script>
-<link id="yui__dyn_0" type="text/css" rel="stylesheet" href="/js/libs/yui/calendar/assets/skins/sam/calendar.css"><script id="yui__dyn_1" type="text/javascript" src="/js/libs/yui/calendar/calendar-min.js"></script></head><body id="fortuna_pl" class="yui-skin-sam pl not-logged wyniki segment-4 js ticket-1">
-	<script type="text/javascript">
+<script position="text/javascript" src="//cdn.dynamicyield.com/api/8767478/api_dynamic.js"></script>
+<script position="text/javascript" src="//cdn.dynamicyield.com/api/8767478/api_static.js"></script><style id="dy-common-style" class="dy-common-style" position="text/css">.dy-wysiwyg{line-height:normal;direction:ltr;align-text:left;margin:0;padding:0;background-color:transparent}.dy-wysiwyg a{text-decoration:none;color:#00E}.dy-full-width-notifications-close,.dy-lb-close{color:#fff;display:inline-block;position:absolute}.dynotifyjs-wrapper .dy-lb-close{z-index:1;top:-8px;right:-9px;border:none;transition:opacity .15s;opacity:.7;background-size:14px;background-repeat:no-repeat;background-position:2px;width:18px;height:18px}.dynotifyjs-wrapper .dy-lb-close:hover{opacity:1}.dynotifyjs-corner{position:fixed;margin:0;z-index:1050}.dynotifyjs-corner .dynotifyjs-container,.dynotifyjs-corner .dynotifyjs-wrapper{position:relative;display:block;height:inherit;width:inherit;margin:11px 8px}.dynotifyjs-wrapper{z-index:1;position:absolute;display:inline-block;height:0;width:0}.dynotifyjs-container{display:none;z-index:1;position:absolute}[data-dynotify-html],[data-dynotify-text]{position:relative}.dynotifyjs-arrow{position:absolute;z-index:2;width:0;height:0}.dy-lb-close{top:-12px;right:-11px;cursor:pointer;border:1px solid #918686;border-radius:30px;height:22px;width:22px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) #575757;background-size:22px}.dy-full-width-notifications-close{top:5px;right:5px;z-index:1;border:none;transition:opacity .15s;-webkit-transition:opacity .15s;opacity:.7;width:18px;height:18px;cursor:pointer;border-radius:30px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) 2px no-repeat #575757;background-size:14px}.dy-full-width-notifications-close:hover{opacity:1}.dy_full_width_notifications_container{position:fixed;left:0;right:0;z-index:1040}.dy_full_width_notifications_container.dy_bottom_notification{bottom:0}.dy_full_width_notifications_container.dy_top_notification{top:0}.dy_full_width_notifications_container .dy_full_width_notification_instance{opacity:0;-webkit-transition:opacity .15s;transition:opacity .15s;position:relative}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_active{opacity:1}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_bottom{-webkit-animation:dy_appear_from_bottom .25s;animation:dy_appear_from_bottom .25s}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_top{-webkit-animation:dy_appear_from_top .25s;animation:dy_appear_from_top .25s}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_top{-webkit-animation:dy_exit_top .25s;animation:dy_exit_top .25s;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}.dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_bottom{-webkit-animation:dy_exit_bottom .25s;animation:dy_exit_bottom .25s;animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards}@-webkit-keyframes dy_appear_from_bottom{0%{-webkit-transform:translateY(100%);transform:translateY(100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes dy_appear_from_bottom{0%{-webkit-transform:translateY(100%);transform:translateY(100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes dy_appear_from_top{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes dy_appear_from_top{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes dy_exit_top{100%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@keyframes dy_exit_top{100%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}}@-webkit-keyframes dy_exit_bottom{100%{-webkit-transform:translateY(100%);transform:translateY(100%)}}@keyframes dy_exit_bottom{100%{-webkit-transform:translateY(100%);transform:translateY(100%)}}.dy-modal-container{position:fixed;z-index:99999;top:0;left:0;bottom:0;right:0;width:100%;height:100%;display:table;-webkit-transition:opacity .2s ease;transition:opacity .2s ease}.dy-modal-container .dy-modal-backdrop{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;opacity:0;-webkit-transition:opacity .2s;transition:opacity .2s;background-color:#000}.dy-modal-container .dy-modal-wrapper{position:relative;z-index:1;display:table-cell;vertical-align:middle;text-align:center;width:100%}.dy-modal-container .dy-modal-wrapper.dy-modal-bottom{padding-bottom:20px;vertical-align:bottom}.dy-modal-container .dy-modal-wrapper.dy-modal-top{padding-top:20px;vertical-align:top}.dy-modal-container .dy-modal-wrapper .dy-modal-contents{position:relative;display:inline-block;-webkit-animation:dy-modal-enter .25s;animation:dy-modal-enter .25s;visibility:hidden}.dy-modal-container .dy-modal-wrapper .dy-modal-contents .dy-lb-close{z-index:1;top:-9px;right:-9px;border:none;opacity:.7;transition:opacity .15s;width:18px;height:18px;cursor:pointer;position:absolute;border-radius:30px;color:#fff;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTUgNTUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU1IDU1IiB4bWw6c3BhY2U9InByZXNlcnZlIj48ZyBpZD0iY2xvc2UiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNDMuNSwxNC43IDQwLjMsMTEuNSAyNy41LDI0LjMgMTQuNywxMS41IDExLjUsMTQuNyAyNC4zLDI3LjUgMTEuNSw0MC4zIDE0LjcsNDMuNSAyNy41LDMwLjcgNDAuMyw0My41IDQzLjUsNDAuMyAzMC43LDI3LjUgIi8+PC9nPjwvc3ZnPg==) 2px no-repeat #575757;background-size:14px}.dy-modal-container .dy-modal-wrapper .dy-modal-contents .dy-lb-close:hover{opacity:1}@-webkit-keyframes dy-modal-enter{0%{opacity:0;-webkit-transform:scale(.5);transform:scale(.5)}50%{-webkit-transform:scale(1.05);transform:scale(1.05)}85%{-webkit-transform:scale(1.1);transform:scale(1.1)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}</style><script position="text/javascript" async="true" src="//st.dynamicyield.com/st?sec=8767478&amp;inHead=true&amp;id=-6399614871429147984&amp;ref=https%3A%2F%2Fwww.efortuna.pl%2Fpl%2Fstrona_glowna%2Fwyniki%2F2017-07-15&amp;sr=1920x1080&amp;altip="></script>
+<link id="yui__dyn_0" position="text/css" rel="stylesheet" href="/js/libs/yui/calendar/assets/skins/sam/calendar.css"><script id="yui__dyn_1" position="text/javascript" src="/js/libs/yui/calendar/calendar-min.js"></script></head><body id="fortuna_pl" class="yui-skin-sam pl not-logged wyniki segment-4 js ticket-1">
+	<script position="text/javascript">
 		document.body.className = document.body.className.replace("no-js", "js");
 	</script>
 <!-- Google Tag Manager (noscript) -->
@@ -155,12 +155,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 <form id="login-form" action="/pl/strona_glowna/wyniki/index$541644-login.html" method="post">
 	<table>
 		<tbody><tr>
-			<td><input type="text" id="login" class="valueToggle required text" name="login" placeholder="Pseudonim" tabindex="1"></td>
-			<td class="acenter"><input type="password" id="password" class="valueToggle required text has-placeholder" name="password" placeholder="Hasło" tabindex="2"></td>
+			<td><input position="text" id="login" class="valueToggle required text" name="login" placeholder="Pseudonim" tabindex="1"></td>
+			<td class="acenter"><input position="password" id="password" class="valueToggle required text has-placeholder" name="password" placeholder="Hasło" tabindex="2"></td>
 			<td class="aright">
-				<input type="hidden" name="cid" value="">
-				<input type="hidden" name="redirectTo" value="https://www.efortuna.pl/pl/strona_glowna/wyniki/pilka-nozna/2017-07-15">
-<button type="submit" class="yellow">
+				<input position="hidden" name="cid" value="">
+				<input position="hidden" name="redirectTo" value="https://www.efortuna.pl/pl/strona_glowna/wyniki/pilka-nozna/2017-07-15">
+<button position="submit" class="yellow">
 Zaloguj</button></td>
 		</tr>
 </tbody></table>
@@ -189,7 +189,7 @@ Zaloguj</button></td>
 	<div id="scrollable-ticket-holder" class="scrollable" style="top: 0px;">
 <div id="ticket_rc_up" class="ticket_rc">Przesuń kupon</div>
 			<div id="ticket" class="box-sg" style="height: 787px;">
-			<script type="text/javascript">
+			<script position="text/javascript">
 				$('#ticket').addClass('initializing');
 				FORTUNA.run ( function () {
 					FORTUNA.UI.prepareTicketManager();
@@ -197,7 +197,7 @@ Zaloguj</button></td>
 			</script>
 
 
-<div id="ticket-controls" data-update-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-xUpdate.html" data-set-individualprice-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setBetValue.html" data-set-totalprice-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setStake.html" data-recount-ticket="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setStake.html" data-set-evk-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setTotalPrize.html" data-remove-bet-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-removeBet.html?disableSeoPrimary=1" data-change-bet-group-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeBetGroup.html" data-change-ticket-type-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeMode.html?seed=7" data-change-bet-rate-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeBet.html" data-resolve-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-resolveTicket.html?transaction_id=4897774083213464860" data-confirm-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-confirmTicket.html?transaction_id=4897774083213464860" data-cancel-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-cancelTicket.html?transaction_id=4897774083213464860" data-switch-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index.html?save_id=1" data-preview-ticket-url="https://www.efortuna.pl/pl/strona_glowna/nahled_tiketu/index.html" data-resend-url="https://www.efortuna.pl/pl/strona_glowna/index$53426-aggregatedBet.html?stake=0.0&amp;bet_ids=&amp;bet_infos=&amp;bet_rates=" data-dynamic-bet-value-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setDynamicBetValue.html?transaction_id=4897774083213464860" data-ticket-method="NONE" data-empty-ticket="true" data-bet-values="[0, 3, 5, 10, 20, 30, 50, 100, 200, 300, 500]" data-tickets-usage="true;true;true;true" data-stake-value="" data-pay-value="" data-min-stake="0.00" data-max-stake="500.00">
+<div id="ticket-controls" data-update-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-xUpdate.html" data-set-individualprice-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setBetValue.html" data-set-totalprice-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setStake.html" data-recount-ticket="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setStake.html" data-set-evk-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setTotalPrize.html" data-remove-bet-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-removeBet.html?disableSeoPrimary=1" data-change-bet-group-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeBetGroup.html" data-change-ticket-position-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeMode.html?seed=7" data-change-bet-rate-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-changeBet.html" data-resolve-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-resolveTicket.html?transaction_id=4897774083213464860" data-confirm-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-confirmTicket.html?transaction_id=4897774083213464860" data-cancel-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-cancelTicket.html?transaction_id=4897774083213464860" data-switch-ticket-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index.html?save_id=1" data-preview-ticket-url="https://www.efortuna.pl/pl/strona_glowna/nahled_tiketu/index.html" data-resend-url="https://www.efortuna.pl/pl/strona_glowna/index$53426-aggregatedBet.html?stake=0.0&amp;bet_ids=&amp;bet_infos=&amp;bet_rates=" data-dynamic-bet-value-url="https://www.efortuna.pl/pl/strona_glowna/tiket_prematch/index$5335-setDynamicBetValue.html?transaction_id=4897774083213464860" data-ticket-method="NONE" data-empty-ticket="true" data-bet-values="[0, 3, 5, 10, 20, 30, 50, 100, 200, 300, 500]" data-tickets-usage="true;true;true;true" data-stake-value="" data-pay-value="" data-min-stake="0.00" data-max-stake="500.00">
 
 <div id="ticket-messages" class="hidden">
 	<message class="mustBeLogged"><p>Aby zawrzeć zakład należy się  <a href="/pl/login_uzytkownika/index.html">zalogować</a>, jeżeli nie posiadasz konta musisz się <a href="/pl/rejestracja/index.html">zarejestrować</a>.</p></message>
@@ -227,7 +227,7 @@ Zaloguj</button></td>
 <div class="ticket-additional-controls">
 <label class="tooltip maximize-ticket-field" title="Włącz/wyłącz SuperKupon">
 			<span class="icon">&nbsp;</span>
-			<input type="checkbox" class="maximize-ticket" data-action="maximize-ticket">&nbsp;SuperKupon
+			<input position="checkbox" class="maximize-ticket" data-action="maximize-ticket">&nbsp;SuperKupon
 		</label>
 
 </div>
@@ -292,7 +292,7 @@ Zaloguj</button></td>
 		var tm = FORTUNA.UI.ticketManager;
 		if ( tm ){ tm.releaseAllBetItems(); }
 	}, true );
-</script><script type="text/javascript">
+</script><script position="text/javascript">
 				FORTUNA.run ( function () {
 					var tm = FORTUNA.UI.ticketManager;
 					if ( tm ) { tm.initTicket(); }
@@ -656,11 +656,11 @@ Tenis: ATP &amp; WTA</a>
 <a href="/pl/popup/jak_wlaczyc_obsluge_javascript.html" class="button yellow_w">
 Instrukcje</a></p>
 </div>
-<script type="text/javascript">
+<script position="text/javascript">
 	document.getElementById('js-warning').className += 'hidden';
 </script>
 
-<script type="text/javascript">
+<script position="text/javascript">
 	FORTUNA.run(function () {
 		if (!FORTUNA.UI.webMessages) return;
 		FORTUNA.UI.webMessages.initCloseButtons();
@@ -681,8 +681,8 @@ Instrukcje</a></p>
 		<tbody><tr>
 			<td>
 				<div class="search-container">
-					<input type="text" name="searchValue" value="" class="valueToggle search-input" placeholder="Szukaj" id="id-whisper-input" autocomplete="off">
-					<input class="search-button-icon" type="image" src="/public/e6/ea/63/636405_722037_search.png">
+					<input position="text" name="searchValue" value="" class="valueToggle search-input" placeholder="Szukaj" id="id-whisper-input" autocomplete="off">
+					<input class="search-button-icon" position="image" src="/public/e6/ea/63/636405_722037_search.png">
 				</div>
 				<div id="id-whisper-container">
 					<div id="id-whisper-container-inner">
@@ -709,7 +709,7 @@ Instrukcje</a></p>
 		</tr>
 	</tbody></table>
 </form>
-<script type="text/javascript">
+<script position="text/javascript">
 	FORTUNA.run(function () {
 		FORTUNA.UI.Whisper.init();
 	});
@@ -744,10 +744,10 @@ jutro</a></div>
 <form id="betSliderForm" method="get" action="/pl/strona_glowna/">
 	<h3>Oferta wg kursu</h3>
 	<div>
-		<input type="hidden" class="range" value="1.01;1.02;1.04;1.06;1.08;1.1;1.2;1.3;1.4;1.5;1.6;1.7;1.8;1.9;2;2.1;2.2;2.3;2.4;2.5;2.6;2.7;2.8;2.9;3;3.2;3.4;3.6;3.8;4;5;6;7;8;9;10;30;50;70;100;400">
-		<input type="hidden" name="selectDates" value="1">
-		<input type="hidden" class="tickLeft" name="tickLeft" value="0">
-		<input type="hidden" class="tickRight" name="tickRight" value="9">
+		<input position="hidden" class="range" value="1.01;1.02;1.04;1.06;1.08;1.1;1.2;1.3;1.4;1.5;1.6;1.7;1.8;1.9;2;2.1;2.2;2.3;2.4;2.5;2.6;2.7;2.8;2.9;3;3.2;3.4;3.6;3.8;4;5;6;7;8;9;10;30;50;70;100;400">
+		<input position="hidden" name="selectDates" value="1">
+		<input position="hidden" class="tickLeft" name="tickLeft" value="0">
+		<input position="hidden" class="tickRight" name="tickRight" value="9">
 	</div>
 	<div id="betRangeSlider" class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
 		<div class="left-end"></div>
@@ -757,19 +757,19 @@ jutro</a></div>
 	<div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 22.5%;"></div></div>
 	<div>
 		<label for="betRateFrom">
-Od<input type="text" class="betRateFrom" name="betRateFrom" value="1.01" data-slider="sliderMin">
+Od<input position="text" class="betRateFrom" name="betRateFrom" value="1.01" data-slider="sliderMin">
 		</label>
 		<label for="betRateTo">
-Do<input type="text" class="betRateTo" name="betRateTo" value="1.5" data-slider="sliderMax">
+Do<input position="text" class="betRateTo" name="betRateTo" value="1.5" data-slider="sliderMax">
 		</label>
 	</div>
 	<div>
-<button type="submit" class="yellow_b w100">
+<button position="submit" class="yellow_b w100">
 Oferta wg kursu</button></div>
 
 </form>
 
-<script type="text/javascript">
+<script position="text/javascript">
 	FORTUNA.run(function() {
 		new FORTUNA.UI.BetRangeSlider('betSliderForm', 0, 9, function() {
 			var form = document.getElementById('betSliderForm');
@@ -2977,7 +2977,7 @@ LIPIEC 2017
 		<tbody><tr>
 			<td colspan="2"><div class="td_holder">
 				<label for="id-from" class="hidden">Podaj nazwę drużyny lub zawodnika</label>
-				<input type="text" name="teamName" class="text required" placeholder="Podaj nazwę drużyny lub zawodnika" id="id-from" value="">
+				<input position="text" name="teamName" class="text required" placeholder="Podaj nazwę drużyny lub zawodnika" id="id-from" value="">
 				<span class="result_icon help" title="Podaj nazwę drużyny lub imię zawodnika, którego wyniki chcesz wyszukać (bez polskich liter)."></span>
 			</div></td>
 		</tr>
@@ -3030,21 +3030,21 @@ LIPIEC 2017
 				<div class="td_holder">
 					<strong>Od</strong>
 					<label for="calendar0" class="hidden">Od</label>
-					<input type="text" name="from" class="text icons_ticket_list calendar icon calendarIcon required" value="20.6.2017" id="calendar0">
+					<input position="text" name="from" class="text icons_ticket_list calendar icon calendarIcon required" value="20.6.2017" id="calendar0">
 				</div>
 			</td>
 			<td>
 				<div class="td_holder">
 					<strong>Do</strong>
 					<label for="calendar1" class="hidden">Do</label>
-					<input type="text" name="to" class="text icons_ticket_list calendar icon calendarIcon required" value="20.7.2017" id="calendar1">
+					<input position="text" name="to" class="text icons_ticket_list calendar icon calendarIcon required" value="20.7.2017" id="calendar1">
 					<span class="result_icon help" title="Jeżeli chcesz, możesz ograniczyć wyszukiwanie do danego okresu, podaj datę od/do"></span>
 				</div>
 			</td>
 		</tr>
 	</tbody></table>
 
-<button type="submit" class="yellow_b submit">
+<button position="submit" class="yellow_b submit">
 Szukaj</button></form>
 
 <form id="rs_infonumber" action="/pl/strona_glowna/wyniki/index$7828.html?disableSeoPrimary=1" method="get" class="result_search_form">
@@ -3054,7 +3054,7 @@ Szukaj</button></form>
 			<td>
 				<div class="td_holder">
 					<label for="id-info" class="hidden">RESULTS_SEARCH_INPUT_INFONUMBER_LABEL</label>
-					<input type="text" id="id-info" name="info" class="text required numbers" placeholder="Numer info" value="">
+					<input position="text" id="id-info" name="info" class="text required numbers" placeholder="Numer info" value="">
 					<span class="result_icon help" title="Podaj numer info spotkania, którego wynik chcesz wyszukać."></span>
 				</div>
 			</td>
@@ -3063,14 +3063,14 @@ Szukaj</button></form>
 			<td>
 				<div class="td_holder">
 					<label for="id-info_date" class="hidden">RESULTS_SEARCH_INFONUMBER_DATE_HELP_LABEL</label>
-					<input type="text" id="id-info_date" name="date" class="text icons_ticket_list calendar icon calendarIcon required date" value="20.7.2017">
+					<input position="text" id="id-info_date" name="date" class="text icons_ticket_list calendar icon calendarIcon required date" value="20.7.2017">
 					<span class="result_icon help" title="Podaj datę spotkania, którego wynik chcesz wyszukać."></span>
 				</div>
 			</td>
 		</tr>
 	</tbody></table>
 
-<button type="submit" class="yellow_b submit">
+<button position="submit" class="yellow_b submit">
 Szukaj</button></form></div>
 
 </div></div>
@@ -11811,7 +11811,7 @@ V,1-2</td>
 				<div class="info">&nbsp;
 </div>
 				<label for="ct_ticket_id" class="hidden">Numer kuponu</label>
-				<input type="text" name="control_ticket_id" id="ct_ticket_id" class="ticket_id valueToggle text required numbers" placeholder="Numer kuponu">
+				<input position="text" name="control_ticket_id" id="ct_ticket_id" class="ticket_id valueToggle text required numbers" placeholder="Numer kuponu">
 			</div>
 		</div>
 		<div class="bottom">
@@ -11821,11 +11821,11 @@ V,1-2</td>
 						<div class="info">&nbsp;
 </div>
 						<label for="ct_protection_code" class="hidden">Kod kontrolny kuponu</label>
-						<input type="text" name="protection_code" id="ct_protection_code" class="protection_code valueToggle text required numbers" placeholder="Kod kontrolny kuponu">
+						<input position="text" name="protection_code" id="ct_protection_code" class="protection_code valueToggle text required numbers" placeholder="Kod kontrolny kuponu">
 					</div>
 				</div>
 				<div class="cell">
-<button type="submit" class="">
+<button position="submit" class="">
 Sprawdź</button></div>
 			</div>
 		</div>
@@ -11838,23 +11838,23 @@ Sprawdź</button></div>
 <div style="width: 49%; float: left;">
  <h3>Oferta</h3>
  <ul style="padding: 0; margin: 0; font-size: 85%;">
-  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/">Zakłady bukmacherskie</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/zaklady_internetowe/index.html">Zakłady internetowe</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/zaklady_live/index.html">Zakłady LIVE</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/mobile/index.html">Zakłady Mobile</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/produkty/index.html">Nasze produkty</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/rejestracja/bonus/index.html">Bonus dla nowych graczy</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/">Zakłady bukmacherskie</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/zaklady_internetowe/index.html">Zakłady internetowe</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/zaklady_live/index.html">Zakłady LIVE</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/mobile/index.html">Zakłady Mobile</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/produkty/index.html">Nasze produkty</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/rejestracja/bonus/index.html">Bonus dla nowych graczy</a></li>
  </ul>
 </div>
 
 <div style="width: 48%; float: right;">
  <h3>Sport</h3>
  <ul style="padding: 0; margin: 0; font-size: 85%;">
-  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/pilka-nozna?limit=100">Zakłady na piłkę nożną</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/serwis_sportowy/liga_mistrzow/index.html">Liga Mistrzów</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/serwis_sportowy/liga_europy/index.html">Liga Europy</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/tenis-mezczyzn?limit=100">ATP tenis</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/tenis-kobiet?limit=100">WTA tenis</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/pilka-nozna?limit=100">Zakłady na piłkę nożną</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/serwis_sportowy/liga_mistrzow/index.html">Liga Mistrzów</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/serwis_sportowy/liga_europy/index.html">Liga Europy</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/tenis-mezczyzn?limit=100">ATP tenis</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="https://www.efortuna.pl/pl/strona_glowna/tenis-kobiet?limit=100">WTA tenis</a></li>
   </ul>
 </div></div>
 		</div>
@@ -11863,30 +11863,30 @@ Sprawdź</button></div>
 <div style="width: 49%; float: left;">
  <h3>O firmie</h3>
  <ul style="padding: 0; margin: 0; font-size: 85%;">
-  <!--                         <li style="list-style: none; list-style-type: none;"><a target="_blank" href="jnpx:x-pl">Press</a></li>                         -->
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/o_firmie/index.html">O firmie</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/o_firmie/sponsoring.html">Sponsoring</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/serwis_punktow/punkty_sprzedazy_tygodnika/index.html">Punkty sprzedaży</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/serwis_punktow/aktualne_promocje/index.html">Promocje w punktach</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/praca_w_fortunie/index.html">Praca w Fortunie</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/produkty/dziennik.html">Dziennik Fortuna</a></li>
-  <li style="list-style: none; list-style-type: none;"><a style="color:white;" href="/pl/serwis_punktow/zostan_partnerem/index.html">ZOSTAŃ PARTNEREM</a></li>
-<li style="list-style: none; list-style-type: none;"><a style="color:white;" href="/pl/strona_glowna/wiadomosci/legalny_bukmacher.html">LEGALNY BUKMACHER</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/o_firmie/polityka_prywatnosci.html">Polityka cookies</a></li>
-  <!--                           <li style="list-style: none; list-style-type: none;"><a title="Legalny bukmacher" rel="shadowbox; width=700" target="_blank" href="/public/27/95/94/528846_458889_certyfikat_duzy.PNG">Legalny bukmacher</a></li>                  -->
+  <!--                         <li style="list-style: none; list-style-position: none;"><a target="_blank" href="jnpx:x-pl">Press</a></li>                         -->
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/o_firmie/index.html">O firmie</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/o_firmie/sponsoring.html">Sponsoring</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/serwis_punktow/punkty_sprzedazy_tygodnika/index.html">Punkty sprzedaży</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/serwis_punktow/aktualne_promocje/index.html">Promocje w punktach</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/praca_w_fortunie/index.html">Praca w Fortunie</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/produkty/dziennik.html">Dziennik Fortuna</a></li>
+  <li style="list-style: none; list-style-position: none;"><a style="color:white;" href="/pl/serwis_punktow/zostan_partnerem/index.html">ZOSTAŃ PARTNEREM</a></li>
+<li style="list-style: none; list-style-position: none;"><a style="color:white;" href="/pl/strona_glowna/wiadomosci/legalny_bukmacher.html">LEGALNY BUKMACHER</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/o_firmie/polityka_prywatnosci.html">Polityka cookies</a></li>
+  <!--                           <li style="list-style: none; list-style-position: none;"><a title="Legalny bukmacher" rel="shadowbox; width=700" target="_blank" href="/public/27/95/94/528846_458889_certyfikat_duzy.PNG">Legalny bukmacher</a></li>                  -->
  </ul>
 </div>
 
 <div style="width: 48%; float: right;">
  <h3>Pomoc</h3>
  <ul style="padding: 0; margin: 0; font-size: 85%;">
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/pomoc/index.html" target="_blank">Pomoc i FAQ</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/pomoc/tutoriale/index.html" target="_blank">Tutoriale</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/regulamin/index.html">Regulamin</a></li>
-  <li style="list-style: none; list-style-type: none;"><a target="_blank" href="http://www.livehelpnow.net/lhn/lc.aspx?d=8711&amp;zzwindow=8553&amp;lhnid=7531&amp;custom1=Niezalogowany+u%C5%BCytkownik&amp;custom2=&amp;custom3=https%3a%2f%2fwww.efortuna.pl%2fpl%2fstrona_glowna%2f&amp;time=11/12/2013%204:43:39%20AM">Wsparcie online</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/strona_glowna/download/download.html">Pliki do pobrania</a></li>
-  <li style="list-style: none; list-style-type: none;"><a href="/pl/zapomniales_hasla/index.html">Zapomniałem hasło</a></li>
-  <li style="list-style: none; list-style-type: none;">&nbsp;</li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/pomoc/index.html" target="_blank">Pomoc i FAQ</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/pomoc/tutoriale/index.html" target="_blank">Tutoriale</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/regulamin/index.html">Regulamin</a></li>
+  <li style="list-style: none; list-style-position: none;"><a target="_blank" href="http://www.livehelpnow.net/lhn/lc.aspx?d=8711&amp;zzwindow=8553&amp;lhnid=7531&amp;custom1=Niezalogowany+u%C5%BCytkownik&amp;custom2=&amp;custom3=https%3a%2f%2fwww.efortuna.pl%2fpl%2fstrona_glowna%2f&amp;time=11/12/2013%204:43:39%20AM">Wsparcie online</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/strona_glowna/download/download.html">Pliki do pobrania</a></li>
+  <li style="list-style: none; list-style-position: none;"><a href="/pl/zapomniales_hasla/index.html">Zapomniałem hasło</a></li>
+  <li style="list-style: none; list-style-position: none;">&nbsp;</li>
  </ul>
 </div></div>
 		</div>
@@ -11973,17 +11973,17 @@ Zakaz uczestnictwa w grze hazardowej dla osób poniżej 18 roku życia. Hazard s
 &lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=324488694380476&amp;amp;amp;ev=PixelInitialized" /&gt;
 </noscript>
 
-<script type="text/javascript">
+<script position="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0020/9365.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+a.async=true;a.position="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script><!-- monitoring
 		__ETN_.O.K.__
 	// monitoring -->
 
 
-<div class="ui-selectmenu-menu left" style="z-index: 2; top: 2px; left: 0px;"><ul class="ui-widget ui-widget-content ui-selectmenu-menu-dropdown ui-corner-bottom" aria-hidden="true" role="listbox" aria-labelledby="id-sport-button" id="id-sport-menu" style="width: 100px; height: 305.667px;" aria-disabled="false" tabindex="0" aria-activedescendant="ui-selectmenu-item-654"><li role="presentation" class="ui-selectmenu-item-selected ui-selectmenu-item-focus"><a href="#nogo" tabindex="-1" role="option" aria-selected="true" id="ui-selectmenu-item-654">Wybierz dyscyplinę</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Piłka nożna</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Hokej</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Koszykówka</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Piłka ręczna</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Siatkówka</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Baseball</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Florbal unihokej</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Futsal</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Futbol amerykański</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">F1</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Motocykle</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Lekkoatletyka</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Narciarsstwo alpejskie mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Narciarstwo alpejskie kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Skoki narciarskie</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Rugby</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Golf</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis challenger Mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis challenger Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biatlon mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biatlon Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biegi narciarskie mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biegi narciarskie Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Kombinacja Norweska</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Łyżwiarstwo szybkie</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Dakar 2011</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">MŚ w piłce nożnej</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Zimowe Igryszka Olimpijskie 2010 medale</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Letnie Igrzyska Olimpijskie</a></li><li role="presentation" class="ui-corner-bottom"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Piłka nożna ME 2008</a></li></ul></div><div id="shadowbox_overlay"></div><div id="shadowbox_container"><div id="shadowbox"><div id="shadowbox_title"><div id="shadowbox_title_inner"></div></div><div id="shadowbox_body"><div id="shadowbox_body_inner"></div><div id="shadowbox_loading"></div></div><div id="shadowbox_toolbar"><div id="shadowbox_toolbar_inner"></div></div></div></div><script type="text/javascript" id="">setTimeout(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0053/2765.js?"+Math.floor((new Date).getTime()/36E5);a.async=!0;a.type="text/javascript";b.parentNode.insertBefore(a,b)},1);</script><div class="betLink-tooltip hidden"><div class="betLink-tooltip-ticket">1</div><div class="betLink-tooltip-ticket">2</div><div class="betLink-tooltip-ticket">3</div><div class="betLink-tooltip-ticket">4</div></div><div id="surplus-items-dialog" class="invisible"></div><div id="dysegdiv" data-id="8767478:def:"></div><div id="calendar0-container" style="position: absolute; display: none; left: 0px; top: 421px;" class="yui-calcontainer single withtitle"><div class="title">Wybierz datę:</div><table cellspacing="0" class="yui-calendar y2017" id="calendar0">
+<div class="ui-selectmenu-menu left" style="z-index: 2; top: 2px; left: 0px;"><ul class="ui-widget ui-widget-content ui-selectmenu-menu-dropdown ui-corner-bottom" aria-hidden="true" role="listbox" aria-labelledby="id-sport-button" id="id-sport-menu" style="width: 100px; height: 305.667px;" aria-disabled="false" tabindex="0" aria-activedescendant="ui-selectmenu-item-654"><li role="presentation" class="ui-selectmenu-item-selected ui-selectmenu-item-focus"><a href="#nogo" tabindex="-1" role="option" aria-selected="true" id="ui-selectmenu-item-654">Wybierz dyscyplinę</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Piłka nożna</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Hokej</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Koszykówka</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Piłka ręczna</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Siatkówka</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Baseball</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Florbal unihokej</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Futsal</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Futbol amerykański</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">F1</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Motocykle</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Lekkoatletyka</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Narciarsstwo alpejskie mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Narciarstwo alpejskie kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Skoki narciarskie</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Rugby</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Golf</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis challenger Mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Tenis challenger Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biatlon mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biatlon Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biegi narciarskie mężczyzn</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Biegi narciarskie Kobiet</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Kombinacja Norweska</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Łyżwiarstwo szybkie</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Dakar 2011</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">MŚ w piłce nożnej</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Zimowe Igryszka Olimpijskie 2010 medale</a></li><li role="presentation"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Letnie Igrzyska Olimpijskie</a></li><li role="presentation" class="ui-corner-bottom"><a href="#nogo" tabindex="-1" role="option" aria-selected="false">Piłka nożna ME 2008</a></li></ul></div><div id="shadowbox_overlay"></div><div id="shadowbox_container"><div id="shadowbox"><div id="shadowbox_title"><div id="shadowbox_title_inner"></div></div><div id="shadowbox_body"><div id="shadowbox_body_inner"></div><div id="shadowbox_loading"></div></div><div id="shadowbox_toolbar"><div id="shadowbox_toolbar_inner"></div></div></div></div><script position="text/javascript" id="">setTimeout(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0053/2765.js?"+Math.floor((new Date).getTime()/36E5);a.async=!0;a.position="text/javascript";b.parentNode.insertBefore(a,b)},1);</script><div class="betLink-tooltip hidden"><div class="betLink-tooltip-ticket">1</div><div class="betLink-tooltip-ticket">2</div><div class="betLink-tooltip-ticket">3</div><div class="betLink-tooltip-ticket">4</div></div><div id="surplus-items-dialog" class="invisible"></div><div id="dysegdiv" data-id="8767478:def:"></div><div id="calendar0-container" style="position: absolute; display: none; left: 0px; top: 421px;" class="yui-calcontainer single withtitle"><div class="title">Wybierz datę:</div><table cellspacing="0" class="yui-calendar y2017" id="calendar0">
 <thead>
 <tr>
 <th colspan="7" class="calhead">

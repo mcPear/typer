@@ -1,9 +1,10 @@
 package maciek.typer.statistics;
 
-import maciek.typer.graph.BarChart;
+import lombok.AllArgsConstructor;
+import maciek.typer.graph.RateBarChart;
 import maciek.typer.model.FootballMatch;
 import maciek.typer.repository.FootballMatchRepository;
-import maciek.typer.statistics.model.PosLOpponent;
+import maciek.typer.statistics.model.MatchOpponents;
 import maciek.typer.statistics.model.RateModel;
 import maciek.typer.statistics.model.RatePosition;
 import org.apache.log4j.Logger;
@@ -24,30 +25,63 @@ public class StatisticsRate implements CommandLineRunner{
 
     private Logger log = Logger.getLogger(StatisticsRate.class.getName());
 
+    private final static String RATE_RANGE = "0.1";
+    private final static int CHART_RATE_COUNT_LIMIT = 80;
+    private final static char CHART_POSITION = 'L';
+    private List<RateModel> rateModels;
+
     @Autowired
     private FootballMatchRepository repo;
 
+    @Autowired
+    private StatisticsOpponent statisticsOpponent;
+
     @Override
     public void run(String... strings) throws Exception {
+        rateModels = loadRateStats();
         printRates();
         printChart();
+        //printOpponentChart(new BigDecimal(1.6));
+    }
+
+    private void printOpponentChart(BigDecimal rate){
+        RatePosition ratePosition = null;
+        for (RateModel rm:rateModels){
+            if(rm.getRateValue().compareTo(rate)==1){
+                switch(CHART_POSITION){
+                    case('L'):{
+                        ratePosition = rm.getPositionL();
+                        break;
+                    }
+                    case('0'):{
+                        ratePosition = rm.getPosition0();
+                        break;
+                    }
+                    case('G'):{
+                        ratePosition = rm.getPositionG();
+                        break;
+                    }
+                }
+            }
+        }
+        statisticsOpponent.printChart(ratePosition);
     }
 
     private void printRates(){
-        List<RateModel> rateStats = loadRateStats();
-        rateStats.forEach(rate -> System.out.println(rate));
+        rateModels.forEach(rate -> System.out.println(rate));
 
     }
 
     private void printChart(){
-        BarChart chart = new BarChart("Typer", "Rates", loadRateStats(), 25);
+        RateBarChart chart = new RateBarChart("Typer", "Rates", rateModels, CHART_RATE_COUNT_LIMIT, CHART_POSITION);
         chart.pack( );
         RefineryUtilities.centerFrameOnScreen( chart );
         chart.setVisible( true );
     }
 
     private List<RateModel> loadRateStats(){
-        List<FootballMatch> footballMatchesWithResults = repo.findByResultIsNotNull();
+        List<FootballMatch> footballMatchesWithResults =
+                repo.findByResultIsNotNullAndRate1GreaterThanAndRate0GreaterThanAndRate2GreaterThan(BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO);
         List<RateModel> rates = getEmptyRatesList();
 
 
@@ -80,19 +114,25 @@ public class StatisticsRate implements CommandLineRunner{
                posL.incrementWins();
                pos0.incrementLosings();
                posG.incrementLosings();
-               posL.getPosLOpponents().add(new PosLOpponent(rateG, rate0, true));
+               posL.getMatchOpponentss().add(new MatchOpponents(rate0, rateG, 'L'));
+               pos0.getMatchOpponentss().add(new MatchOpponents(rateL, rateG, 'L'));
+               posG.getMatchOpponentss().add(new MatchOpponents(rateL, rate0, 'L'));
             }
             else if(winnerRate.equals(rate0)){
                 posL.incrementLosings();
                 pos0.incrementWins();
                 posG.incrementLosings();
-                posL.getPosLOpponents().add(new PosLOpponent(rateG, rate0, false));
+                posL.getMatchOpponentss().add(new MatchOpponents(rate0, rateG,  '0'));
+                pos0.getMatchOpponentss().add(new MatchOpponents(rateL, rateG, '0'));
+                posG.getMatchOpponentss().add(new MatchOpponents(rateL, rate0, '0'));
             }
             else if(winnerRate.equals(rateG)){
                 posL.incrementLosings();
                 pos0.incrementLosings();
                 posG.incrementWins();
-                posL.getPosLOpponents().add(new PosLOpponent(rateG, rate0, false));
+                posL.getMatchOpponentss().add(new MatchOpponents(rate0,rateG, 'G'));
+                pos0.getMatchOpponentss().add(new MatchOpponents(rateL, rateG, 'G'));
+                posG.getMatchOpponentss().add(new MatchOpponents(rateL, rate0, 'G'));
             }
         }
         return rates;
@@ -100,7 +140,7 @@ public class StatisticsRate implements CommandLineRunner{
 
     private List<RateModel> getEmptyRatesList(){
         List<RateModel> rates = new ArrayList<>();
-        for(BigDecimal i=new BigDecimal(1);i.compareTo(new BigDecimal(22))!=1;i=i.add(new BigDecimal("0.1"))){
+        for(BigDecimal i=new BigDecimal(1);i.compareTo(new BigDecimal(22))!=1;i=i.add(new BigDecimal(RATE_RANGE))){
             rates.add(new RateModel(i));
         }
         return rates;

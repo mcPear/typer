@@ -9,6 +9,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.text.DateFormat;
@@ -32,7 +33,7 @@ public class ResultsParser implements CommandLineRunner {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-07-21";
+        String dateStr = "2017-07-23";
 
         Document doc = Jsoup.parse(new File("results/results"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");

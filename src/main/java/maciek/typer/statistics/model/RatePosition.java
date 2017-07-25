@@ -2,7 +2,6 @@ package maciek.typer.statistics.model;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +16,11 @@ public class RatePosition {
     private char position;
     private int losings;
     private int wins;
-    private List<PosLOpponent> posLOpponents;
+    private List<MatchOpponents> matchOpponentss;
 
     public RatePosition(char position) {
         this.position = position;
-        posLOpponents = new ArrayList<>();
+        matchOpponentss = new ArrayList<>();
     }
 
     public void incrementWins(){
@@ -40,14 +39,14 @@ public class RatePosition {
     public String toString() {
 
         StringBuilder sb = new StringBuilder();
-        posLOpponents.forEach(plo -> sb.append(plo));
+        matchOpponentss.forEach(plo -> sb.append(plo));
 
         return "RatePosition{" +
                 "position=" + position +
                 ", losings=" + losings +
                 ", wins=" + wins +
                 ", winsPercent=" + getWinsPercent() +
-                "\n"+sb+
+                //"\n"+sb+
                 '}';
     }
 }
