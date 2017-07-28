@@ -26,8 +26,8 @@ public class StatisticsRate implements CommandLineRunner{
     private Logger log = Logger.getLogger(StatisticsRate.class.getName());
 
     private final static String RATE_RANGE = "0.05";
-    private final static int CHART_RATE_COUNT_LIMIT = 180;
-    private final static char CHART_POSITION = 'G';
+    private final static int CHART_RATE_COUNT_LIMIT = 120;
+    private final static char CHART_POSITION = 'L';
     private List<RateModel> rateModels;
 
     @Autowired
