@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 
 /**
  * Created by maciej on 28.07.17.
@@ -16,29 +17,40 @@ public class Rate {
     private BigDecimal value;
     private FootballMatch footballMatch;
 
-    public String getStatus(){
+    public String getStatus() {
         String status;
-        BigDecimal smallRate;
-        BigDecimal greatRate;
-        try {
-            smallRate = footballMatch.getRate0().min(footballMatch.getRate1()).min(footballMatch.getRate2());
-            greatRate = footballMatch.getRate0().max(footballMatch.getRate1()).max(footballMatch.getRate2());
-        }
-        catch (NullPointerException e){
-            throw new NullPointerException("Rate::getStatus: One of all three FootballMatch's rates equals null");
-        }
-        try {
-            if (value.equals(smallRate)) {
-                status = "small";
-            } else if (value.equals(greatRate)) {
-                status = "great";
-            } else {
-                status = "draw";
-            }
-        }
-        catch (NullPointerException e){
-            throw new NullPointerException("Rate::getStatus: The value of this Rate equals null");
+        if (value.equals(getSmallNeighbour())) {
+            status = "small";
+        } else if (value.equals(getGreatNeighbour())) {
+            status = "great";
+        } else {
+            status = "draw";
         }
         return status;
+    }
+
+    public BigDecimal getGreatNeighbour() {
+        return getAllMatchRatesSorted()[2];
+    }
+
+    public BigDecimal getSmallNeighbour() {
+        return getAllMatchRatesSorted()[0];
+    }
+
+    public BigDecimal getDrawNeighbour() {
+        return footballMatch.getRate0();
+    }
+
+    private BigDecimal[] getAllMatchRates() {
+        BigDecimal[] allMatchRates = new BigDecimal[3];
+        allMatchRates[0] = footballMatch.getRate0();
+        allMatchRates[1] = footballMatch.getRate1();
+        allMatchRates[2] = footballMatch.getRate2();
+        return allMatchRates;
+    }
+
+    private BigDecimal[] getAllMatchRatesSorted() {
+        Arrays.sort(getAllMatchRates());
+        return getAllMatchRatesSorted();
     }
 }

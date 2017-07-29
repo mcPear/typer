@@ -18,7 +18,7 @@ import java.util.List;
 public class RateRange {
     @Autowired
     private BigDecimalComparison bdc;
-    private final BigDecimal range; //non static if used twice same time
+    private final BigDecimal range;
     private final BigDecimal primeRate;
     private List<Rate> rates;
 
