@@ -2,6 +2,7 @@ package maciek.typer.graph;
 
 import maciek.typer.statistics.model.OpponentModel;
 import maciek.typer.statistics.model.RateModel;
+import maciek.typerPro.model.RateRange;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -24,6 +25,21 @@ public class RateBarChart extends ApplicationFrame {
                 "Position" + position,
                 "Percent of wins",
                 createDataset(rateModels, rateCountLimit, position),
+                PlotOrientation.VERTICAL,
+                true, true, false);
+
+        ChartPanel chartPanel = new ChartPanel(barChart);
+        chartPanel.setPreferredSize(new java.awt.Dimension(560, 367));
+        setContentPane(chartPanel);
+    }
+
+    public RateBarChart(String applicationTitle, String chartTitle, List<RateRange> rateRanges, String status) {
+        super(applicationTitle);
+        JFreeChart barChart = ChartFactory.createBarChart(
+                chartTitle,
+                "Status" + status,
+                "Percent of wins",
+                createDatasetPro(rateRanges, status),
                 PlotOrientation.VERTICAL,
                 true, true, false);
 
@@ -58,6 +74,17 @@ public class RateBarChart extends ApplicationFrame {
             dataset.addValue(percentOfWins, rateVal, columnRatePercent);
         }
 
+
+        return dataset;
+    }
+
+    private CategoryDataset createDatasetPro(List<RateRange> rateRanges, String status) {
+
+        final String columnRatePercent = "";
+        final DefaultCategoryDataset dataset =
+                new DefaultCategoryDataset();
+
+        rateRanges.forEach(rr -> dataset.addValue(rr.getWinsPercent(status), rr.getPrimeRate(), columnRatePercent));
 
         return dataset;
     }

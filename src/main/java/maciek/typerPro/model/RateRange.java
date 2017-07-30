@@ -35,7 +35,7 @@ public class RateRange {
         return fits;
     }
 
-    public BigDecimal winsPercent(String status) {
+    public BigDecimal getWinsPercent(String status) {
         int wins = 0;
         int losses = 0;
         List<Rate> ratesByStatus = rates.stream().filter(r -> r.getStatus().equals(status)).collect(Collectors.toList());

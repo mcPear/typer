@@ -7,6 +7,7 @@ import maciek.typer.repository.FootballMatchRepository;
 import maciek.typer.statistics.model.MatchOpponents;
 import maciek.typer.statistics.model.RateModel;
 import maciek.typer.statistics.model.RatePosition;
+import maciek.typerPro.DataProcessor;
 import org.apache.log4j.Logger;
 import org.jfree.ui.RefineryUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,7 @@ import java.util.List;
 /**
  * Created by maciej on 21.07.17.
  */
-//@Component
+@Component
 public class StatisticsRate implements CommandLineRunner{
 
     private Logger log = Logger.getLogger(StatisticsRate.class.getName());
@@ -36,10 +37,13 @@ public class StatisticsRate implements CommandLineRunner{
     @Autowired
     private StatisticsOpponent statisticsOpponent;
 
+    @Autowired
+    private DataProcessor dataProcessor;
+
     @Override
     public void run(String... strings) throws Exception {
         rateModels = loadRateStats();
-        printRates();
+        //printRates();
         printChart();
         //printOpponentChart(new BigDecimal(1.6));
     }
@@ -73,10 +77,12 @@ public class StatisticsRate implements CommandLineRunner{
     }
 
     private void printChart(){
-        RateBarChart chart = new RateBarChart("Typer", "Rates", rateModels, CHART_RATE_COUNT_LIMIT, CHART_POSITION);
-        chart.pack( );
-        RefineryUtilities.centerFrameOnScreen( chart );
-        chart.setVisible( true );
+        //RateBarChart chart = new RateBarChart("Typer", "Rates", rateModels, CHART_RATE_COUNT_LIMIT, CHART_POSITION);
+        //TODO use new constrictor
+        RateBarChart chartPro = new RateBarChart("Typer", "Rates", dataProcessor.getFilledRateRanges(new BigDecimal("0.1"), new BigDecimal("20.0")), "small");
+        chartPro.pack( );
+        RefineryUtilities.centerFrameOnScreen( chartPro );
+        chartPro.setVisible( true );
     }
 
     private List<RateModel> loadRateStats(){

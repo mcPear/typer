@@ -1,5 +1,6 @@
 package maciek.typerPro;
 
+import lombok.AllArgsConstructor;
 import maciek.typerPro.model.RateRange;
 import maciek.typerPro.repository.FootballMatchRepository;
 import maciek.typerPro.model.FootballMatch;
@@ -15,6 +16,7 @@ import java.util.List;
 /**
  * Created by maciej on 30.07.17.
  */
+@AllArgsConstructor
 @Component
 public class DataProcessor {
     private final String START_RATE = "1.00";

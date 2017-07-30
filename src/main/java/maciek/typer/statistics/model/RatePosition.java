@@ -45,7 +45,7 @@ public class RatePosition {
                 "position=" + position +
                 ", losings=" + losings +
                 ", wins=" + wins +
-                ", winsPercent=" + getWinsPercent() +
+                ", getWinsPercent=" + getWinsPercent() +
                 //"\n"+sb+
                 '}';
     }

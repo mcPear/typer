@@ -23,7 +23,7 @@ import static javafx.beans.binding.Bindings.select;
 /**
  * Created by maciej on 15.07.17.
  */
-@Component
+//@Component
 public class MatchParser implements CommandLineRunner{
 
     @Autowired
