@@ -23,18 +23,20 @@ import static javafx.beans.binding.Bindings.select;
 /**
  * Created by maciej on 15.07.17.
  */
-//@Component
+@Component
 public class MatchParser implements CommandLineRunner{
 
     @Autowired
     FootballMatchRepository repo;
+
+    private int i =1;
 
     @Override
     public void run(String... strings) throws Exception {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-08-02";
+        String dateStr = "2017-07-30";
 
         Document doc = Jsoup.parse(new File("pagesources/pagesource"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");
@@ -43,8 +45,11 @@ public class MatchParser implements CommandLineRunner{
                 && (m.className().equals("toggable_row odd") || m.className().equals("toggable_row"))
                 && "mecz".equals(m.attr("data-gtm-enhanced-ecommerce-variant"))).
                 collect(Collectors.toCollection(Elements::new));
+        System.out.println(matches.size());
         for(Element match : matches){
-            repo.save(fulfillMatchModel(match, dateStr));
+            FootballMatch createdMatch = fulfillMatchModel(match, dateStr);
+                System.out.println(createdMatch+"  "+i++);
+                repo.save(createdMatch);
         }
     }
 
@@ -54,15 +59,15 @@ public class MatchParser implements CommandLineRunner{
         FootballMatch footballMatch = new FootballMatch();
 
         Long dataId = Long.parseLong(match.attr("data-id"));
-        System.out.println("Data ID: "+dataId);
+        //System.out.println("Data ID: "+dataId);
         footballMatch.setIdData(dataId);
 
         String league = match.attr("data-gtm-enhanced-ecommerce-league");
-        System.out.println("Liga: "+league);
+        //System.out.println("Liga: "+league);
         footballMatch.setLeague(league);
 
         String teams = match.attr("data-gtm-enhanced-ecommerce-match");
-        System.out.println("Drużyny: "+teams);
+        //System.out.println("Drużyny: "+teams);
         footballMatch.setTeams(teams);
 
         Elements tds = match.select("td").stream().
@@ -109,15 +114,12 @@ public class MatchParser implements CommandLineRunner{
 
         footballMatch.setDateMatch(dateStr);
 
-        System.out.println(footballMatch);
+        //System.out.println(footballMatch);
 
         return footballMatch;
     }
 
 
     
-    private boolean pullMatchToDb(FootballMatch model){
-        return true;
-    }
 
 }

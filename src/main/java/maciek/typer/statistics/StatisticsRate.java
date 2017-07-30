@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Created by maciej on 21.07.17.
  */
-@Component
+//@Component
 public class StatisticsRate implements CommandLineRunner{
 
     private Logger log = Logger.getLogger(StatisticsRate.class.getName());
