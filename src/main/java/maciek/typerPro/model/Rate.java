@@ -41,6 +41,47 @@ public class Rate {
         return footballMatch.getRate0();
     }
 
+    public boolean isWinner() {
+        boolean isWinner = false;
+        BigDecimal winnerRate = null;
+        switch (footballMatch.getResult()) {
+            case ("0"): {
+                winnerRate = footballMatch.getRate0();
+                break;
+            }
+            case ("1"): {
+                winnerRate = footballMatch.getRate1();
+                break;
+            }
+            case ("2"): {
+                winnerRate = footballMatch.getRate2();
+                break;
+            }
+        }
+
+        switch (getStatus()) {
+            case ("small"): {
+                if (winnerRate.equals(getSmallNeighbour())) {
+                    isWinner = true;
+                }
+                break;
+            }
+            case ("great"): {
+                if (winnerRate.equals(getGreatNeighbour())) {
+                    isWinner = true;
+                }
+                break;
+            }
+            case ("draw"): {
+                if (winnerRate.equals(getDrawNeighbour())) {
+                    isWinner = true;
+                }
+                break;
+            }
+        }
+        return isWinner;
+    }
+
     private BigDecimal[] getAllMatchRates() {
         BigDecimal[] allMatchRates = new BigDecimal[3];
         allMatchRates[0] = footballMatch.getRate0();

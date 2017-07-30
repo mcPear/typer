@@ -1,10 +1,9 @@
-package maciek.typer.repository;
+package maciek.typerPro.repository;
 
-import maciek.typer.model.FootballMatch;
+import maciek.typerPro.model.FootballMatch;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.awt.print.Book;
 import java.math.BigDecimal;
 import java.util.List;
 

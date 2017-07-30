@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.ComponentScan;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 @ComponentScan
 @SpringBootApplication
 public class TyperApplication {

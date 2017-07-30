@@ -21,33 +21,33 @@ public class FootballMatch {
     private Long idData;
 
     @Column
-    String league;
+    private String league;
 
     @Column
-    String teams;
+    private String teams;
 
     @Column
-    BigDecimal rate1;
+    private BigDecimal rate1;
 
     @Column
-    BigDecimal rate0;
+    private BigDecimal rate0;
 
     @Column
-    BigDecimal rate2;
+    private BigDecimal rate2;
 
     @Column
-    BigDecimal rate10;
+    private BigDecimal rate10;
 
     @Column
-    BigDecimal rate02;
+    private BigDecimal rate02;
 
     @Column
-    BigDecimal rate12;
+    private BigDecimal rate12;
 
     @Column
-    String result;
+    private String result;
 
     @Column
-    String dateMatch;
+    private String dateMatch;
 
 }
