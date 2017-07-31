@@ -1,4 +1,4 @@
-package maciek.typerPro.model;
+package maciek.typer.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -58,9 +58,10 @@ public class Rate {
                 break;
             }
         }
-
+        System.out.println(winnerRate + " " + footballMatch.getResult());
         switch (getStatus()) {
             case ("small"): {
+                System.out.println(winnerRate+" "+getSmallNeighbour());
                 if (winnerRate.equals(getSmallNeighbour())) {
                     isWinner = true;
                 }
@@ -82,16 +83,24 @@ public class Rate {
         return isWinner;
     }
 
-    private BigDecimal[] getAllMatchRates() {
+    private BigDecimal[] getAllMatchRatesSorted() {
         BigDecimal[] allMatchRates = new BigDecimal[3];
         allMatchRates[0] = footballMatch.getRate0();
         allMatchRates[1] = footballMatch.getRate1();
         allMatchRates[2] = footballMatch.getRate2();
+        Arrays.sort(allMatchRates);
         return allMatchRates;
     }
 
-    private BigDecimal[] getAllMatchRatesSorted() {
-        Arrays.sort(getAllMatchRates());
-        return getAllMatchRatesSorted();
+
+    @Override
+    public String toString() {
+        return "Rate{" +
+                "value=" + value +
+                "status=" + getStatus() +
+                "smallNeighbour="+ getSmallNeighbour() +
+                "greatNeighbour="+ getGreatNeighbour() +
+                ", footballMatch=" + footballMatch +
+                '}';
     }
 }

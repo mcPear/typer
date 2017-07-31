@@ -1,5 +1,6 @@
 package maciek.typer.parser;
 
+
 import maciek.typer.model.FootballMatch;
 import maciek.typer.repository.FootballMatchRepository;
 import org.jsoup.Jsoup;
@@ -18,13 +19,11 @@ import java.util.Date;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import static javafx.beans.binding.Bindings.select;
-
 /**
  * Created by maciej on 15.07.17.
  */
-//@Component
-public class MatchParser implements CommandLineRunner{
+@Component
+public class MatchParser implements CommandLineRunner {
 
     @Autowired
     FootballMatchRepository repo;
@@ -36,7 +35,7 @@ public class MatchParser implements CommandLineRunner{
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-07-31";
+        String dateStr = "2017-08-01";
 
         Document doc = Jsoup.parse(new File("pagesources/pagesource"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");

@@ -1,9 +1,9 @@
-package maciek.typerPro.model;
+package maciek.typer.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import maciek.typerPro.util.BigDecimalComparison;
+import maciek.typer.util.BigDecimalComparison;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -40,6 +40,7 @@ public class RateRange {
         int losses = 0;
         List<Rate> ratesByStatus = rates.stream().filter(r -> r.getStatus().equals(status)).collect(Collectors.toList());
         for (Rate rate : ratesByStatus) {
+            System.out.println(rate.toString());
             if(rate.isWinner()){
                 wins++;
             }
@@ -47,7 +48,7 @@ public class RateRange {
                 losses++;
             }
         }
-        return (new BigDecimal(wins).divide(new BigDecimal(wins+losses), 2, RoundingMode.HALF_UP)).multiply(new BigDecimal(100));
+        return wins+losses>0?(new BigDecimal(wins).divide(new BigDecimal(wins+losses), 2, RoundingMode.HALF_UP)).multiply(new BigDecimal(100)):new BigDecimal("0.00");
     }
 
 }

@@ -1,13 +1,12 @@
 package maciek.typer.statistics;
 
-import lombok.AllArgsConstructor;
 import maciek.typer.graph.RateBarChart;
 import maciek.typer.model.FootballMatch;
 import maciek.typer.repository.FootballMatchRepository;
 import maciek.typer.statistics.model.MatchOpponents;
 import maciek.typer.statistics.model.RateModel;
 import maciek.typer.statistics.model.RatePosition;
-import maciek.typerPro.DataProcessor;
+import maciek.typer.DataProcessor;
 import org.apache.log4j.Logger;
 import org.jfree.ui.RefineryUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +28,7 @@ public class StatisticsRate implements CommandLineRunner{
     private final static String RATE_RANGE = "0.05";
     private final static int CHART_RATE_COUNT_LIMIT = 60;
     private final static char CHART_POSITION = 'L';
-    private List<RateModel> rateModels;
+    //private List<RateModel> rateModels;
 
     @Autowired
     private FootballMatchRepository repo;
@@ -38,48 +37,48 @@ public class StatisticsRate implements CommandLineRunner{
     private StatisticsOpponent statisticsOpponent;
 
     @Autowired
-    private DataProcessor dataProcessor;
+    private DataProcessor dataProcessorImpl;
 
     @Override
     public void run(String... strings) throws Exception {
-        rateModels = loadRateStats();
+        //rateModels = loadRateStats();
         //printRates();
         printChart();
         //printOpponentChart(new BigDecimal(1.6));
     }
 
-    private void printOpponentChart(BigDecimal rate){
-        RatePosition ratePosition = null;
-        for (RateModel rm:rateModels){
-            if(rm.getRateValue().compareTo(rate)==1){
-                switch(CHART_POSITION){
-                    case('L'):{
-                        ratePosition = rm.getPositionL();
-                        break;
-                    }
-                    case('0'):{
-                        ratePosition = rm.getPosition0();
-                        break;
-                    }
-                    case('G'):{
-                        ratePosition = rm.getPositionG();
-                        break;
-                    }
-                }
-            }
-        }
-        statisticsOpponent.printChart(ratePosition);
-    }
+//    private void printOpponentChart(BigDecimal rate){
+//        RatePosition ratePosition = null;
+//        for (RateModel rm:rateModels){
+//            if(rm.getRateValue().compareTo(rate)==1){
+//                switch(CHART_POSITION){
+//                    case('L'):{
+//                        ratePosition = rm.getPositionL();
+//                        break;
+//                    }
+//                    case('0'):{
+//                        ratePosition = rm.getPosition0();
+//                        break;
+//                    }
+//                    case('G'):{
+//                        ratePosition = rm.getPositionG();
+//                        break;
+//                    }
+//                }
+//            }
+//        }
+//        statisticsOpponent.printChart(ratePosition);
+//    }
 
     private void printRates(){
-        rateModels.forEach(rate -> System.out.println(rate));
+        //rateModels.forEach(rate -> System.out.println(rate));
 
     }
 
     private void printChart(){
         //RateBarChart chart = new RateBarChart("Typer", "Rates", rateModels, CHART_RATE_COUNT_LIMIT, CHART_POSITION);
         //TODO use new constrictor
-        RateBarChart chartPro = new RateBarChart("Typer", "Rates", dataProcessor.getFilledRateRanges(new BigDecimal("0.1"), new BigDecimal("20.0")), "small");
+        RateBarChart chartPro = new RateBarChart("Typer", "Rates", dataProcessorImpl.getFilledRateRanges(new BigDecimal("0.1"), new BigDecimal("5.0")), "small");
         chartPro.pack( );
         RefineryUtilities.centerFrameOnScreen( chartPro );
         chartPro.setVisible( true );

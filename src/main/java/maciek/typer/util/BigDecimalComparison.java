@@ -1,4 +1,4 @@
-package maciek.typerPro.util;
+package maciek.typer.util;
 
 import org.springframework.stereotype.Component;
 

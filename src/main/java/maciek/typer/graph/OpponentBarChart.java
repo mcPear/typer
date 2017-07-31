@@ -1,8 +1,7 @@
 package maciek.typer.graph;
 
+
 import maciek.typer.statistics.model.OpponentModel;
-import maciek.typer.statistics.model.RateModel;
-import maciek.typer.statistics.model.RatePosition;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;

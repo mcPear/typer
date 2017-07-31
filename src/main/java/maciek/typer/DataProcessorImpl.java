@@ -1,11 +1,11 @@
-package maciek.typerPro;
+package maciek.typer;
 
 import lombok.AllArgsConstructor;
-import maciek.typerPro.model.RateRange;
-import maciek.typerPro.repository.FootballMatchRepository;
-import maciek.typerPro.model.FootballMatch;
-import maciek.typerPro.model.Rate;
-import maciek.typerPro.util.BigDecimalComparison;
+import maciek.typer.model.FootballMatch;
+import maciek.typer.model.RateRange;
+import maciek.typer.model.Rate;
+import maciek.typer.repository.FootballMatchRepository;
+import maciek.typer.util.BigDecimalComparison;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -18,7 +18,7 @@ import java.util.List;
  */
 @AllArgsConstructor
 @Component
-public class DataProcessor {
+public class DataProcessorImpl implements DataProcessor{
     private final String START_RATE = "1.00";
 
     @Autowired
@@ -42,7 +42,7 @@ public class DataProcessor {
 
     private List<RateRange> getEmptyRateRanges(BigDecimal range, BigDecimal endRate){
         List<RateRange> rateRanges = new ArrayList<>();
-        for(BigDecimal i = new BigDecimal(START_RATE); bdc.isLess(i, endRate); i.add(range)){
+        for(BigDecimal i = new BigDecimal(START_RATE); bdc.isLess(i, endRate); i=i.add(range)){
             rateRanges.add(new RateRange(range, i, new ArrayList<>()));
         }
 

@@ -1,8 +1,8 @@
 package maciek.typer.graph;
 
-import maciek.typer.statistics.model.OpponentModel;
+
 import maciek.typer.statistics.model.RateModel;
-import maciek.typerPro.model.RateRange;
+import maciek.typer.model.RateRange;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -37,7 +37,7 @@ public class RateBarChart extends ApplicationFrame {
         super(applicationTitle);
         JFreeChart barChart = ChartFactory.createBarChart(
                 chartTitle,
-                "Status" + status,
+                "Status " + status,
                 "Percent of wins",
                 createDatasetPro(rateRanges, status),
                 PlotOrientation.VERTICAL,

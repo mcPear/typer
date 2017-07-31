@@ -33,7 +33,7 @@ public class ResultsParser implements CommandLineRunner {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-07-29";
+        String dateStr = "2017-07-30";
 
         Document doc = Jsoup.parse(new File("results/results"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");
@@ -63,7 +63,7 @@ public class ResultsParser implements CommandLineRunner {
         System.out.println(id);
 
         Elements tds = match.select("td").stream().filter(td -> td.className().equals("col_correctBets")).collect(Collectors.toCollection(Elements::new));
-        String result = Pattern.matches("[0-2],[0-2]{2},[0-2]{2}",tds.text().trim())?tds.text().trim().charAt(0)+"":"missing";
+        String result = Pattern.matches("[0-2],[0-2]{2},[0-2]{2}",tds.text().trim())?tds.text().trim().charAt(0)+"":null;
         resultModel.setResult(result);
         System.out.println(result);
 
