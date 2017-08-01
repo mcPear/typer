@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 /**
  * Created by maciej on 15.07.17.
  */
-@Component
+//@Component
 public class MatchParser implements CommandLineRunner {
 
     @Autowired
@@ -35,7 +35,7 @@ public class MatchParser implements CommandLineRunner {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-08-01";
+        String dateStr = "2017-08-02";
 
         Document doc = Jsoup.parse(new File("pagesources/pagesource"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");
