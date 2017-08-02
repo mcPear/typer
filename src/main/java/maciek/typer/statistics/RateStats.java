@@ -24,6 +24,13 @@ public class RateStats implements CommandLineRunner{
     @Autowired
     private DataProcessor dataProcessorImpl;
 
+    private static final BigDecimal RANGE = new BigDecimal("0.1");
+    private static final BigDecimal STOP_RATE = new BigDecimal("20.0");
+    private static String NEIGHBOUR_STATUS = "great";
+    private static final String RATES_STATUS = "small";
+
+    private static final BigDecimal CHOSEN_RATE = new BigDecimal("1.90");
+
     @Override
     public void run(String... strings) throws Exception {
         printRateChart();
@@ -32,7 +39,7 @@ public class RateStats implements CommandLineRunner{
 
     private void printRateChart(){
         RateBarChart chartPro = new RateBarChart("Typer", "Rates",
-                dataProcessorImpl.getFilledRateRanges(new BigDecimal("0.1"), new BigDecimal("5.0")), "small");
+                getFilledRateRanges(), RATES_STATUS);
         chartPro.pack( );
         RefineryUtilities.centerFrameOnScreen( chartPro );
         chartPro.setVisible( true );
@@ -41,15 +48,19 @@ public class RateStats implements CommandLineRunner{
     private void printRateByNeighbourChart(){
         List<RateRange> rateRanges = dataProcessorImpl.getFilledByNeighbourRateRanges(
                 new BigDecimal("0.1"),
-                new BigDecimal("20.0"),
-                new BigDecimal("1.60"),
-                dataProcessorImpl.getFilledRateRanges(new BigDecimal("0.1"), new BigDecimal("5.0")),
-                "great");
+                new BigDecimal("5.0"),
+                CHOSEN_RATE,
+                getFilledRateRanges(),
+                NEIGHBOUR_STATUS);
         RateNeighbourBarChart chartPro = new RateNeighbourBarChart("Typer", "Rates by Neighbour",
-                rateRanges, "small");
+                rateRanges, RATES_STATUS);
         chartPro.pack( );
         RefineryUtilities.centerFrameOnScreen( chartPro );
         chartPro.setVisible( true );
+    }
+
+    private List<RateRange> getFilledRateRanges(){
+        dataProcessorImpl.getFilledRateRanges(RANGE, STOP_RATE);
     }
 
 }
