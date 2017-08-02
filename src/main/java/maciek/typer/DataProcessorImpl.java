@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by maciej on 30.07.17.
@@ -61,6 +62,30 @@ public class DataProcessorImpl implements DataProcessor{
         }
 
         return rateRanges;
+    }
+
+    public List<RateRange> getFilledByNeighbourRateRanges(BigDecimal range, BigDecimal endRate, BigDecimal rate, List<RateRange> rateRanges, String neighbourStatus){
+        List<RateRange> rateRangesByNeighbour = getEmptyRateRanges(range, endRate);
+        List<Rate> rates = getChosenRateRange(rate, rateRanges).getRates();
+
+        for (Rate rateByNeighbour:rates){
+            boolean rateIsPut = false;
+            for(int i=0; i<rateRangesByNeighbour.size()&&!rateIsPut;i++){
+                if(!rateByNeighbour.getStatus().equals(neighbourStatus)) {
+                    rateIsPut = rateRangesByNeighbour.get(i).addByNeighbout(rateByNeighbour, neighbourStatus);
+                }
+            }
+        }
+
+        return rateRangesByNeighbour;
+    }
+
+    private RateRange getChosenRateRange(BigDecimal rate, List<RateRange> rateRanges){
+        List<RateRange> filteredRateRanges = rateRanges.stream().filter(rr -> rr.getPrimeRate().equals(rate)).collect(Collectors.toList());
+        if(filteredRateRanges.isEmpty()){
+            throw new IllegalArgumentException("DataProcessorImpl::getChosenRateRange: There is no prime rate: "+rate+" in given list");
+        }
+        return filteredRateRanges.get(0);
     }
 
 }

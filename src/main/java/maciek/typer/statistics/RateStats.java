@@ -2,6 +2,8 @@ package maciek.typer.statistics;
 
 import maciek.typer.graph.RateBarChart;
 import maciek.typer.DataProcessor;
+import maciek.typer.graph.RateNeighbourBarChart;
+import maciek.typer.model.RateRange;
 import org.apache.log4j.Logger;
 import org.jfree.ui.RefineryUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,14 +11,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * Created by maciej on 21.07.17.
  */
 @Component
-public class StatisticsRate implements CommandLineRunner{
+public class RateStats implements CommandLineRunner{
 
-    private Logger log = Logger.getLogger(StatisticsRate.class.getName());
+    private Logger log = Logger.getLogger(RateStats.class.getName());
 
     @Autowired
     private DataProcessor dataProcessorImpl;
@@ -24,14 +27,29 @@ public class StatisticsRate implements CommandLineRunner{
     @Override
     public void run(String... strings) throws Exception {
         printRateChart();
+        printRateByNeighbourChart();
     }
 
     private void printRateChart(){
-        //TODO use new constrictor
         RateBarChart chartPro = new RateBarChart("Typer", "Rates",
                 dataProcessorImpl.getFilledRateRanges(new BigDecimal("0.1"), new BigDecimal("5.0")), "small");
         chartPro.pack( );
         RefineryUtilities.centerFrameOnScreen( chartPro );
         chartPro.setVisible( true );
     }
+
+    private void printRateByNeighbourChart(){
+        List<RateRange> rateRanges = dataProcessorImpl.getFilledByNeighbourRateRanges(
+                new BigDecimal("0.1"),
+                new BigDecimal("20.0"),
+                new BigDecimal("1.60"),
+                dataProcessorImpl.getFilledRateRanges(new BigDecimal("0.1"), new BigDecimal("5.0")),
+                "great");
+        RateNeighbourBarChart chartPro = new RateNeighbourBarChart("Typer", "Rates by Neighbour",
+                rateRanges, "small");
+        chartPro.pack( );
+        RefineryUtilities.centerFrameOnScreen( chartPro );
+        chartPro.setVisible( true );
+    }
+
 }

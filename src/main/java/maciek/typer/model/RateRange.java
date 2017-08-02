@@ -35,6 +35,36 @@ public class RateRange {
         return fits;
     }
 
+    public boolean addByNeighbout(Rate rate, String neighbourStatus) {
+        boolean fits;
+        if (fits = fitsByNeighbour(rate, neighbourStatus)) {
+            rates.add(rate);
+        }
+        return fits;
+    }
+
+    private boolean fitsByNeighbour(Rate rate, String neighbourStatus) {
+        boolean fits;
+        switch(neighbourStatus){
+            case("small"):{
+                fits = BDC.isGreaterEqual(rate.getSmallNeighbour(), primeRate) && BDC.isLess(rate.getSmallNeighbour(), primeRate.add(range));
+                break;
+            }
+            case("draw"):{
+                fits = BDC.isGreaterEqual(rate.getDrawNeighbour(), primeRate) && BDC.isLess(rate.getDrawNeighbour(), primeRate.add(range));
+                break;
+            }
+            case("great"):{
+                fits = BDC.isGreaterEqual(rate.getGreatNeighbour(), primeRate) && BDC.isLess(rate.getGreatNeighbour(), primeRate.add(range));
+                break;
+            }
+            default:{
+                throw new IllegalArgumentException("RateRange::fitsByNeighbour: Wrong neighbour status: "+neighbourStatus);
+            }
+        }
+        return fits;
+    }
+
     public BigDecimal getWinsPercent(String status) {
         int wins = 0;
         int losses = 0;

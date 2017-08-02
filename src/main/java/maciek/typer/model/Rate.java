@@ -30,11 +30,11 @@ public class Rate {
     }
 
     public BigDecimal getGreatNeighbour() {
-        return getAllMatchRatesSorted()[2];
+        return footballMatch.getRate1().max(footballMatch.getRate2());
     }
 
     public BigDecimal getSmallNeighbour() {
-        return getAllMatchRatesSorted()[0];
+        return footballMatch.getRate1().min(footballMatch.getRate2());
     }
 
     public BigDecimal getDrawNeighbour() {
@@ -82,16 +82,6 @@ public class Rate {
         }
         return isWinner;
     }
-
-    private BigDecimal[] getAllMatchRatesSorted() {
-        BigDecimal[] allMatchRates = new BigDecimal[3];
-        allMatchRates[0] = footballMatch.getRate0();
-        allMatchRates[1] = footballMatch.getRate1();
-        allMatchRates[2] = footballMatch.getRate2();
-        Arrays.sort(allMatchRates);
-        return allMatchRates;
-    }
-
 
     @Override
     public String toString() {

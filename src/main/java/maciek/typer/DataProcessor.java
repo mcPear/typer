@@ -10,4 +10,5 @@ import java.util.List;
  */
 public interface DataProcessor {
     public List<RateRange> getFilledRateRanges(BigDecimal range, BigDecimal endRate);
+    public List<RateRange> getFilledByNeighbourRateRanges(BigDecimal range, BigDecimal endRate, BigDecimal rate, List<RateRange> rateRanges, String neighbourStatus);
 }
