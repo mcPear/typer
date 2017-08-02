@@ -33,7 +33,7 @@ public class ResultsParser implements CommandLineRunner {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-07-31";
+        String dateStr = "2017-08-01";
 
         Document doc = Jsoup.parse(new File("results/results"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");
@@ -41,6 +41,7 @@ public class ResultsParser implements CommandLineRunner {
         matches = matches.stream().filter(m -> m.hasAttr("id")
                 && Pattern.matches("result-[0-9]+",m.attr("id"))).
                 collect(Collectors.toCollection(Elements::new));
+        int i=1;
         for(Element match : matches){
             ResultModel resultModel = fulfillResultModel(match);
             List<FootballMatch> footballMatches = repo.findByIdData(resultModel.getId());
@@ -49,6 +50,7 @@ public class ResultsParser implements CommandLineRunner {
                 footballMatch.setResult(resultModel.getResult());
                 repo.save(footballMatch);
                 System.out.println(footballMatch);
+                System.out.println(i++);
             }
         }
     }
