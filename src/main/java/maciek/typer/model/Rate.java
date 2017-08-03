@@ -58,10 +58,10 @@ public class Rate {
                 break;
             }
         }
-        System.out.println(winnerRate + " " + footballMatch.getResult());
+        //System.out.println(winnerRate + " " + footballMatch.getResult());
         switch (getStatus()) {
             case ("small"): {
-                System.out.println(winnerRate+" "+getSmallNeighbour());
+                //System.out.println(winnerRate+" "+getSmallNeighbour());
                 if (winnerRate.equals(getSmallNeighbour())) {
                     isWinner = true;
                 }

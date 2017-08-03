@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 /**
  * Created by maciej on 19.07.17.
  */
-@Component
+//@Component
 public class ResultsParser implements CommandLineRunner {
 
     @Autowired

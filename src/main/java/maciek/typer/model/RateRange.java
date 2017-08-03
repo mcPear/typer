@@ -22,6 +22,9 @@ public class RateRange {
     private final BigDecimal range;
     private final BigDecimal primeRate;
     private List<Rate> rates;
+    private final String SMALL = "small";
+    private final String GREAT = "great";
+    private final String DRAW = "draw";
 
     private boolean fits(Rate rate) {
         return BDC.isGreaterEqual(rate.getValue(), primeRate) && BDC.isLess(rate.getValue(), primeRate.add(range));
@@ -70,7 +73,7 @@ public class RateRange {
         int losses = 0;
         List<Rate> ratesByStatus = rates.stream().filter(r -> r.getStatus().equals(status)).collect(Collectors.toList());
         for (Rate rate : ratesByStatus) {
-            System.out.println(rate.toString());
+            //System.out.println(rate.toString());
             if(rate.isWinner()){
                 wins++;
             }
@@ -79,6 +82,38 @@ public class RateRange {
             }
         }
         return wins+losses>0?(new BigDecimal(wins).divide(new BigDecimal(wins+losses), 2, RoundingMode.HALF_UP)).multiply(new BigDecimal(100)):new BigDecimal("0.00");
+    }
+
+    public int getWins(String status){
+        int wins = 0;
+        List<Rate> ratesByStatus = rates.stream().filter(r -> r.getStatus().equals(status)).collect(Collectors.toList());
+        for (Rate rate : ratesByStatus) {
+            //System.out.println(rate.toString());
+            if(rate.isWinner()){
+                wins++;
+            }
+        }
+        return wins;
+    }
+
+    public int getLosses(String status){
+        int losses = 0;
+        List<Rate> ratesByStatus = rates.stream().filter(r -> r.getStatus().equals(status)).collect(Collectors.toList());
+        for (Rate rate : ratesByStatus) {
+            //System.out.println(rate.toString());
+            if(!rate.isWinner()){
+                losses++;
+            }
+        }
+        return losses;
+    }
+
+    public String toStringPro(){
+        StringBuilder result = new StringBuilder("RateRange: "+primeRate+'\n');
+        result.append("Position small: wins: "+getWins(SMALL)+" losses: "+getLosses(SMALL)+" winsPercent: "+getWinsPercent(SMALL)+'\n');
+        result.append("Position draw: wins: "+getWins(DRAW)+" losses: "+getLosses(DRAW)+" winsPercent: "+getWinsPercent(DRAW)+'\n');
+        result.append("Position great: wins: "+getWins(GREAT)+" losses: "+getLosses(GREAT)+" winsPercent: "+getWinsPercent(GREAT)+'\n');
+        return result.toString();
     }
 
 }
