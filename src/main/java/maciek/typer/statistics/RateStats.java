@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Created by maciej on 21.07.17.
  */
-@Component
+//@Component
 public class RateStats implements CommandLineRunner{
 
     private Logger log = Logger.getLogger(RateStats.class.getName());
@@ -26,10 +26,10 @@ public class RateStats implements CommandLineRunner{
 
     private static final BigDecimal RANGE = new BigDecimal("0.1");
     private static final BigDecimal STOP_RATE = new BigDecimal("20.0");
-    private static String NEIGHBOUR_STATUS = "great";
-    private static final String RATES_STATUS = "small";
+    private static String NEIGHBOUR_STATUS = "small";
+    private static final String RATES_STATUS = "great";
 
-    private static final BigDecimal CHOSEN_RATE = new BigDecimal("1.90");
+    private static final BigDecimal CHOSEN_RATE = new BigDecimal("2.90");
 
     @Override
     public void run(String... strings) throws Exception {
@@ -60,7 +60,7 @@ public class RateStats implements CommandLineRunner{
     }
 
     private List<RateRange> getFilledRateRanges(){
-        dataProcessorImpl.getFilledRateRanges(RANGE, STOP_RATE);
+        return dataProcessorImpl.getFilledRateRanges(RANGE, STOP_RATE);
     }
 
 }

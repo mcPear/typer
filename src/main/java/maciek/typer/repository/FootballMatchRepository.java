@@ -13,6 +13,7 @@ import java.util.List;
  */
 @Repository
 public interface FootballMatchRepository extends JpaRepository<FootballMatch, Long> {
+    List<FootballMatch> findById(Long id);
     List<FootballMatch> findByIdData(Long idData);
     List<FootballMatch> findByResultIsNotNull();
     List<FootballMatch> findByResultIsNotNullAndRate1GreaterThanAndRate0GreaterThanAndRate2GreaterThan(BigDecimal rate1, BigDecimal rate0, BigDecimal rate2);
