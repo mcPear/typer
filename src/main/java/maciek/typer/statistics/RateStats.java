@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Created by maciej on 21.07.17.
  */
-@Component
+//@Component
 public class RateStats implements CommandLineRunner{
 
     private Logger log = Logger.getLogger(RateStats.class.getName());
