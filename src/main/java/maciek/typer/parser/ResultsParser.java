@@ -34,7 +34,7 @@ public class ResultsParser implements CommandLineRunner {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = new Date();
         //String dateStr = dateFormat.format(date);
-        String dateStr = "2017-08-03";
+        String dateStr = "2017-08-07";
 
         Document doc = Jsoup.parse(new File("results/results"+dateStr+".txt"), "UTF-8");
         Elements matches = doc.select("tr");
